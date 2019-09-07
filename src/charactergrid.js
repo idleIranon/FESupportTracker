@@ -9,19 +9,37 @@ class CharGrid extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      selectedChar: "byleth(F)"
     };
+  }
+  renderCard() {
+    return (
+      <Col span={4}><CharCard></CharCard></Col>
+    );
+  }
+
+  renderCards() {
+    let rowcards = [];
+    for(var cards = 0; cards < 6; cards++)
+    {
+      rowcards.push(this.renderCard());
+    }
+    return rowcards;
+  }
+
+  renderCardRow() {
+    return (
+      <Row type="flex" gutter={16} className="Row">
+        {this.renderCards()}
+      </Row>
+    );
   }
 
   render() {
     return (
-      <Row type="flex" gutter={16} className="Row">
-        <Col span={4}><CharCard></CharCard></Col>
-        <Col span={4}><CharCard></CharCard></Col>
-        <Col span={4}><CharCard></CharCard></Col>
-        <Col span={4}><CharCard></CharCard></Col>
-        <Col span={4}><CharCard></CharCard></Col>
-        <Col span={4}><CharCard></CharCard></Col>
-      </Row>
+      <div className="grid">
+        {this.renderCardRow()}
+      </div>
     );
   }
 }
