@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+    "name": "Hand Drawn Map",
+    "character": "leonie",
+    "chapter": "3"
+    },
+    {
+    "name": "Sketch of a Sigil",
+    "character": "Hanneman",
+    "chapter": "3"
+    },
+    {
+    "name": "School of Sorcery Book",
+    "character": "Annette",
+    "chapter": "3"
+    },
+    {
+    "name": "Artificial Flower",
+    "character": "Lorenz",
+    "chapter": "4"
+    }
+  ]
+}

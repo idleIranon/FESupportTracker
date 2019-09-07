@@ -18,9 +18,9 @@ function App() {
     <div className="App">
       <Layout>
         <Sider>
-          <Sidebar />
+          <Sidebar selectedCharName= {currentchar}/>
         </Sider>
-        
+
         <Layout>
           <Content>
             <p>Soon to be filled with excellent content</p>

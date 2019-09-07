@@ -1,9 +1,10 @@
 import React from 'react';
 import chars from './characters.json';
 
-import { Card, Icon, Button } from 'antd';
+import { Card, Button, Row } from 'antd';
 
 const { Meta } = Card;
+const ButtonGroup = Button.Group;
 
 class CharCard extends React.Component {
 
@@ -12,7 +13,7 @@ class CharCard extends React.Component {
     this.state = {
       coverName: "Test",
       coverSrc: "/character_images/feth-byleth-female-portrait.jpg",
-      title: "Test",
+      charName: "Test",
       description: "Test",
       supports: [],
     };
@@ -22,12 +23,23 @@ class CharCard extends React.Component {
 
     return (
       <Card
-      cover={
-        <img
-          alt={this.state.coverName}
-          src={this.state.coverSrc}
+        cover={
+          <img
+            alt={this.state.coverName}
+            src={this.state.coverSrc}
+          />
+        }
+        actions={[
+            <Button>C</Button>,
+            <Button>B</Button>,
+            <Button>A</Button>
+        ]}
+      >
+        <Meta
+          title={this.state.charName}
+          description="This is the description"
         />
-      }>
+
       </Card>
     );
   }
