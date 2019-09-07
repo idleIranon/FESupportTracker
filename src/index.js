@@ -5,7 +5,7 @@ import Sidebar from './sidebar.js';
 import CharGrid from './charactergrid.js'
 import chars from './characters.json'
 import './App.css';
-import LostItemsTable from './lostitemtable.js'
+import LostItemTable from './lostitemtable.js'
 
 import { Layout } from 'antd';
 
@@ -23,10 +23,9 @@ function App() {
         </Sider>
 
         <Layout>
-          <Content>
+          <Content style={{padding: '0 50px'}}>
             <p>Soon to be filled with excellent content</p>
-            <CharGrid>
-            </CharGrid>
+            <LostItemTable />
           </Content>
         </Layout>
       </Layout>

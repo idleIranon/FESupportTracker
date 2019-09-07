@@ -1,52 +1,59 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import items from './lostitems.json';
 
 import { Table } from 'antd';
 
-const lostItems = items.items
+const lostItems = items.items;
 
 const tableColumns = [
   {
     title: 'Name',
     dataIndex: 'name',
-    key: 'name'
+    key: 'name',
+    align: 'left',
+    width: 300,
+    sorter: (a, b) => { return a.name.localeCompare(b.name)}
   },
   {
     title: 'Character',
     dataIndex: 'character',
-    key: 'character'
+    key: 'character',
+    align: 'left',
+    width: 300,
+    sorter: (a, b) => { return a.character.localeCompare(b.character)}
   },
   {
     title: 'Chapter',
     dataIndex: 'chapter',
-    key: 'chapter'
+    key: 'chapter',
+    width: 150,
+    sorter: (a, b) => a.chapter - b.chapter
   },
   {
     title: 'Location',
     dataIndex: 'location',
-    key: 'location'
+    key: 'location',
+    width: 300
   },
   {
     title: 'Exclusive',
     dataIndex: 'exclusive',
-    key: 'exclusive'
+    key: 'exclusive',
+    width: 150
   }
 ]
 
+
 class LostItemTable extends React.Component {
-
-  constructor(props) {
-    super(props);
-    this.state = {
-    };
-  }
-
-
   render() {
     return (
-	<Table dataSource={lostItems} columns={tableColumns} pagination={false}
-  scroll={{ y: 850 }} />
+	     <Table
+        dataSource={lostItems}
+        columns={tableColumns}
+        pagination={false}
+        scroll={{ y: 850 }}
+        size='small'
+      />
     );
   }
 }
