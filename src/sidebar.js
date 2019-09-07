@@ -1,7 +1,7 @@
 import React from 'react';
 import characters from './characterlist.json';
 
-import { Menu, Avatar, Cascader } from 'antd';
+import { Menu, Avatar } from 'antd';
 
 const { SubMenu } = Menu;
 
