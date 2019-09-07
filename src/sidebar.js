@@ -33,23 +33,18 @@ class Sidebar extends React.Component {
         </Menu.Item>
 
         <Menu.Item key="1">Recruitment</Menu.Item>
-        <Menu.Item key="2">Lost Items</Menu.Item>
-        <Menu.Item key="3">Tea</Menu.Item>
-        <Menu.Item key="4">Gifts</Menu.Item>
+        <Menu.Item key="2">Lost Items </Menu.Item>
+        <Menu.Item key="3">Tea        </Menu.Item>
+        <Menu.Item key="4">Gifts      </Menu.Item>
         <SubMenu
           key="sub2"
-          title={
-            <span>
-              <Icon type="setting" />
-              <span>Games</span>
-            </span>
-          }
+          title={ <span>Games</span> }
         >
-          <Menu.Item key="5">All Games</Menu.Item>
-          <Menu.Item key="6">Add New</Menu.Item>
+          <Menu.Item key="5">All Games  </Menu.Item>
+          <Menu.Item key="6">Add New    </Menu.Item>
         </SubMenu>
         <Menu.Item key="7">Source Code</Menu.Item>
-        <Menu.Item key="8">About</Menu.Item>
+        <Menu.Item key="8">About      </Menu.Item>
       </Menu>
       </div>
     );
