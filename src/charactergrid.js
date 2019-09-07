@@ -4,6 +4,18 @@ import chars from './characters.json';
 
 import { Row, Col } from 'antd';
 
+
+for (var i = 0; i < chars.characters.length; i++){
+  // look for the entry with a matching `code` value
+  if (chars.characters[i].name === "byleth(F)"){
+
+    var charinjson = chars.characters[i];
+        console.log({charinjson});
+     // we found it
+    // obj[i].name is the matched result
+  }
+}
+
 class CharGrid extends React.Component {
 
   constructor(props) {
@@ -12,6 +24,7 @@ class CharGrid extends React.Component {
       selectedChar: "byleth(F)"
     };
   }
+
   renderCard() {
     return (
       <Col span={4}><CharCard></CharCard></Col>

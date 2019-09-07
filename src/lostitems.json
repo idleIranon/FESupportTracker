@@ -1,24 +1,509 @@
 {
   "items": [
     {
-    "name": "Hand Drawn Map",
-    "character": "leonie",
-    "chapter": "3"
+      "name": "Hand Drawn Map",
+      "character": "Leonie",
+      "chapter": "3"
     },
     {
-    "name": "Sketch of a Sigil",
-    "character": "Hanneman",
-    "chapter": "3"
+      "name": "Leather Bow Sheath",
+      "character": "Claude",
+      "chapter": "3",
+      "exclusive": "GD"
     },
     {
-    "name": "School of Sorcery Book",
-    "character": "Annette",
-    "chapter": "3"
+      "name": "Sketch of a Sigil",
+      "character": "Hanneman",
+      "chapter": "3"
     },
     {
-    "name": "Artificial Flower",
-    "character": "Lorenz",
-    "chapter": "4"
+      "name": "School of Sorcery Book",
+      "character": "Annette",
+      "chapter": "3"
+    },
+    {
+      "name": "Tattered Overcoat",
+      "character": "Caspar",
+      "chapter": "3"
+    },
+    {
+      "name": "White Glove",
+      "character": "Edelgard",
+      "chapter": "3",
+      "exclusive": "BE"
+    },
+    {
+      "name": "Wooden Flask",
+      "character": "Jeralt",
+      "chapter": "3"
+    },
+    {
+      "name": "Wooden Button",
+      "character": "Raphael",
+      "chapter": "3"
+    },
+    {
+      "name": "Artificial Flower",
+      "character": "Lorenz",
+      "chapter": "4"
+    },
+    {
+      "name": "Badge of Graduation",
+      "character": "Catherine",
+      "chapter": "4"
+    },
+    {
+      "name": "Bag of Tea Leaves",
+      "character": "Ferdinand",
+      "chapter": "4"
+    },
+    {
+      "name": "Confessional Letter",
+      "character": "Marianne",
+      "chapter": "4"
+    },
+    {
+      "name": "Mysterious Notebook",
+      "character": "Alois",
+      "chapter": "4"
+    },
+    {
+      "name": "Noxious Handkerchief",
+      "character": "Hubert",
+      "chapter": "4"
+      "exclusive": "BE"
+    },
+    {
+      "name": "Thunderbrand Replica",
+      "character": "Caspar",
+      "chapter": "4"
+    },
+    {
+      "name": "Used Bottle of Perfume",
+      "character": "Hilda",
+      "chapter": "4",
+      "exclusive": "GD"
+    },
+    {
+      "name": "Wellness Herbs",
+      "character": "Manuela",
+      "chapter": "4"
+    },
+    {
+      "name": "Art Book",
+      "character": "Ignatz",
+      "chapter": "5"
+    },
+    {
+      "name": "Curry Comb",
+      "character": "Ingrid",
+      "chapter": "5"
+    },
+    {
+      "name": "Encyclopedia of Sweets",
+      "character": "Lysithea",
+      "chapter": "5"
+    },
+    {
+      "name": "Exotic Feather",
+      "character": "Petra",
+      "chapter": "5"
+    },
+    {
+      "name": "Feather Pillow",
+      "character": "Linhardt",
+      "chapter": "5"
+    },
+    {
+      "name": "Needle and Thread",
+      "character": "Bernadetta",
+      "chapter": "5"
+    },
+    {
+      "name": "Portrait of Rhea",
+      "character": "Cyril",
+      "chapter": "5"
+    },
+    {
+      "name": "Sword Belt Fragment",
+      "character": "Felix",
+      "chapter": "5"
+    },
+    {
+      "name": "Unused Lipstick",
+      "character": "Sylvain",
+      "chapter": "5"
+    },
+    {
+      "name": "Agricultural Survey",
+      "character": "Ferdinand",
+      "chapter": "6"
+    },
+    {
+      "name": "Antique Clasp",
+      "character": "Flayn",
+      "chapter": "6"
+    },
+    {
+      "name": "Black Leather Gloves",
+      "character": "Dimitri",
+      "chapter": "6",
+      "exclusive": "BL"
+    },
+    {
+      "name": "Bundle of Herbs",
+      "character": "Ashe",
+      "chapter": "6"
+    },
+    {
+      "name": "Gardening Shears",
+      "character": "Dedue",
+      "chapter": "6"
+    },
+    {
+      "name": "Hammer and Chisel",
+      "character": "Hanneman",
+      "chapter": "6"
+    },
+    {
+      "name": "How to Bake Sweets",
+      "character": "Mercedes",
+      "chapter": "6"
+    },
+    {
+      "name": "How to Be Tidy",
+      "character": "Marianne",
+      "chapter": "6"
+    },
+    {
+      "name": "Silver Brooch",
+      "character": "Dorothea",
+      "chapter": "6"
+    },
+    {
+      "name": "Silver Necklace",
+      "character": "Gilbert",
+      "chapter": "6"
+    },
+    {
+      "name": "Spotless Bandage",
+      "character": "Hilda",
+      "chapter": "6",
+      "exclusive": "GD"
+    },
+    {
+      "name": "Black Iron Spur",
+      "character": "Felix",
+      "chapter": "7"
+    },
+    {
+      "name": "Bundle of Dry Hemp",
+      "character": "Shamir",
+      "chapter": "7"
+    },
+    {
+      "name": "Burlap Sack of Rocks",
+      "character": "Raphael",
+      "chapter": "7"
+    },
+    {
+      "name": "Hresvelg Treatise",
+      "character": "Hubert",
+      "chapter": "7",
+      "exclusive": "BE"
+    },
+    {
+      "name": "Letter to Rhea",
+      "character": "Catherine",
+      "chapter": "7"
+    },
+    {
+      "name": "Jousting Almanac",
+      "character": "Ingrid",
+      "chapter": "7"
+    },
+    {
+      "name": "Small Tanned Hide",
+      "character": "Petra",
+      "chapter": "7"
+    },
+    {
+      "name": "Time-Worn Quill Pen",
+      "character": "Edelgard",
+      "chapter": "7",
+      "exclusive": "BE"
+    },
+    {
+      "name": "A Treatise on Etiquette",
+      "character": "Lorenz",
+      "chapter": "8"
+    },
+    {
+      "name": "Clean Dusting Cloth",
+      "character": "Manuela",
+      "chapter": "8"
+    },
+    {
+      "name": "Crumpled Love Letter",
+      "character": "Sylvain",
+      "chapter": "8"
+    },
+    {
+      "name": "Crude Arrowheads",
+      "character": "Leonie",
+      "chapter": "8"
+    },
+    {
+      "name": "Foreign Gold Coin",
+      "character": "Alois",
+      "chapter": "8"
+    },
+    {
+      "name": "Fruit Preserves",
+      "character": "Mercedes",
+      "chapter": "8"
+    },
+    {
+      "name": "Mild Stomach Poison",
+      "character": "Claude",
+      "chapter": "8",
+      "exclusive": "GD"
+    },
+    {
+      "name": "Old Map of Enbarr",
+      "character": "Flayn",
+      "chapter": "8"
+    },
+    {
+      "name": "Still-Life Picture",
+      "character": "Bernadetta",
+      "chapter": "8"
+    },
+    {
+      "name": "Songstress Poster",
+      "character": "Dorothea",
+      "chapter": "8"
+    },
+    {
+      "name": "The Saints Revealed",
+      "character": "Linhardt",
+      "chapter": "8"
+    },
+    {
+      "name": "Unfinished Fable",
+      "character": "Seteth",
+      "chapter": "8"
+    },
+    {
+      "name": "Well-Used Hatchet",
+      "character": "Cyril",
+      "chapter": "8"
+    },
+    {
+      "name": "Animated Bait",
+      "character": "Linhardt",
+      "chapter": "9"
+    },
+    {
+      "name": "Big Spoon",
+      "character": "Raphael",
+      "chapter": "9"
+    },
+    {
+      "name": "Blue Stone",
+      "character": "Ignatz",
+      "chapter": "9"
+    },
+    {
+      "name": "Book of Ghost Stories",
+      "character": "Mercedes",
+      "chapter": "9"
+    },
+    {
+      "name": "Carving Hammer",
+      "character": "Gilbert",
+      "chapter": "9"
+    },
+    {
+      "name": "Centipede Picture",
+      "character": "Shamir",
+      "chapter": "9"
+    },
+    {
+      "name": "Evil-Repelling Amulet",
+      "character": "Ashe",
+      "chapter": "9"
+    },
+    {
+      "name": "Folding Razor",
+      "character": "Hubert",
+      "chapter": "9",
+      "exclusive": "BE"
+    },
+    {
+      "name": "Lens Cloth",
+      "character": "Hanneman",
+      "chapter": "9"
+    },
+    {
+      "name": "Old Cleaning Cloth",
+      "character": "Cyril",
+      "chapter": "9"
+    },
+    {
+      "name": "Old Fishing Rod",
+      "character": "Seteth",
+      "chapter": "9"
+    },
+    {
+      "name": "Princess Doll",
+      "character": "Lysithea",
+      "chapter": "9"
+    },
+    {
+      "name": "Animal Bone Dice",
+      "character": "Shamir",
+      "chapter": "10"
+    },
+    {
+      "name": "Bag of Seeds",
+      "character": "Marianne",
+      "chapter": "10"
+    },
+    {
+      "name": "Board Game Piece",
+      "character": "Claude",
+      "chapter": "10",
+      "exclusive": "GD"
+    },
+    {
+      "name": "Dusty Book of Fables",
+      "character": "Flayn",
+      "chapter": "10"
+    },
+    {
+      "name": "Eastern Porcelain",
+      "character": "Edelgard",
+      "chapter": "10",
+      "exclusive": "BE"
+    },
+    {
+      "name": "Fur Scarf",
+      "character": "Leonie",
+      "chapter": "10"
+    },
+    {
+      "name": "Handmade Hair Clip",
+      "character": "Hilda",
+      "chapter": "10",
+      "exclusive": "GD"
+    },
+    {
+      "name": "Introduction to Magic",
+      "character": "Alois",
+      "chapter": "10"
+    },
+    {
+      "name": "Iron Cooking Pot",
+      "character": "Dedue",
+      "chapter": "10",
+      "exclusive": "BL"
+    },
+    {
+      "name": "Letter to the Goddess",
+      "character": "Ignatz",
+      "chapter": "10"
+    },
+    {
+      "name": "Light Purple Veil",
+      "character": "Manuela",
+      "chapter": "10"
+    },
+    {
+      "name": "Lovely Comb",
+      "character": "Dorothea",
+      "chapter": "10"
+    },
+    {
+      "name": "Noseless Puppet",
+      "character": "Gilbert",
+      "chapter": "10"
+    },
+    {
+      "name": "Pegasus Horseshoes",
+      "character": "Ingrid",
+      "chapter": "10"
+    },
+    {
+      "name": "Snapped Writing Quill",
+      "character": "Seteth",
+      "chapter": "10"
+    },
+    {
+      "name": "Toothed Dagger",
+      "character": "Felix",
+      "chapter": "10"
+    },
+    {
+      "name": "Training Logbook",
+      "character": "Dimitri",
+      "chapter": "10",
+      "exclusive": "BL"
+    },
+    {
+      "name": "Unfinished Score",
+      "character": "Annette",
+      "chapter": "10"
+    },
+    {
+      "name": "Weathered Cloak",
+      "character": "Catherine",
+      "chapter": "10"
+    },
+    {
+      "name": "Annotated Dictionary",
+      "character": "Petra",
+      "chapter": "11"
+    },
+    {
+      "name": "Grounding Charm",
+      "character": "Caspar",
+      "chapter": "11"
+    },
+    {
+      "name": "Hedgehog Case",
+      "character": "Maintenance Oil",
+      "chapter": "11"
+    },
+    {
+      "name": "Maintenance Oil",
+      "character": "Ferdinand",
+      "chapter": "11"
+    },
+    {
+      "name": "Moon Knight's Tale",
+      "character": "Ashe",
+      "chapter": "11"
+    },
+    {
+      "name": "New Bottle of Perfume",
+      "character": "Lysithea",
+      "chapter": "11"
+    },
+    {
+      "name": "Silk Handkerchief",
+      "character": "Lorenz",
+      "chapter": "11"
+    },
+    {
+      "name": "The History of Sreng",
+      "character": "Sylvain",
+      "chapter": "11"
+    },
+    {
+      "name": "Wax Diptych",
+      "character": "Annette",
+      "chapter": "11"
     }
   ]
 }
