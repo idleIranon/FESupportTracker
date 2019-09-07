@@ -5,6 +5,7 @@ import Sidebar from './sidebar.js';
 import CharGrid from './charactergrid.js'
 import chars from './characters.json'
 import './App.css';
+import LostItemsTable from './lostitemtable.js'
 
 import { Layout } from 'antd';
 
