@@ -3,6 +3,8 @@ import characters from './characterlist.json';
 
 import { Menu, Avatar } from 'antd';
 
+import { Link } from 'react-router-dom';
+
 const { SubMenu } = Menu;
 
 console.log({characters});
@@ -33,13 +35,26 @@ class Sidebar extends React.Component {
         defaultOpenKeys={['sub2']}
         mode="inline"
       >
-        <Menu.Item key="1">
-          <Avatar shape="square" size="large" src={this.state.selectedCharIcon}> </Avatar>
-          Support
-        </Menu.Item>
-
-        <Menu.Item key="2">Recruitment</Menu.Item>
-        <Menu.Item key="3">Lost Items </Menu.Item>
+        <Menu.ItemGroup>
+          <Menu.Item style={{align:'center', alignItems: 'right', width: 200, 'line-height': '800'}}>
+            <Avatar shape="square" size="large" src={this.state.selectedCharIcon} style={{padding: '50' }}> </Avatar>
+          </Menu.Item>
+        </Menu.ItemGroup>
+       <Menu.Item key="1">
+         <Link to="/">
+           Support
+         </Link>
+       </Menu.Item>
+       <Menu.Item key="2">
+         <Link to="/recruitment">
+           Recruitment
+         </Link>
+       </Menu.Item>
+       <Menu.Item key="3">
+         <Link to="/lostitems">
+           Lost Items
+         </Link>
+       </Menu.Item>
         <Menu.Item key="4">Tea        </Menu.Item>
         <Menu.Item key="5">Gifts      </Menu.Item>
         <SubMenu

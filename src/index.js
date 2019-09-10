@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Sidebar from './sidebar.js';
-import CharGrid from './charactergrid.js'
-import chars from './characters.json'
+import CharGrid from './charactergrid.js';
+import chars from './characters.json';
 import './App.css';
-import LostItemTable from './lostitemtable.js'
+import LostItemTable from './lostitemtable.js';
+import { Link, Route } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 import { Layout } from 'antd';
 
@@ -23,9 +25,18 @@ function App() {
         </Sider>
 
         <Layout>
+          <p>Soon to be filled with excellent content</p>
           <Content style={{padding: '0 50px'}}>
-            <p>Soon to be filled with excellent content</p>
-            <LostItemTable />
+            <Route
+              path="/"
+              component={CharGrid}
+              exact
+            />
+            <Route
+              path="/lostitems"
+              component={LostItemTable}
+              exact
+            />
           </Content>
         </Layout>
       </Layout>
@@ -33,4 +44,9 @@ function App() {
   );
 }
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
+ReactDOM.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+  document.getElementById('root'));
