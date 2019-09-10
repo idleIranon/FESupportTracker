@@ -45,18 +45,31 @@ class Sidebar extends React.Component {
            Support
          </Link>
        </Menu.Item>
+
        <Menu.Item key="2">
          <Link to="/recruitment">
            Recruitment
          </Link>
        </Menu.Item>
+
        <Menu.Item key="3">
          <Link to="/lostitems">
            Lost Items
          </Link>
        </Menu.Item>
-        <Menu.Item key="4">Tea        </Menu.Item>
-        <Menu.Item key="5">Gifts      </Menu.Item>
+
+        <Menu.Item key="4">
+          <Link to="/tea">
+            Tea
+          </Link>
+        </Menu.Item>
+
+        <Menu.Item key="5">
+          <Link to="/gifts">
+            Gifts
+          </Link>
+        </Menu.Item>
+
         <SubMenu
           key="sub2"
           title={ <span>Saves</span> }
@@ -64,8 +77,18 @@ class Sidebar extends React.Component {
           <Menu.Item key="6">All Saves  </Menu.Item>
           <Menu.Item key="7">Add New    </Menu.Item>
         </SubMenu>
-        <Menu.Item key="8">Source Code</Menu.Item>
-        <Menu.Item key="9">About      </Menu.Item>
+
+        <Menu.Item key="8">
+          <Link to="https://github.com/idleIranon/FESupportTracker">
+            Source Code
+          </Link>
+        </Menu.Item>
+
+        <Menu.Item key="9">
+          <Link to="/about">
+            About
+          </Link>
+        </Menu.Item>
       </Menu>
       </div>
     );

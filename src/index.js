@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom';
 
 import Sidebar from './sidebar.js';
 import CharGrid from './charactergrid.js';
+import RecruitmentTable from './recruitmenttable.js';
+import TeaTable from './teatable.js';
+import GiftTable from './gifttable.js';
+import AboutSection from './about.js';
 import chars from './characters.json';
 import './App.css';
 import LostItemTable from './lostitemtable.js';
@@ -33,8 +37,28 @@ function App() {
               exact
             />
             <Route
+              path="/recruitment"
+              component={RecruitmentTable}
+              exact
+            />
+            <Route
               path="/lostitems"
               component={LostItemTable}
+              exact
+            />
+            <Route
+              path="/tea"
+              component={TeaTable}
+              exact
+            />
+            <Route
+              path="/gifts"
+              component={GiftTable}
+              exact
+            />
+            <Route
+              path="/about"
+              component={AboutSection}
               exact
             />
           </Content>
