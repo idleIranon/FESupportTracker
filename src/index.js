@@ -7,16 +7,14 @@ import RecruitmentTable from './recruitmenttable.js';
 import TeaTable from './teatable.js';
 import GiftTable from './gifttable.js';
 import AboutSection from './about.js';
-import chars from './characters.json';
-import './App.css';
 import LostItemTable from './lostitemtable.js';
-import { Link, Route } from 'react-router-dom';
-import { BrowserRouter } from 'react-router-dom';
+import './App.css';
+
+import { Route, BrowserRouter } from 'react-router-dom';
 
 import { Layout } from 'antd';
 
 var currentchar = "byleth";
-console.log(chars);
 
 function App() {
 

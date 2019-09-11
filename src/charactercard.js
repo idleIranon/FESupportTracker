@@ -1,10 +1,9 @@
 import React from 'react';
 import chars from './characters.json';
 
-import { Card, Button, Row } from 'antd';
+import { Card, Button } from 'antd';
 
 const { Meta } = Card;
-const ButtonGroup = Button.Group;
 
 class CharCard extends React.Component {
 
