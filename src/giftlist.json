@@ -1,0 +1,136 @@
+{
+  "giftList": [
+    {
+      "character": "Dimitri",
+      "gifts": "Chamomile"
+    },
+    {
+      "character": "Dedue",
+      "gifts": "Ginger Tea"
+    },
+    {
+      "character": "Felix",
+      "gifts": "Almyran Pine Needles"
+    },
+    {
+      "character": "Sylvain",
+      "gifts": "Bergamot"
+    },
+    {
+      "character": "Ashe",
+      "gifts": "Mint Tea"
+    },
+    {
+      "character": "Annette",
+      "gifts": "Sweet-Apple Blend"
+    },
+    {
+      "character": "Ingrid",
+      "gifts": "Mint Tea"
+    },
+    {
+      "character": "Mercedes",
+      "gifts": ["Albinean berry Blend", "Southern Fruit Blend"]
+    },
+    {
+      "character": "Edelgard",
+      "gifts": ["Bergamot", "Hresvelg Blend"]
+    },
+    {
+      "character": "Hubert",
+      "gifts": ["Cinnamon", "Hresvelg Blend"]
+    },
+    {
+      "character": "Caspar",
+      "gifts": "Ginger Tea"
+    },
+    {
+      "character": "Ferdinand",
+      "gifts": "Southern Tea Blend"
+    },
+    {
+      "character": "Linhardt",
+      "gifts": "Angelica Tea"
+    },
+    {
+      "character": "Bernadetta",
+      "gifts": "Albinean berry Blend"
+    },
+    {
+      "character": "Dorothea",
+      "gifts": "Sweet-Apple Blend"
+    },
+    {
+      "character": "Petra",
+      "gifts": "Four-Spice Tea"
+    },
+    {
+      "character": "Claude",
+      "gifts": ["Almyran Pine Needles", "Chamomile", "Leicester Cortania"]
+    },
+    {
+      "character": "Hilda",
+      "gifts": ["Southern Fruit Blend", "Mint Tea", "Rose Petal Blend"]
+    },
+    {
+      "character": "Ignatz",
+      "gifts": "Lavender Blend"
+    },
+    {
+      "character": "Lorenz",
+      "gifts": "Bergamot"
+    },
+    {
+      "character": "Raphael",
+      "gifts": "Almond Blend"
+    },
+    {
+      "character": "Leonie",
+      "gifts": "Four-Spice Blend"
+    },
+    {
+      "character": "Marianne",
+      "gifts": "Lavender Blend"
+    },
+    {
+      "character": "Lysithea",
+      "gifts": "Sweet-Apple Blend"
+    },
+    {
+      "character": "Hanneman",
+      "gifts": ["Bergamot", "Sweet-Apple Blend"]
+    },
+    {
+      "character": "Manuela",
+      "gifts": "Mint Tea"
+    },
+    {
+      "character": "Flayn",
+      "gifts": "Sweet-Apple Blend"
+    },
+    {
+      "character": "Shamir",
+      "gifts": "Crescent-Moon Tea"
+    },
+    {
+      "character": "Catherine",
+      "gifts": "Leicester Cortania"
+    },
+    {
+      "character": "Cyril",
+      "gifts": "Almyran Pine Needles"
+    },
+    {
+      "character": "Alois",
+      "gifts": "Crescent-Moon Tea"
+    },
+    {
+      "character": "Seteth",
+      "gifts": "Four-Spice Blend"
+    },
+    {
+      "character": "Gilbert",
+      "gifts": "Almond Blend"
+    }
+  ]
+}

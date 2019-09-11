@@ -1,14 +1,34 @@
 import React from 'react';
+import gifts from './giftlist.json';
 
 import { Table } from 'antd';
 
+const giftList = gifts.giftList;
 
-const tableColumns = []
+const tableColumns = [
+  {
+    title: 'Character',
+    dataIndex: 'character',
+    key: 'character',
+    width: 500
+  },
+  {
+    title: 'Gifts',
+    dataIndex: 'gifts',
+    key: 'gifts'
+  }
+]
 
 class GiftTable extends React.Component {
   render() {
     return (
-      <p>To be announced soon (Gift)</p>
+      <Table
+       dataSource={giftList}
+       columns={tableColumns}
+       pagination={false}
+       scroll={{ y: 850 }}
+       size='small'
+     />
     );
   }
 }

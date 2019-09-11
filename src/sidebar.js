@@ -79,9 +79,12 @@ class Sidebar extends React.Component {
         </SubMenu>
 
         <Menu.Item key="8">
-          <Link to="https://github.com/idleIranon/FESupportTracker">
+          <a
+          href="https://github.com/idleIranon/FESupportTracker"
+          target="_blank"
+          rel="noopener noreferrer">
             Source Code
-          </Link>
+          </a>
         </Menu.Item>
 
         <Menu.Item key="9">
