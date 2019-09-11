@@ -30,11 +30,11 @@
     },
     {
       "character": "Mercedes",
-      "gifts": ["Albinean berry Blend", "Southern Fruit Blend"]
+      "gifts": ["Albinean berry Blend, ", "Southern Fruit Blend"]
     },
     {
       "character": "Edelgard",
-      "gifts": ["Bergamot", "Hresvelg Blend"]
+      "gifts": ["Bergamot, ", "Hresvelg Blend"]
     },
     {
       "character": "Hubert",

@@ -1,0 +1,606 @@
+{
+  "recruitment": [
+    {
+      "character": "Leonie",
+      "skill": "3",
+      "": "Dining Hall Gardens"
+    },
+    {
+      "name": "Leather Bow Sheath",
+      "character": "Claude",
+      "chapter": "3",
+      "location": "Reception Hall",
+      "exclusive": "GD"
+    },
+    {
+      "name": "Sketch of a Sigil",
+      "character": "Hanneman",
+      "chapter": "3",
+      "location": "Second Floor Hallway"
+    },
+    {
+      "name": "School of Sorcery Book",
+      "character": "Annette",
+      "chapter": "3",
+      "location": "Dining Hall"
+    },
+    {
+      "name": "Tattered Overcoat",
+      "character": "Caspar",
+      "chapter": "3",
+      "location": "Training Grounds"
+    },
+    {
+      "name": "White Glove",
+      "character": "Edelgard",
+      "chapter": "3",
+      "location": "Black Eagle Classroom",
+      "exclusive": "BE"
+    },
+    {
+      "name": "Wooden Flask",
+      "character": "Jeralt",
+      "chapter": "3",
+      "location": "Second Floor Lobby"
+    },
+    {
+      "name": "Wooden Button",
+      "character": "Raphael",
+      "chapter": "3",
+      "location": "Training Grounds"
+    },
+    {
+      "name": "Artificial Flower",
+      "character": "Lorenz",
+      "chapter": "4",
+      "location": "Pathway North of Knight's Hall"
+    },
+    {
+      "name": "Badge of Graduation",
+      "character": "Catherine",
+      "chapter": "4",
+      "location": "Training Grounds"
+    },
+    {
+      "name": "Bag of Tea Leaves",
+      "character": "Ferdinand",
+      "chapter": "4",
+      "location": "Black Eagles Classroom"
+    },
+    {
+      "name": "Confessional Letter",
+      "character": "Marianne",
+      "chapter": "4",
+      "location": "Stables"
+    },
+    {
+      "name": "Mysterious Notebook",
+      "character": "Alois",
+      "chapter": "4",
+      "location": "Cathedreal - Holy Mausoleum Entrance"
+    },
+    {
+      "name": "Noxious Handkerchief",
+      "character": "Hubert",
+      "chapter": "4",
+      "location": "Training Grounds",
+      "exclusive": "BE"
+    },
+    {
+      "name": "Thunderbrand Replica",
+      "character": "Caspar",
+      "chapter": "4",
+      "location": "Training Grounds"
+    },
+    {
+      "name": "Used Bottle of Perfume",
+      "character": "Hilda",
+      "chapter": "4",
+      "location": "Marketplace",
+      "exclusive": "GD"
+    },
+    {
+      "name": "Wellness Herbs",
+      "character": "Manuela",
+      "chapter": "4",
+      "location": "Second Floor - Infirmary"
+    },
+    {
+      "name": "Art Book",
+      "character": "Ignatz",
+      "chapter": "5",
+      "location": "Cathedral"
+    },
+    {
+      "name": "Curry Comb",
+      "character": "Ingrid",
+      "chapter": "5",
+      "location": "Entrance Hall"
+    },
+    {
+      "name": "Encyclopedia of Sweets",
+      "character": "Lysithea",
+      "chapter": "5",
+      "location": "Golden Deer Classroom"
+    },
+    {
+      "name": "Exotic Feather",
+      "character": "Petra",
+      "chapter": "5",
+      "location": "Reception Hall"
+    },
+    {
+      "name": "Feather Pillow",
+      "character": "Linhardt",
+      "chapter": "5",
+      "location": "Dining Hall"
+    },
+    {
+      "name": "Needle and Thread",
+      "character": "Bernadetta",
+      "chapter": "5",
+      "location": "1st Floor Dormitories - Outside Bernadetta's Room"
+    },
+    {
+      "name": "Portrait of Rhea",
+      "character": "Cyril",
+      "chapter": "5",
+      "location": "2nd Floor Dormitories - Hallway"
+    },
+    {
+      "name": "Sword Belt Fragment",
+      "character": "Felix",
+      "chapter": "5",
+      "location": "Training Hall"
+    },
+    {
+      "name": "Unused Lipstick",
+      "character": "Sylvain",
+      "chapter": "5",
+      "location": "Reception Hall"
+    },
+    {
+      "name": "Agricultural Survey",
+      "character": "Ferdinand",
+      "chapter": "6",
+      "location": "Stables"
+    },
+    {
+      "name": "Antique Clasp",
+      "character": "Flayn",
+      "chapter": "6",
+      "location": "Fishing Pond"
+    },
+    {
+      "name": "Black Leather Gloves",
+      "character": "Dimitri",
+      "chapter": "6",
+      "location": "Training Grounds",
+      "exclusive": "BL"
+    },
+    {
+      "name": "Bundle of Herbs",
+      "character": "Ashe",
+      "chapter": "6",
+      "location": "Cathedral"
+    },
+    {
+      "name": "Gardening Shears",
+      "character": "Dedue",
+      "chapter": "6",
+      "location": "Training Grounds"
+    },
+    {
+      "name": "Hammer and Chisel",
+      "character": "Hanneman",
+      "chapter": "6",
+      "location": "Second Floor"
+    },
+    {
+      "name": "How to Bake Sweets",
+      "character": "Mercedes",
+      "chapter": "6",
+      "location": "Cathedral"
+    },
+    {
+      "name": "How to Be Tidy",
+      "character": "Marianne",
+      "chapter": "6",
+      "location": "Stables"
+    },
+    {
+      "name": "Silver Brooch",
+      "character": "Dorothea",
+      "chapter": "6",
+      "location": "Officer's Academy Courtyard"
+    },
+    {
+      "name": "Silver Necklace",
+      "character": "Gilbert",
+      "chapter": "6",
+      "location": "Entrance Hall"
+    },
+    {
+      "name": "Spotless Bandage",
+      "character": "Hilda",
+      "chapter": "6",
+      "location": "Golden Deer Classroom",
+      "exclusive": "GD"
+    },
+    {
+      "name": "Black Iron Spur",
+      "character": "Felix",
+      "chapter": "7",
+      "location": "Dining Hall"
+    },
+    {
+      "name": "Bundle of Dry Hemp",
+      "character": "Shamir",
+      "chapter": "7",
+      "location": "Marketplace"
+    },
+    {
+      "name": "Burlap Sack of Rocks",
+      "character": "Raphael",
+      "chapter": "7",
+      "location": "Dining Hall"
+    },
+    {
+      "name": "Hresvelg Treatise",
+      "character": "Hubert",
+      "chapter": "7",
+      "location": "Outside Knights’ Hall",
+      "exclusive": "BE"
+    },
+    {
+      "name": "Letter to Rhea",
+      "character": "Catherine",
+      "chapter": "7",
+      "location": "Training Grounds"
+    },
+    {
+      "name": "Jousting Almanac",
+      "character": "Ingrid",
+      "chapter": "7",
+      "location": "Entrance Hall"
+    },
+    {
+      "name": "Small Tanned Hide",
+      "character": "Petra",
+      "chapter": "7",
+      "location": "Reception Hall"
+    },
+    {
+      "name": "Time-Worn Quill Pen",
+      "character": "Edelgard",
+      "chapter": "7",
+      "location": "Black Eagle Classroom",
+      "exclusive": "BE"
+    },
+    {
+      "name": "A Treatise on Etiquette",
+      "character": "Lorenz",
+      "chapter": "8",
+      "location": "Entrance Hall"
+    },
+    {
+      "name": "Clean Dusting Cloth",
+      "character": "Manuela",
+      "chapter": "8",
+      "location": "Second Floor - Infirmary"
+    },
+    {
+      "name": "Crumpled Love Letter",
+      "character": "Sylvain",
+      "chapter": "8",
+      "location": "Knight's Hall"
+    },
+    {
+      "name": "Crude Arrowheads",
+      "character": "Leonie",
+      "chapter": "8",
+      "location": "Dining Hall Balcony"
+    },
+    {
+      "name": "Foreign Gold Coin",
+      "character": "Alois",
+      "chapter": "8",
+      "location": "Fishing Pond"
+    },
+    {
+      "name": "Fruit Preserves",
+      "character": "Mercedes",
+      "chapter": "8",
+      "location": "Cathedral"
+    },
+    {
+      "name": "Mild Stomach Poison",
+      "character": "Claude",
+      "chapter": "8",
+      "location": "Golden Deer Classroom",
+      "exclusive": "GD"
+    },
+    {
+      "name": "Old Map of Enbarr",
+      "character": "Flayn",
+      "chapter": "8",
+      "location": "Fishing Pond"
+    },
+    {
+      "name": "Still-Life Picture",
+      "character": "Bernadetta",
+      "chapter": "8",
+      "location": "1st Floor Dormitory"
+    },
+    {
+      "name": "Songstress Poster",
+      "character": "Dorothea",
+      "chapter": "8",
+      "location": "Officer's Academy"
+    },
+    {
+      "name": "The Saints Revealed",
+      "character": "Linhardt",
+      "chapter": "8",
+      "location": "Reception Hall"
+    },
+    {
+      "name": "Unfinished Fable",
+      "character": "Seteth",
+      "chapter": "8",
+      "location": "Second Floor - Advisory Room"
+    },
+    {
+      "name": "Well-Used Hatchet",
+      "character": "Cyril",
+      "chapter": "8",
+      "location": "Dining Hall Gardens"
+    },
+    {
+      "name": "Animated Bait",
+      "character": "Linhardt",
+      "chapter": "9",
+      "location": "Library"
+    },
+    {
+      "name": "Big Spoon",
+      "character": "Raphael",
+      "chapter": "9",
+      "location": "Dining Hall"
+    },
+    {
+      "name": "Blue Stone",
+      "character": "Ignatz",
+      "chapter": "9",
+      "location": "Golden Deer Classroom"
+    },
+    {
+      "name": "Book of Ghost Stories",
+      "character": "Mercedes",
+      "chapter": "9",
+      "location": "Cathedral - East Side"
+    },
+    {
+      "name": "Carving Hammer",
+      "character": "Gilbert",
+      "chapter": "9",
+      "location": "Knight's Hall"
+    },
+    {
+      "name": "Centipede Picture",
+      "character": "Shamir",
+      "chapter": "9",
+      "location": "Stables"
+    },
+    {
+      "name": "Evil-Repelling Amulet",
+      "character": "Ashe",
+      "chapter": "9",
+      "location": "Fishing Pond"
+    },
+    {
+      "name": "Folding Razor",
+      "character": "Hubert",
+      "chapter": "9",
+      "location": "Training Grounds",
+      "exclusive": "BE"
+    },
+    {
+      "name": "Lens Cloth",
+      "character": "Hanneman",
+      "chapter": "9",
+      "location": "Knight's Hall"
+    },
+    {
+      "name": "Old Cleaning Cloth",
+      "character": "Cyril",
+      "chapter": "9",
+      "location": "Second Floor Lobby"
+    },
+    {
+      "name": "Old Fishing Rod",
+      "character": "Seteth",
+      "chapter": "9",
+      "location": "Cathedral - Saint Statue Room"
+    },
+    {
+      "name": "Princess Doll",
+      "character": "Lysithea",
+      "chapter": "9",
+      "location": "Reception Hall"
+    },
+    {
+      "name": "Animal Bone Dice",
+      "character": "Shamir",
+      "chapter": "10",
+      "location": "Training Grounds"
+    },
+    {
+      "name": "Bag of Seeds",
+      "character": "Marianne",
+      "chapter": "10",
+      "location": "Cathedral"
+    },
+    {
+      "name": "Board Game Piece",
+      "character": "Claude",
+      "chapter": "10",
+      "location": "Entrance Hall next to Lysithea",
+      "exclusive": "GD"
+    },
+    {
+      "name": "Dusty Book of Fables",
+      "character": "Flayn",
+      "chapter": "10",
+      "location": "Cathedral"
+    },
+    {
+      "name": "Eastern Porcelain",
+      "character": "Edelgard",
+      "chapter": "10",
+      "location": "Black Eagle Classroom",
+      "exclusive": "BE"
+    },
+    {
+      "name": "Fur Scarf",
+      "character": "Leonie",
+      "chapter": "10",
+      "location": "Near Amiibo Gazebo"
+    },
+    {
+      "name": "Handmade Hair Clip",
+      "character": "Hilda",
+      "chapter": "10",
+      "location": "Golden Deer Classroom",
+      "exclusive": "GD"
+    },
+    {
+      "name": "Introduction to Magic",
+      "character": "Alois",
+      "chapter": "10",
+      "location": "Fishing Pond"
+    },
+    {
+      "name": "Iron Cooking Pot",
+      "character": "Dedue",
+      "chapter": "10",
+      "location": "Knight's Hall",
+      "exclusive": "BL"
+    },
+    {
+      "name": "Letter to the Goddess",
+      "character": "Ignatz",
+      "chapter": "10",
+      "location": "Golden Deer Classroom"
+    },
+    {
+      "name": "Light Purple Veil",
+      "character": "Manuela",
+      "chapter": "10",
+      "location": "Greenhouse"
+    },
+    {
+      "name": "Lovely Comb",
+      "character": "Dorothea",
+      "chapter": "10",
+      "location": "Greenhouse"
+    },
+    {
+      "name": "Noseless Puppet",
+      "character": "Gilbert",
+      "chapter": "10",
+      "location": "Knight's Hall Entrance"
+    },
+    {
+      "name": "Pegasus Horseshoes",
+      "character": "Ingrid",
+      "chapter": "10",
+      "location": "Stables"
+    },
+    {
+      "name": "Snapped Writing Quill",
+      "character": "Seteth",
+      "chapter": "10",
+      "location": "Second Floor - Advisory Room"
+    },
+    {
+      "name": "Toothed Dagger",
+      "character": "Felix",
+      "chapter": "10",
+      "location": "Training Grounds"
+    },
+    {
+      "name": "Training Logbook",
+      "character": "Dimitri",
+      "chapter": "10",
+      "location": "Knight's Hall",
+      "exclusive": "BL"
+    },
+    {
+      "name": "Unfinished Score",
+      "character": "Annette",
+      "chapter": "10",
+      "location": "Blue Lions Classroom"
+    },
+    {
+      "name": "Weathered Cloak",
+      "character": "Catherine",
+      "chapter": "10",
+      "location": "Entrance Hall"
+    },
+    {
+      "name": "Annotated Dictionary",
+      "character": "Petra",
+      "chapter": "11",
+      "location": "Dining Hall"
+    },
+    {
+      "name": "Grounding Charm",
+      "character": "Caspar",
+      "chapter": "11",
+      "location": "Dining Hall"
+    },
+    {
+      "name": "Hedgehog Case",
+      "character": "Bernadetta",
+      "chapter": "11",
+      "location": "Graveyard"
+    },
+    {
+      "name": "Maintenance Oil",
+      "character": "Ferdinand",
+      "chapter": "11",
+      "location": "Dining Hall"
+    },
+    {
+      "name": "Moon Knight's Tale",
+      "character": "Ashe",
+      "chapter": "11",
+      "location": "Cathedral"
+    },
+    {
+      "name": "New Bottle of Perfume",
+      "character": "Lysithea",
+      "chapter": "11",
+      "location": "Reception Hall"
+    },
+    {
+      "name": "Silk Handkerchief",
+      "character": "Lorenz",
+      "chapter": "11",
+      "location": "Golden Deer Classroom"
+    },
+    {
+      "name": "The History of Sreng",
+      "character": "Sylvain",
+      "chapter": "11",
+      "location": "Blue Lions Classroom"
+    },
+    {
+      "name": "Wax Diptych",
+      "character": "Annette",
+      "chapter": "11",
+      "location": "Dining Hall"
+    }
+  ]
+}

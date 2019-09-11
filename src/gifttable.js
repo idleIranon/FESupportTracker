@@ -10,7 +10,8 @@ const tableColumns = [
     title: 'Character',
     dataIndex: 'character',
     key: 'character',
-    width: 500
+    width: 500,
+    sorter: (a, b) => { return a.character.localeCompare(b.character)}
   },
   {
     title: 'Gifts',

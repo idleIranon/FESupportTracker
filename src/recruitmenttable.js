@@ -1,10 +1,16 @@
 import React from 'react';
-import items from './lostitems.json';
+import recruitment from './recruitment.json';
 
 import { Table } from 'antd';
 
+const recruitmentInfo = recruitment.recruitment;
 
-const tableColumns = []
+
+const tableColumns = [
+  
+
+
+]
 
 class RecruitmentTable extends React.Component {
   render() {
