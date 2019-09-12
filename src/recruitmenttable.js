@@ -1,31 +1,33 @@
 import React from 'react';
 import recruitment from './recruitment.json';
 
-import { Table, Avatar } from 'antd';
+import { Table, Avatar, Row } from 'antd';
 
 const recruitmentInfo = recruitment.recruitment;
 
 
 const tableColumns = [
   {
+    dataIndex: 'character',
+    key: 'character',
+    width: '5%',
+    render: (text, row, index) => {
+      var charIcon = `/character_images/feth-${text.toLowerCase()}-portrait.jpg`;
+      return (
+        <Row>
+          <Avatar src={charIcon} shape="square" size="large">
+            {text}
+          </Avatar>
+        </Row>
+      );
+    }
+  },
+  {
     title: 'Character',
     dataIndex: 'character',
     key: 'character',
     width: '10%',
-    sorter: (a, b) => { return a.character.localeCompare(b.character)},
-    render: (text, row, index) => {
-      var charIcon = `/character_images/feth-${text.toLowerCase()}-portrait.jpg`;
-      return (
-        <div>
-          <Avatar src={charIcon} shape="square" size="large">
-            {text}
-          </Avatar>
-          <p>
-            {text}
-          </p>
-        </div>
-      );
-    }
+    sorter: (a, b) => { return a.character.localeCompare(b.character)}
   },
   {
     title: 'Skill',
