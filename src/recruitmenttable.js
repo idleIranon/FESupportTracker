@@ -1,7 +1,7 @@
 import React from 'react';
 import recruitment from './recruitment.json';
 
-import { Table } from 'antd';
+import { Table, Avatar } from 'antd';
 
 const recruitmentInfo = recruitment.recruitment;
 
@@ -11,18 +11,32 @@ const tableColumns = [
     title: 'Character',
     dataIndex: 'character',
     key: 'character',
-    width: 500,
-    sorter: (a, b) => { return a.character.localeCompare(b.character)}
+    width: '10%',
+    sorter: (a, b) => { return a.character.localeCompare(b.character)},
+    render: (text, row, index) => {
+      var charIcon = `/character_images/feth-${text.toLowerCase()}-portrait.jpg`;
+      return
+        <div>
+          <Avatar src={charIcon} shape="square" size="large">
+            {text}
+          </Avatar>
+          <p>
+            {text}
+          </p>
+        </div>;
+    }
   },
   {
     title: 'Skill',
     dataIndex: 'skill',
-    key: 'skill'
+    key: 'skill',
+    width: '40%'
   },
   {
     title: 'Stat',
     dataIndex: 'stat',
-    key: 'stat'
+    key: 'stat',
+    width: '40%'
   },
 ]
 

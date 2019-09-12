@@ -21,7 +21,6 @@ function App() {
   const { Content, Sider } = Layout;
   return (
     <div className="App">
-      <React.StrictMode>
       <Layout>
         <Sider>
           <Sidebar selectedCharName= {currentchar}/>
@@ -63,7 +62,6 @@ function App() {
           </Content>
         </Layout>
       </Layout>
-      </React.StrictMode>
     </div>
   );
 }
