@@ -15,7 +15,7 @@ const tableColumns = [
     sorter: (a, b) => { return a.character.localeCompare(b.character)},
     render: (text, row, index) => {
       var charIcon = `/character_images/feth-${text.toLowerCase()}-portrait.jpg`;
-      return
+      return (
         <div>
           <Avatar src={charIcon} shape="square" size="large">
             {text}
@@ -23,7 +23,8 @@ const tableColumns = [
           <p>
             {text}
           </p>
-        </div>;
+        </div>
+      );
     }
   },
   {
