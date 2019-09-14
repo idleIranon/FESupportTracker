@@ -15,8 +15,7 @@ class Sidebar extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedCharIcon: "/character_images/feth-byleth-female-portrait.jpg",
-      selectedCharName: "byleth(F)"
+      selectedHouseIcon: "./gdlogo.png",
     };
   }
 
@@ -36,8 +35,8 @@ class Sidebar extends React.Component {
         mode="inline"
       >
         <Menu.ItemGroup>
-          <Menu.Item style={{align:'center', alignItems: 'right', width: 200, 'line-height': '800'}}>
-            <Avatar shape="square" size="large" src={this.state.selectedCharIcon} style={{padding: '50' }}> </Avatar>
+          <Menu.Item style={{align:'center', alignItems: 'right', width: 200}}>
+            <Avatar shape="square" size="large" src={this.state.selectedHouseIcon} style={{padding: '50' }}> </Avatar>
           </Menu.Item>
         </Menu.ItemGroup>
        <Menu.Item key="1">
