@@ -1,7 +1,7 @@
 import React from 'react';
 import recruitment from './recruitment.json';
 
-import { Table, Avatar, Row } from 'antd';
+import { Table, Avatar } from 'antd';
 
 const recruitmentInfo = recruitment.recruitment;
 
@@ -14,11 +14,9 @@ const tableColumns = [
     render: (text, row, index) => {
       var charIcon = `/character_images/feth-${text.toLowerCase()}-portrait.jpg`;
       return (
-        <Row>
           <Avatar src={charIcon} shape="square" size="large">
             {text}
           </Avatar>
-        </Row>
       );
     }
   },
