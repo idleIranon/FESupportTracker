@@ -1,7 +1,7 @@
 import React from 'react';
 import items from './lostitems.json';
 
-import { Table } from 'antd';
+import { Table, Avatar } from 'antd';
 
 const lostItems = items.items;
 
@@ -11,7 +11,7 @@ const tableColumns = [
     dataIndex: 'name',
     key: 'name',
     align: 'left',
-    width: 300,
+    width: '30%',
     sorter: (a, b) => { return a.name.localeCompare(b.name)}
   },
   {
@@ -19,7 +19,7 @@ const tableColumns = [
     dataIndex: 'character',
     key: 'character',
     align: 'left',
-    width: 300,
+    width: '20%',
     sorter: (a, b) => { return a.character.localeCompare(b.character)},
     filters: [
       {text: "Alois", value: "Alois"},
@@ -63,7 +63,7 @@ const tableColumns = [
     title: 'Chapter',
     dataIndex: 'chapter',
     key: 'chapter',
-    width: 150,
+    width: '5%',
     sorter: (a, b) => a.chapter - b.chapter,
     filters: [
       {text: "3", value: "3"},
@@ -82,16 +82,24 @@ const tableColumns = [
     title: 'Location',
     dataIndex: 'location',
     key: 'location',
-    width: 300
+    width: '25%'
   },
   {
     title: 'Exclusive',
     dataIndex: 'exclusive',
     key: 'exclusive',
-    width: 150
+    width: '5%',
+    render: (text, row, index) => {
+      var houseIcon = `./${text}logo.png`;
+      if (text != null)
+      return (
+          <Avatar src={houseIcon} shape="square" size="large">
+            {text}
+          </Avatar>
+        );
+  }
   }
 ]
-
 
 class LostItemTable extends React.Component {
   render() {
