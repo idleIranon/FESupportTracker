@@ -63,7 +63,7 @@ const tableColumns = [
     title: 'Chapter',
     dataIndex: 'chapter',
     key: 'chapter',
-    width: '5%',
+    width: '10%',
     sorter: (a, b) => a.chapter - b.chapter,
     filters: [
       {text: "3", value: "3"},
@@ -82,13 +82,13 @@ const tableColumns = [
     title: 'Location',
     dataIndex: 'location',
     key: 'location',
-    width: '25%'
+    width: '30%'
   },
   {
     title: 'Exclusive',
     dataIndex: 'exclusive',
     key: 'exclusive',
-    width: '5%',
+    width: '10%',
     render: (text, row, index) => {
       var houseIcon = `./${text}logo.png`;
       if (text != null)

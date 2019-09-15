@@ -11,7 +11,7 @@ const tableColumns = [
     dataIndex: 'character',
     key: 'character',
     width: '20%',
-    sorter: (a, b) => { return a.name.localeCompare(b.name)}
+    sorter: (a, b) => { return a.character.localeCompare(b.character)}
   },
   {
     title: 'Favorite tea',
