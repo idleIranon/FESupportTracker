@@ -2,135 +2,135 @@
   "giftList": [
     {
       "character": "Dimitri",
-      "gifts": "Chamomile"
+      "gifts": ["Whetstone, Training Weight"]
     },
     {
       "character": "Dedue",
-      "gifts": "Ginger Tea"
+      "gifts": "Watering Can"
     },
     {
       "character": "Felix",
-      "gifts": "Almyran Pine Needles"
+      "gifts": ["Ceremonial Sword, Hunting Dagger"]
     },
     {
       "character": "Sylvain",
-      "gifts": "Bergamot"
+      "gifts": ["Dapper Handkerchief, Board Game"]
     },
     {
       "character": "Ashe",
-      "gifts": "Mint Tea"
+      "gifts": ["Exotic Spices, Legends of Chivlary, Violet"]
     },
     {
       "character": "Annette",
-      "gifts": "Sweet-Apple Blend"
+      "gifts": "Stylish Hair Clip"
     },
     {
       "character": "Ingrid",
-      "gifts": "Mint Tea"
+      "gifts": ["Legends of Chivalry, Riding Boots"]
     },
     {
       "character": "Mercedes",
-      "gifts": ["Albinean berry Blend, ", "Southern Fruit Blend"]
+      "gifts": ["Armored Bear Stuffy, Goddess Statuette"]
     },
     {
       "character": "Edelgard",
-      "gifts": ["Bergamot, ", "Hresvelg Blend"]
+      "gifts": ["Armored Bear Stuffy, Monarch Studies Book"]
     },
     {
       "character": "Hubert",
-      "gifts": ["Cinnamon", "Hresvelg Blend"]
+      "gifts": ["Coffe Beans, Board Game"]
     },
     {
       "character": "Caspar",
-      "gifts": "Ginger Tea"
+      "gifts": ["Smoked Meat, Whetstone"]
     },
     {
       "character": "Ferdinand",
-      "gifts": "Southern Tea Blend"
+      "gifts": ["Tea Leaves, Riding Boots"]
     },
     {
       "character": "Linhardt",
-      "gifts": "Angelica Tea"
+      "gifts": ["Fishing Float, Tasty Baked Treat"]
     },
     {
       "character": "Bernadetta",
-      "gifts": "Albinean berry Blend"
+      "gifts": ["Armored Bear Stuffy, Pitcher Plant, Watering Can, Dapper Handkerchief, Landscape Painting"]
     },
     {
       "character": "Dorothea",
-      "gifts": "Sweet-Apple Blend"
+      "gifts": ["Stylish Hair Clip"]
     },
     {
       "character": "Petra",
-      "gifts": "Four-Spice Tea"
+      "gifts": ["Smoked Meat, Hunting Dagger"]
     },
     {
       "character": "Claude",
-      "gifts": ["Almyran Pine Needles", "Chamomile", "Leicester Cortania"]
+      "gifts": ["Riding Boots"]
     },
     {
       "character": "Hilda",
-      "gifts": ["Southern Fruit Blend", "Mint Tea", "Rose Petal Blend"]
+      "gifts": ["Anemone, Armored Bear Stuffy"]
     },
     {
       "character": "Ignatz",
-      "gifts": "Lavender Blend"
+      "gifts": ["Landscape Painting, Goddess Statuette, Ancient Coin, Forget-me-nots"]
     },
     {
       "character": "Lorenz",
-      "gifts": "Bergamot"
+      "gifts": ["Rose, Floral Adornment"]
     },
     {
       "character": "Raphael",
-      "gifts": "Almond Blend"
+      "gifts": ["Smoked Meat, Tasty Baked Treat"]
     },
     {
       "character": "Leonie",
-      "gifts": "Four-Spice Blend"
+      "gifts": ["Fishing Float, Training Weight"]
     },
     {
       "character": "Marianne",
-      "gifts": "Lavender Blend"
+      "gifts": ["Armored Bear Stuffy, Floral Adornment"]
     },
     {
       "character": "Lysithea",
-      "gifts": "Sweet-Apple Blend"
+      "gifts": ["Armored Bear Stuffy, Lily, Tasty Baked Treat"]
     },
     {
       "character": "Hanneman",
-      "gifts": ["Bergamot", "Sweet-Apple Blend"]
+      "gifts": ["Dapper Handkerchief"]
     },
     {
       "character": "Manuela",
-      "gifts": "Mint Tea"
+      "gifts": "Goddess Statuette"
     },
     {
       "character": "Flayn",
-      "gifts": "Sweet-Apple Blend"
+      "gifts": "Forget-me-nots"
     },
     {
       "character": "Shamir",
-      "gifts": "Crescent-Moon Tea"
+      "gifts": ["Coffee Beans, Sunflower"]
     },
     {
       "character": "Catherine",
-      "gifts": "Leicester Cortania"
+      "gifts": ["Whetstone, Legends of Chivlary"]
     },
     {
       "character": "Cyril",
-      "gifts": "Almyran Pine Needles"
+      "gifts": ["Smoked Meat, Watering Can"]
     },
     {
       "character": "Alois",
-      "gifts": "Crescent-Moon Tea"
+      "gifts": ["Floral Adornment, Fishing Float, Ancient Coin, Sunflower"]
     },
     {
       "character": "Seteth",
-      "gifts": "Four-Spice Blend"
+      "gifts": ["Fishing Float, Dapper Handkerchief"]
     },
     {
       "character": "Gilbert",
-      "gifts": "Almond Blend"
+      "gifts": ["Goddess Statuette, Ceremonial Sword"]
     }
   ]
 }
