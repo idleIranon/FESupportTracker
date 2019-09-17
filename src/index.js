@@ -27,7 +27,6 @@ function App() {
         </Sider>
 
         <Layout>
-          <p>Soon to be filled with excellent content</p>
           <Content style={{padding: '0 50px'}}>
             <Route
               path="/"

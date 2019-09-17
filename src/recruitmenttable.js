@@ -9,7 +9,7 @@ const recruitmentInfo = recruitment.recruitment;
 const tableColumns = [
   {
     dataIndex: 'character',
-    key: 'character',
+    key: 'charactericon',
     width: '5%',
     render: (text, row, index) => {
       var charIcon = `/character_images/feth-${text.toLowerCase()}-portrait.jpg`;

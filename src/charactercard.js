@@ -1,5 +1,4 @@
 import React from 'react';
-import chars from './characters.json';
 
 import { Card, Button } from 'antd';
 
@@ -11,21 +10,25 @@ class CharCard extends React.Component {
     super(props);
     this.state = {
       coverName: "Test",
-      coverSrc: "/character_images/feth-byleth-female-portrait.jpg",
-      charName: "Test",
+      charName: "Byleth-Female",
       description: "Test",
-      supports: [],
+      supports: []
     };
   }
 
-  render() {
+  renderButtons() {
+    let buttons = [];
 
+  }
+
+
+  render() {
     return (
       <Card
         cover={
           <img
             alt={this.state.coverName}
-            src={this.state.coverSrc}
+            src={`/character_images/feth-${this.props.charName.toLowerCase()}-portrait.jpg`}
           />
         }
         actions={[
@@ -35,7 +38,7 @@ class CharCard extends React.Component {
         ]}
       >
         <Meta
-          title={this.state.charName}
+          title={this.props.character.name}
           description="This is the description"
         />
 

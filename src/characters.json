@@ -1,7 +1,7 @@
 {
   "characters": [
     {
-      "name": "byleth(F)",
+      "name": "byleth-female",
       "full name": "Byleth(F)",
       "age": "??",
       "icons": [
@@ -13,14 +13,37 @@
       ],
       "support": [
         {
-          "name": "claude",
-          "ranks": ["C", "B","B+", "B++", "A", "S"]
+          "name": "Claude",
+          "ranks": ["C", "B", "B+", "A", "S"]
         },
         {
-          "name": "dmitri",
+          "name": "Dimitri",
+          "ranks": ["C", "B", "A", "S"]
+        }
+      ]
+    },
+    {
+      "name": "byleth-female",
+      "full name": "Byleth(F)",
+      "age": "??",
+      "icons": [
+        {
+          "src": "character_images/feth-byleth-female-portrait.jpg",
+          "type": "image/jpg",
+          "sizes": "200x200"
+        }
+      ],
+      "support": [
+        {
+          "name": "Claude",
+          "ranks": ["C", "B", "B+", "A", "S"]
+        },
+        {
+          "name": "Dimitri",
           "ranks": ["C", "B", "A", "S"]
         }
       ]
     }
+
   ]
 }
