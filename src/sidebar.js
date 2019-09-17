@@ -1,13 +1,10 @@
 import React from 'react';
-import characters from './characterlist.json';
 
 import { Menu, Avatar } from 'antd';
 
 import { Link } from 'react-router-dom';
 
 const { SubMenu } = Menu;
-
-console.log({characters});
 
 
 class Sidebar extends React.Component {

@@ -7,7 +7,7 @@ import { Row, Col } from 'antd';
 
 for (var i = 0; i < chars.characters.length; i++){
   // look for the entry with a matching `code` value
-  if (chars.characters[i].name === "byleth(F)"){
+  if (chars.characters[i].name === "byleth-male"){
     var charinjson = chars.characters[i];
     console.log({charinjson});
      // we found it
@@ -30,22 +30,30 @@ class CharGrid extends React.Component {
 
   renderRows(numSupports) {
     //Fundtion to calc how many rows will be needed
-    let cardsPerRow = 6;
+    var cardsPerRow = 6;
     let numRows = Math.ceil(numSupports/cardsPerRow);
+    //First character to be sought out
+    var charIndex = 0;
     let rows = [];
     for (var i = 0; i < numRows; i++) {
       //Generate the cards and add them to an array
       let cards = [];
-      for (var j = 0; j < cardsPerRow; j++) {
-        if(typeof charinjson.support[j] === 'undefined') {}
-        else {
-          console.log(charinjson.support[j]);
-          cards.push(this.renderCard(charinjson.support[j]));
+      for (var j = 0; j < cardsPerRow; j++)
+      {
+        if(typeof charinjson.support[charIndex] === 'undefined') {}
+        else
+        {
+          console.log(charinjson.support[charIndex]);
+          cards.push(this.renderCard(charinjson.support[charIndex]));
         }
+        charIndex++;
       }
       //Add the cards array between the rows
-      rows.push(
-        <Row type="flex" gutter={16} className="Row">{cards}</Row>
+      rows.push
+      (
+        <Row type="flex" gutter={16} className="Row">
+          {cards}
+        </Row>
       )
     }
 

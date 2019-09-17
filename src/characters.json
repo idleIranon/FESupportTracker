@@ -23,27 +23,50 @@
       ]
     },
     {
-      "name": "byleth-female",
-      "full name": "Byleth(F)",
+      "name": "byleth-male",
+      "full name": "Byleth(M)",
       "age": "??",
       "icons": [
         {
-          "src": "character_images/feth-byleth-female-portrait.jpg",
+          "src": "character_images/feth-byleth-male-portrait.jpg",
           "type": "image/jpg",
           "sizes": "200x200"
         }
       ],
       "support": [
         {
-          "name": "Claude",
-          "ranks": ["C", "B", "B+", "A", "S"]
+          "name": "Edelgard",
+          "ranks": ["C", "C+", "B", "A", "S"]
         },
         {
           "name": "Dimitri",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Claude",
+          "ranks": ["C", "B", "B+", "A"]
+        },
+        {
+          "name": "Hubert",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Ferdinand",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Linhardt",
+          "ranks": ["C", "B", "A", "S"]
+        },
+        {
+          "name": "Caspar",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Bernadetta",
           "ranks": ["C", "B", "A", "S"]
         }
       ]
     }
-
   ]
 }
