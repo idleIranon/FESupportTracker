@@ -93,7 +93,7 @@ const tableColumns = [
       var houseIcon = `./${text}logo.png`;
       if (text != null)
       return (
-          <Avatar src={houseIcon} shape="square" size="large">
+          <Avatar src={houseIcon} shape="square" size="medium">
             {text}
           </Avatar>
         );
