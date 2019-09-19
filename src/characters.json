@@ -524,7 +524,7 @@
       "age": "??",
       "icons": [
         {
-          "src": "character_images/feth-lindhardt-portrait.jpg",
+          "src": "character_images/feth-linhardt-portrait.jpg",
           "type": "image/jpg",
           "sizes": "200x200"
         }
@@ -814,6 +814,80 @@
         },
         {
           "name": "Manuela",
+          "ranks": ["C", "B", "A"]
+        }
+      ]
+    },
+    {
+      "name": "petra",
+      "full name": "Petra",
+      "age": "??",
+      "icons": [
+        {
+          "src": "character_images/feth-petra-portrait.jpg",
+          "type": "image/jpg",
+          "sizes": "200x200"
+        }
+      ],
+      "support": [
+        {
+          "name": "Byleth(M)",
+          "ranks": ["C", "B", "A", "S"]
+        },
+        {
+          "name": "Byleth(F)",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Edelgard",
+          "ranks": ["C", "B"]
+        },
+        {
+          "name": "Claude",
+          "ranks": ["C", "C+", "B", "A"]
+        },
+        {
+          "name": "Hubert",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Ferdinand",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Linhardt",
+          "ranks": ["C", "B", "A", "A+"]
+        },
+        {
+          "name": "Caspar",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Bernadetta",
+          "ranks": ["C", "B"]
+        },
+        {
+          "name": "Dorothea",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Ashe",
+          "ranks": ["C", "B", "A", "A+"]
+        },
+        {
+          "name": "Ignatz",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Alois",
+          "ranks": ["C", "B"]
+        },
+        {
+          "name": "Shamir",
+          "ranks": ["C", "B"]
+        },
+        {
+          "name": "Cyril",
           "ranks": ["C", "B", "A"]
         }
       ]
