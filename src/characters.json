@@ -385,6 +385,212 @@
           "ranks": ["C", "B"]
         }
       ]
+    },
+    {
+      "name": "hubert",
+      "full name": "Hubert",
+      "age": "??",
+      "icons": [
+        {
+          "src": "character_images/feth-hubert-portrait.jpg",
+          "type": "image/jpg",
+          "sizes": "200x200"
+        }
+      ],
+      "support": [
+        {
+          "name": "Byleth(M)",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Byleth(F)",
+          "ranks": ["C", "B", "A", "S"]
+        },
+        {
+          "name": "Edelgard",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Ferdinand",
+          "ranks": ["C", "B", "A", "A+"]
+        },
+        {
+          "name": "Linhardt",
+          "ranks": ["C", "B"]
+        },
+        {
+          "name": "Caspar",
+          "ranks": ["C", "B"]
+        },
+        {
+          "name": "Bernadetta",
+          "ranks": ["C", "C+", "B", "A"]
+        },
+        {
+          "name": "Dorothea",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Petra",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Hanneman",
+          "ranks": ["C", "B"]
+        },
+        {
+          "name": "Shamir",
+          "ranks": ["C", "B", "A"]
+        }
+      ]
+    },
+    {
+      "name": "ferdinand",
+      "full name": "Ferdinand",
+      "age": "??",
+      "icons": [
+        {
+          "src": "character_images/feth-ferdinand-portrait.jpg",
+          "type": "image/jpg",
+          "sizes": "200x200"
+        }
+      ],
+      "support": [
+        {
+          "name": "Byleth(M)",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Byleth(F)",
+          "ranks": ["C", "B", "A", "S"]
+        },
+        {
+          "name": "Edelgard",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Hubert",
+          "ranks": ["C", "B", "A", "A+"]
+        },
+        {
+          "name": "Linhardt",
+          "ranks": ["C", "B"]
+        },
+        {
+          "name": "Caspar",
+          "ranks": ["C", "B"]
+        },
+        {
+          "name": "Bernadetta",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Dorothea",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Petra",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Mercedes",
+          "ranks": ["C", "B", "B+", "A"]
+        },
+        {
+          "name": "Lorenz",
+          "ranks": ["C", "B"]
+        },
+        {
+          "name": "Marianne",
+          "ranks": ["C", "C+", "B", "A"]
+        },
+        {
+          "name": "Hilda",
+          "ranks": ["C", "C+", "B", "A"]
+        },
+        {
+          "name": "Flayn",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Manuela",
+          "ranks": ["C", "B", "A"]
+        }
+      ]
+    },
+    {
+      "name": "linhardt",
+      "full name": "Linhardt",
+      "age": "??",
+      "icons": [
+        {
+          "src": "character_images/feth-lindhardt-portrait.jpg",
+          "type": "image/jpg",
+          "sizes": "200x200"
+        }
+      ],
+      "support": [
+        {
+          "name": "Byleth(M)",
+          "ranks": ["C", "B", "A", "S"]
+        },
+        {
+          "name": "Byleth(F)",
+          "ranks": ["C", "B", "A", "S"]
+        },
+        {
+          "name": "Edelgard",
+          "ranks": ["C", "B", "A", "A+"]
+        },
+        {
+          "name": "Hubert",
+          "ranks": ["C", "B"]
+        },
+        {
+          "name": "Ferdinand",
+          "ranks": ["C", "B"]
+        },
+        {
+          "name": "Caspar",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Bernadetta",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Dorothea",
+          "ranks": ["C", "B", "B+", "A"]
+        },
+        {
+          "name": "Petra",
+          "ranks": ["C", "B", "A", "A+"]
+        },
+        {
+          "name": "Annette",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Lysithea",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Marianne",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Flayn",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Hanneman",
+          "ranks": ["C", "B"]
+        },
+        {
+          "name": "Catherine",
+          "ranks": ["C", "B", "A", "A+"]
+        }
+      ]
     }
   ]
 }
