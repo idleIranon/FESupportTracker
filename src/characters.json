@@ -735,7 +735,7 @@
           "ranks": ["C", "B"]
         },
         {
-          "name": "Setheth",
+          "name": "Seteth",
           "ranks": ["C", "C+", "B", "A"]
         },
         {
@@ -888,6 +888,142 @@
         },
         {
           "name": "Cyril",
+          "ranks": ["C", "B", "A"]
+        }
+      ]
+    },
+    {
+      "name": "dedue",
+      "full name": "Dedue",
+      "age": "??",
+      "icons": [
+        {
+          "src": "character_images/feth-dedue-portrait.jpg",
+          "type": "image/jpg",
+          "sizes": "200x200"
+        }
+      ],
+      "support": [
+        {
+          "name": "Byleth(M)",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Byleth(F)",
+          "ranks": ["C", "B", "A", "S"]
+        },
+        {
+          "name": "Dimitri",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Felix",
+          "ranks": ["C", "B"]
+        },
+        {
+          "name": "Ashe",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Sylvain",
+          "ranks": ["C", "B"]
+        },
+        {
+          "name": "Mercedes",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Annette",
+          "ranks": ["C", "B", "B+", "A"]
+        },
+        {
+          "name": "Ingrid",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Flayn",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Gilbert",
+          "ranks": ["C", "B"]
+        },
+        {
+          "name": "Shamir",
+          "ranks": ["C", "B", "A"]
+        }
+      ]
+    },
+    {
+      "name": "felix",
+      "full name": "Felix",
+      "age": "??",
+      "icons": [
+        {
+          "src": "character_images/feth-felix-portrait.jpg",
+          "type": "image/jpg",
+          "sizes": "200x200"
+        }
+      ],
+      "support": [
+        {
+          "name": "Byleth(M)",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Byleth(F)",
+          "ranks": ["C", "B", "A", "S"]
+        },
+        {
+          "name": "Dimitri",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Bernadetta",
+          "ranks": ["C", "B", "A", "A+"]
+        },
+        {
+          "name": "Dorothea",
+          "ranks": ["C", "B", "A", "A+"]
+        },
+        {
+          "name": "Dedue",
+          "ranks": ["C", "B"]
+        },
+        {
+          "name": "Ashe",
+          "ranks": ["C", "B"]
+        },
+        {
+          "name": "Sylvain",
+          "ranks": ["C", "B", "A", "A+"]
+        },
+        {
+          "name": "Mercedes",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Annette",
+          "ranks": ["C", "B", "A", "A+"]
+        },
+        {
+          "name": "Ingrid",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Lysithea",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Leonie",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Seteth",
+          "ranks": ["C", "B"]
+        },
+        {
+          "name": "Flayn",
           "ranks": ["C", "B", "A"]
         }
       ]
