@@ -24,7 +24,10 @@ class CharGrid extends React.Component {
 
   renderCard(character) {
     return (
-      <Col span={4}><CharCard character={character} charName={character.name}></CharCard></Col>
+      <Col span={4}>
+        <CharCard character={character} charName={character.name}>
+        </CharCard>
+      </Col>
     );
   }
 
@@ -49,12 +52,7 @@ class CharGrid extends React.Component {
         charIndex++;
       }
       //Add the cards array between the rows
-      rows.push
-      (
-        <Row type="flex" gutter={16} className="Row">
-          {cards}
-        </Row>
-      )
+      rows.push(<Row type="flex" gutter={16} className="Row">{cards}</Row>)
     }
 
     return (

@@ -42,20 +42,19 @@ class CharCard extends React.Component {
   render() {
     return (
       <Card
-        cover={
+        cover=
+        {
           <img
             alt={this.state.coverName}
             src={`/character_images/feth-${this.props.charName.toLowerCase()}-portrait.jpg`}
           />
         }
-
       >
-              <Row>{this.renderButtons(this.props.character.ranks)}</Row>
         <Meta
           title={this.props.character.name}
           description="This is the description"
         />
-
+        <Row>{this.renderButtons(this.props.character.ranks)}</Row>
       </Card>
     );
   }
