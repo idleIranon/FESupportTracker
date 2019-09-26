@@ -32,8 +32,12 @@ class Sidebar extends React.Component {
         mode="inline"
       >
         <Menu.ItemGroup>
-          <Menu.Item style={{align:'center', alignItems: 'right', width: 200}}>
-            <Avatar shape="square" size="large" src={this.state.selectedHouseIcon} style={{padding: '50' }}> </Avatar>
+          <Menu.Item style={{align:'center', alignItems: 'right', width: 200, height: 'auto'}}>
+            <Avatar
+            shape="square"
+            size={64}
+            src={this.state.selectedHouseIcon}
+            style={{height: '50%', width: '50%', display: 'block', margin: '0 auto' }}> </Avatar>
           </Menu.Item>
         </Menu.ItemGroup>
        <Menu.Item key="1">
