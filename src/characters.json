@@ -2451,6 +2451,68 @@
           "ranks": ["C", "B", "A"]
         }
       ]
+    },
+    {
+      "name": "cyril",
+      "full name": "Cyril",
+      "age": "??",
+      "icons": [
+        {
+          "src": "character_images/feth-cyril-portrait.jpg",
+          "type": "image/jpg",
+          "sizes": "200x200"
+        }
+      ],
+      "support": [
+        {
+          "name": "Byleth(M)",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Byleth(F)",
+          "ranks": ["C", "B", "A", "S"]
+        },
+        {
+          "name": "Claude",
+          "ranks": ["C", "B"]
+        },
+        {
+          "name": "Petra",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Ashe",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Mercedes",
+          "ranks": ["C", "B"]
+        },
+        {
+          "name": "Ignatz",
+          "ranks": ["C", "B"]
+        },
+        {
+          "name": "Lysithea",
+          "ranks": ["C", "B", "A", "A+"]
+        },
+        {
+          "name": "Hilda",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Seteth",
+          "ranks": ["C", "B", "A"]
+        },
+        {
+          "name": "Manuela",
+          "ranks": ["C", "B"]
+        },
+        {
+          "name": "Shamir",
+          "ranks": ["C", "B", "A"]
+        }
+      ]
     }
   ]
 }
