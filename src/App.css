@@ -11,6 +11,19 @@
   text-align: justify;
 }
 
+#Sb_Avatar_Row {
+  align-content: center;
+  height: auto;
+}
+
+#Sb_Avatar_Icon {
+  margin: 0 auto;
+  height: 50%;
+  width: 50%;
+  display: block;
+  padding-bottom: 10px;
+}
+
 .Row {
   padding-left: 30px;
   padding-right: 30px;
