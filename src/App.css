@@ -11,6 +11,33 @@
   text-align: justify;
 }
 
+.Sb_Top {
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  justify-content: space-between;
+}
+
+#Sb_Avatar_Row {
+  align-content: center;
+  height: auto;
+}
+
+#Sb_Avatar_Icon {
+  margin: 0 auto;
+  height: 50%;
+  width: 50%;
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#Sb_House_Buttons {
+  width: 100%;
+  padding-right: 6%;
+  padding-left: 5%;
+}
+
 .Row {
   padding-left: 30px;
   padding-right: 30px;
