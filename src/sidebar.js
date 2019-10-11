@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { Menu, Avatar } from 'antd';
+import { Menu, Avatar, Button } from 'antd';
 
 import { Link } from 'react-router-dom';
 
-const { SubMenu } = Menu;
+const ButtonGroup = Button.Group;
 
 
 class Sidebar extends React.Component {
@@ -20,24 +20,27 @@ class Sidebar extends React.Component {
     console.log('click ', e);
   };
 
+  changeHouses = houseLogo => e => {
+    this.setState({ selectedHouseIcon: `./${houseLogo}logo.png`});
+    console.log(this.selectedHouseIcon);
+  }
+
 
 
   render() {
     return (
       <div className="Sidebar">
+        <div className="Sb_Top">
         <Menu
           onClick={this.handleClick}
           defaultSelectedKeys={['1']}
-          defaultOpenKeys={['sub2']}
           mode="inline">
-          <Menu.ItemGroup>
             <Menu.Item id="Sb_Avatar_Row">
               <Avatar
               id="Sb_Avatar_Icon"
               shape="square"
               src={this.state.selectedHouseIcon}> </Avatar>
             </Menu.Item>
-          </Menu.ItemGroup>
 
           <Menu.Item key="1">
             <Link to="/">
@@ -82,6 +85,17 @@ class Sidebar extends React.Component {
             <Link to="/about">
               About
             </Link>
+          </Menu.Item>
+        </Menu>
+        </div>
+
+        <Menu  mode="vertical">
+          <Menu.Item key="8">
+            <ButtonGroup id="Sb_House_Buttons">
+              <Button key="be" onClick={this.changeHouses("be")}>BE</Button>
+              <Button key="bl" onClick={this.changeHouses("bl")}>BL</Button>
+              <Button key="gd" onClick={this.changeHouses("gd")}>GD</Button>
+            </ButtonGroup>
           </Menu.Item>
         </Menu>
       </div>
