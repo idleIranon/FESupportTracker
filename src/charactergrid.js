@@ -1,5 +1,6 @@
 import React from 'react';
 import CharCard from './charactercard.js';
+import CharHeader from './characterheader.js';
 import chars from './characters.json';
 
 import { Row, Col } from 'antd';
@@ -18,7 +19,7 @@ class CharGrid extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedChar: "byleth(F)"
+      selectedChar: "byleth-female"
     };
   }
 
@@ -41,11 +42,9 @@ class CharGrid extends React.Component {
     for (var i = 0; i < numRows; i++) {
       //Generate the cards and add them to an array
       let cards = [];
-      for (var j = 0; j < cardsPerRow; j++)
-      {
+      for (var j = 0; j < cardsPerRow; j++) {
         if(typeof charinjson.support[charIndex] === 'undefined') {}
-        else
-        {
+        else {
           console.log(charinjson.support[charIndex]);
           cards.push(this.renderCard(charinjson.support[charIndex]));
         }
@@ -68,7 +67,12 @@ class CharGrid extends React.Component {
 
     return (
       <div className="grid">
-        {this.renderRows(supportRows)}
+        <div className="char_header">
+          <CharHeader />
+        </div>
+        <div className="support_rows">
+          {this.renderRows(supportRows)}
+        </div>
       </div>
     );
   }

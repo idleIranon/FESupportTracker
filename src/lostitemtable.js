@@ -104,13 +104,15 @@ const tableColumns = [
 class LostItemTable extends React.Component {
   render() {
     return (
-	     <Table
-        dataSource={lostItems}
-        columns={tableColumns}
-        pagination={false}
-        scroll={{ y: "95vh" }}
-        size='small'
-      />
+      <div className="item_table">
+  	    <Table
+          dataSource={lostItems}
+          columns={tableColumns}
+          pagination={false}
+          scroll={{ y: "95vh" }}
+          size='small'
+        />
+      </div>
     );
   }
 }

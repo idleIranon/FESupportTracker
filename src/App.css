@@ -19,8 +19,29 @@
   justify-content: space-between;
 }
 
+.char_header {
+  height: 16vh;
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
+
+.item_table {
+  padding: 0 50px;
+}
+
+.support_rows {
+  margin-top: 17vh;
+}
+
 .white {
   color:white;
+}
+
+.black {
+  color:black;
 }
 
 .support_icon {

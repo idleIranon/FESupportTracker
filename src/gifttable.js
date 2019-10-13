@@ -24,13 +24,15 @@ const tableColumns = [
 class GiftTable extends React.Component {
   render() {
     return (
-      <Table
-       dataSource={giftList}
-       columns={tableColumns}
-       pagination={false}
-       scroll={{ y: "95vh" }}
-       size='small'
-     />
+      <div className="item_table">
+        <Table
+         dataSource={giftList}
+         columns={tableColumns}
+         pagination={false}
+         scroll={{ y: "95vh" }}
+         size='small'
+       />
+     </div>
     );
   }
 }

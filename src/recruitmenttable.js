@@ -56,14 +56,16 @@ const rowSelection = {
 class RecruitmentTable extends React.Component {
   render() {
     return (
-      <Table
-       dataSource={recruitmentInfo}
-       rowSelection={rowSelection}
-       columns={tableColumns}
-       pagination={false}
-       scroll={{ y: "95vh" }}
-       size='small'
-     />
+      <div className="item_table">
+        <Table
+         dataSource={recruitmentInfo}
+         rowSelection={rowSelection}
+         columns={tableColumns}
+         pagination={false}
+         scroll={{ y: "95vh" }}
+         size='small'
+       />
+      </div>
     );
   }
 }

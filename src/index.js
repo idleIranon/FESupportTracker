@@ -27,7 +27,7 @@ function App() {
         </Sider>
 
         <Layout>
-          <Content style={{padding: '0 50px'}}>
+          <Content>
             <Route
               path="/"
               component={CharGrid}

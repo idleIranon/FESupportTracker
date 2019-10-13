@@ -24,13 +24,15 @@ const tableColumns = [
 class TeaTable extends React.Component {
   render() {
     return (
-      <Table
-        dataSource={favTea}
-        columns={tableColumns}
-        pagination={false}
-        scroll={{ y: "95vh" }}
-        size='small'
-      />
+      <div className="item_table">
+        <Table
+          dataSource={favTea}
+          columns={tableColumns}
+          pagination={false}
+          scroll={{ y: "95vh" }}
+          size='small'
+        />
+      </div>
     );
   }
 }
