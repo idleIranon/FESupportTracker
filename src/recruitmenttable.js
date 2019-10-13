@@ -24,21 +24,36 @@ const tableColumns = [
     title: 'Character',
     dataIndex: 'character',
     key: 'character',
-    width: '10%',
+    width: '15%',
     sorter: (a, b) => { return a.character.localeCompare(b.character)}
   },
   {
     title: 'Skill',
     dataIndex: 'skill',
     key: 'skill',
-    width: '40%'
+    width: '35%'
   },
   {
     title: 'Stat',
     dataIndex: 'stat',
     key: 'stat',
-    width: '40%'
+    width: '35%'
   },
+  {
+    title: 'House',
+    dataIndex: 'house',
+    key: 'house',
+    width: '10%',
+    render: (text, row, index) => {
+      var houseIcon = `./${text}logo.png`;
+      if (text != null)
+      return (
+          <Avatar src={houseIcon} shape="square" size="medium">
+            {text}
+          </Avatar>
+        );
+      }
+  }
 ]
 
 const rowSelection = {

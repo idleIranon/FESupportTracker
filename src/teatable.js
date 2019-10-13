@@ -6,9 +6,11 @@ import { Table, Avatar } from 'antd';
 const favTea = teas.teaTime;
 
 for(var i = 0; i < favTea.length; i++) {
-  console.log(favTea[i].preferredTea);
-  if(favTea[i].preferredTea ===Array){
-    console.log("Its an array woo");
+  if(typeof favTea[i].preferredTea === 'object'){
+    var thisTea = favTea[i].preferredTea;
+    for(var j = 0; j < thisTea.length-1; j++) {
+      thisTea[j] = thisTea[j].concat(", ");
+    }
   }
 }
 
@@ -38,20 +40,9 @@ const tableColumns = [
     dataIndex: 'preferredTea',
     key: 'preferredTea',
     width: '80%',
-    render: (text) => {
-      if(typeof text === 'object') {
-        for(var i = 0; i < text.length-1; i++) {
-          text[i] = text[i].concat(", ");
-        }
-      }
-      return (
-        <div>
-            {text}
-        </div>
-      );
-    }
   }
 ]
+
 
 class TeaTable extends React.Component {
   render() {

@@ -3,92 +3,110 @@
     {
       "character": "Hilda",
       "stat": "Charm",
-      "skill": "Axe"
+      "skill": "Axe",
+      "house": "gd"
     },
     {
       "character": "Leonie",
       "stat": "Strength",
-      "skill": "Lance"
+      "skill": "Lance",
+      "house": "gd"
     },
     {
       "character": "Lorenz",
       "stat": "Charm",
-      "skill": "Reason"
+      "skill": "Reason",
+      "house": "gd"
     },
     {
       "character": "Lysithea",
       "stat": "Magic",
-      "skill": "Faith"
+      "skill": "Faith",
+      "house": "gd"
     },
     {
       "character": "Marianne",
       "stat": "Magic",
-      "skill": "Riding"
+      "skill": "Riding",
+      "house": "gd"
     },
     {
       "character": "Raphael",
       "stat": "Strength",
-      "skill": "Heavy Armour"
+      "skill": "Heavy Armour",
+      "house": "gd"
     },
     {
       "character": "Annette",
       "stat": "Magic",
-      "skill": "Faith"
+      "skill": "Faith",
+      "house": "bl"
     },
     {
       "character": "Ashe",
       "stat": "Charm",
-      "skill": "Lance"
+      "skill": "Lance",
+      "house": "bl"
     },
     {
       "character": "Felix",
       "stat": "Speed",
-      "skill": "Sword"
+      "skill": "Sword",
+      "house": "bl"
     },
     {
       "character": "Ingrid",
       "stat": "Dexterity",
-      "skill": "Riding"
+      "skill": "Riding",
+      "house": "bl"
     },
     {
       "character": "Mercedes",
       "stat": "Magic",
-      "skill": "Bow"
+      "skill": "Bow",
+      "house": "bl"
     },
     {
       "character": "Sylvain",
       "stat": "Charm (NA if female)",
-      "skill": "Reason (NA if female)"
+      "skill": "Reason (NA if female)",
+      "house": "bl"
     },
     {
       "character": "Bernadetta",
       "stat": "Strength",
-      "skill": "Bow"
+      "skill": "Bow",
+      "house": "be"
     },
     {
       "character": "Caspar",
       "stat": "Strength",
-      "skill": "Brawl"
+      "skill": "Brawl",
+      "house": "be"
     },
     {
       "character": "Dorothea",
       "stat": "Charm",
-      "skill": "Authority"
+      "skill": "Authority",
+      "house": "be"
     },
     {
       "character": "Ferdinand",
       "stat": "Dexterity",
-      "skill": "Heavy Armour"
+      "skill": "Heavy Armour",
+      "house": "be"
     },
     {
       "character": "Linhardt",
       "stat": "Magic",
-      "skill": "Reason"
+      "skill": "Reason",
+      "house": "be"
     },
     {
       "character": "Petra",
       "stat": "Dexterity",
-      "skill": "Riding"
+      "skill": "Riding",
+      "house": "be"
     },
     {
       "character": "Alois"
