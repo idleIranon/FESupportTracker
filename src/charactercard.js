@@ -20,7 +20,10 @@ class CharCard extends React.Component {
     if (rank.charAt(rank.length-1) === "+") {
       console.log("Thats a plus");
       return (
-        <Button> {rank[0]}<Icon type="right" /></Button>
+        <Button>
+          {rank[0]}
+          <Icon type="right" className="support_icon"/>
+          <Icon type="right" className="support_icon"/></Button>
       )
     }
     return (
