@@ -28,7 +28,7 @@ class GiftTable extends React.Component {
        dataSource={giftList}
        columns={tableColumns}
        pagination={false}
-       scroll={{ y: 850 }}
+       scroll={{ y: "95vh" }}
        size='small'
      />
     );
