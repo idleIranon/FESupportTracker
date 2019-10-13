@@ -28,6 +28,7 @@ class CharCard extends React.Component {
     console.log({ranks});
     for (var i = 0; i < ranks.length; i++) {
       console.log(ranks[i]);
+
       buttons.push(this.renderButton(ranks[i]));
     }
     console.log({buttons});
@@ -52,7 +53,6 @@ class CharCard extends React.Component {
       >
         <Meta
           title={this.props.character.name}
-          description="This is the description"
         />
         <Row>{this.renderButtons(this.props.character.ranks)}</Row>
       </Card>

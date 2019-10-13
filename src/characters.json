@@ -14,7 +14,7 @@
       "support": [
         {
           "name": "Claude",
-          "ranks": ["C", "B", "B+", "A", "S"]
+          "ranks": ["C", "B+", "A", "S"]
         },
         {
           "name": "Dimitri",
@@ -36,7 +36,7 @@
       "support": [
         {
           "name": "Edelgard",
-          "ranks": ["C", "C+", "B", "A", "S"]
+          "ranks": ["C+", "B", "A", "S"]
         },
         {
           "name": "Dimitri",
@@ -44,7 +44,7 @@
         },
         {
           "name": "Claude",
-          "ranks": ["C", "B", "B+", "A"]
+          "ranks": ["C", "B+", "A"]
         },
         {
           "name": "Hubert",
@@ -190,11 +190,11 @@
       "support": [
         {
           "name": "Byleth(M)",
-          "ranks": ["C", "C+", "B", "A", "S"]
+          "ranks": ["C+", "B", "A", "S"]
         },
         {
           "name": "Byleth(F)",
-          "ranks": ["C", "C+", "B", "A", "S"]
+          "ranks": ["C+", "B", "A", "S"]
         },
         {
           "name": "Hubert",
@@ -206,7 +206,7 @@
         },
         {
           "name": "Linhardt",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Caspar",
@@ -276,15 +276,15 @@
         },
         {
           "name": "Mercedes",
-          "ranks": ["C", "B", "B+", "A"]
+          "ranks": ["C", "B+", "A"]
         },
         {
           "name": "Annette",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Ingrid",
-          "ranks": ["C", "B", "B+", "A"]
+          "ranks": ["C", "B+", "A"]
         },
         {
           "name": "Raphael",
@@ -296,7 +296,7 @@
         },
         {
           "name": "Flayn",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Gilbert",
@@ -304,11 +304,11 @@
         },
         {
           "name": "Alois",
-          "ranks": ["C", "B", "B+"]
+          "ranks": ["C", "B+"]
         },
         {
           "name": "Catherine",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         }
       ]
     },
@@ -326,15 +326,15 @@
       "support": [
         {
           "name": "Byleth(M)",
-          "ranks": ["C", "B", "B+", "A"]
+          "ranks": ["C", "B+", "A"]
         },
         {
           "name": "Byleth(F)",
-          "ranks": ["C", "B", "B+", "A", "S"]
+          "ranks": ["C", "B+", "A", "S"]
         },
         {
           "name": "Petra",
-          "ranks": ["C", "C+", "B", "A"]
+          "ranks": ["C+", "B", "A"]
         },
         {
           "name": "Annette",
@@ -342,7 +342,7 @@
         },
         {
           "name": "Ingrid",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Lorenz",
@@ -374,11 +374,11 @@
         },
         {
           "name": "Flayn",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Shamir",
-          "ranks": ["C", "C+", "B", "A"]
+          "ranks": ["C+", "B", "A"]
         },
         {
           "name": "Cyril",
@@ -412,7 +412,7 @@
         },
         {
           "name": "Ferdinand",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Linhardt",
@@ -424,7 +424,7 @@
         },
         {
           "name": "Bernadetta",
-          "ranks": ["C", "C+", "B", "A"]
+          "ranks": ["C+", "B", "A"]
         },
         {
           "name": "Dorothea",
@@ -470,7 +470,7 @@
         },
         {
           "name": "Hubert",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Linhardt",
@@ -494,7 +494,7 @@
         },
         {
           "name": "Mercedes",
-          "ranks": ["C", "B", "B+", "A"]
+          "ranks": ["C", "B+", "A"]
         },
         {
           "name": "Lorenz",
@@ -502,11 +502,11 @@
         },
         {
           "name": "Marianne",
-          "ranks": ["C", "C+", "B", "A"]
+          "ranks": ["C+", "B", "A"]
         },
         {
           "name": "Hilda",
-          "ranks": ["C", "C+", "B", "A"]
+          "ranks": ["C+", "B", "A"]
         },
         {
           "name": "Flayn",
@@ -540,7 +540,7 @@
         },
         {
           "name": "Edelgard",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Hubert",
@@ -560,11 +560,11 @@
         },
         {
           "name": "Dorothea",
-          "ranks": ["C", "B", "B+", "A"]
+          "ranks": ["C", "B+", "A"]
         },
         {
           "name": "Petra",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Annette",
@@ -588,7 +588,7 @@
         },
         {
           "name": "Catherine",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         }
       ]
     },
@@ -654,15 +654,15 @@
         },
         {
           "name": "Hilda",
-          "ranks": ["C", "B", "B+", "A"]
+          "ranks": ["C", "B+", "A"]
         },
         {
           "name": "Catherine",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Shamir",
-          "ranks": ["C", "B", "B+", "A"]
+          "ranks": ["C", "B+", "A"]
         }
       ]
     },
@@ -692,7 +692,7 @@
         },
         {
           "name": "Hubert",
-          "ranks": ["C", "C+", "B", "A"]
+          "ranks": ["C+", "B", "A"]
         },
         {
           "name": "Ferdinand",
@@ -716,7 +716,7 @@
         },
         {
           "name": "Felix",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Sylvain",
@@ -728,7 +728,7 @@
         },
         {
           "name": "Raphael",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Leonie",
@@ -736,7 +736,7 @@
         },
         {
           "name": "Seteth",
-          "ranks": ["C", "C+", "B", "A"]
+          "ranks": ["C+", "B", "A"]
         },
         {
           "name": "Alois",
@@ -778,7 +778,7 @@
         },
         {
           "name": "Linhardt",
-          "ranks": ["C", "B", "B+", "A"]
+          "ranks": ["C", "B+", "A"]
         },
         {
           "name": "Caspar",
@@ -794,7 +794,7 @@
         },
         {
           "name": "Felix",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Sylvain",
@@ -844,7 +844,7 @@
         },
         {
           "name": "Claude",
-          "ranks": ["C", "C+", "B", "A"]
+          "ranks": ["C+", "B", "A"]
         },
         {
           "name": "Hubert",
@@ -856,7 +856,7 @@
         },
         {
           "name": "Linhardt",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Caspar",
@@ -872,7 +872,7 @@
         },
         {
           "name": "Ashe",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Ignatz",
@@ -934,7 +934,7 @@
         },
         {
           "name": "Annette",
-          "ranks": ["C", "B", "B+", "A"]
+          "ranks": ["C", "B+", "A"]
         },
         {
           "name": "Ingrid",
@@ -980,11 +980,11 @@
         },
         {
           "name": "Bernadetta",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Dorothea",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Dedue",
@@ -996,7 +996,7 @@
         },
         {
           "name": "Sylvain",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Mercedes",
@@ -1004,7 +1004,7 @@
         },
         {
           "name": "Annette",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Ingrid",
@@ -1058,7 +1058,7 @@
         },
         {
           "name": "Petra",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Dedue",
@@ -1078,7 +1078,7 @@
         },
         {
           "name": "Annette",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Ingrid",
@@ -1140,7 +1140,7 @@
         },
         {
           "name": "Felix",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Ashe",
@@ -1156,7 +1156,7 @@
         },
         {
           "name": "Ingrid",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Lorenz",
@@ -1210,11 +1210,11 @@
         },
         {
           "name": "Dimitri",
-          "ranks": ["C", "B", "B+", "A"]
+          "ranks": ["C", "B+", "A"]
         },
         {
           "name": "Ferdinand",
-          "ranks": ["C", "B", "B+", "A"]
+          "ranks": ["C", "B+", "A"]
         },
         {
           "name": "Dedue",
@@ -1284,7 +1284,7 @@
         },
         {
           "name": "Dimitri",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Claude",
@@ -1300,15 +1300,15 @@
         },
         {
           "name": "Dedue",
-          "ranks": ["C", "B", "B+", "A"]
+          "ranks": ["C", "B+", "A"]
         },
         {
           "name": "Felix",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Ashe",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Sylvain",
@@ -1332,11 +1332,11 @@
         },
         {
           "name": "Hanneman",
-          "ranks": ["C", "B", "B+", "A"]
+          "ranks": ["C", "B+", "A"]
         },
         {
           "name": "Gilbert",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         }
       ]
     },
@@ -1362,11 +1362,11 @@
         },
         {
           "name": "Dimitri",
-          "ranks": ["C", "B", "B+", "A"]
+          "ranks": ["C", "B+", "A"]
         },
         {
           "name": "Claude",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Bernadetta",
@@ -1390,7 +1390,7 @@
         },
         {
           "name": "Sylvain",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Mercedes",
@@ -1406,11 +1406,11 @@
         },
         {
           "name": "Ignatz",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Seteth",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Catherine",
@@ -1468,19 +1468,19 @@
         },
         {
           "name": "Lysithea",
-          "ranks": ["C", "B", "B+", "A"]
+          "ranks": ["C", "B+", "A"]
         },
         {
           "name": "Marianne",
-          "ranks": ["C", "C+", "B", "A"]
+          "ranks": ["C+", "B", "A"]
         },
         {
           "name": "Hilda",
-          "ranks": ["C", "C+", "B", "A"]
+          "ranks": ["C+", "B", "A"]
         },
         {
           "name": "Leonie",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Manuela",
@@ -1526,7 +1526,7 @@
         },
         {
           "name": "Bernadetta",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Ingrid",
@@ -1562,7 +1562,7 @@
         },
         {
           "name": "Shamir",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         }
       ]
     },
@@ -1600,7 +1600,7 @@
         },
         {
           "name": "Ingrid",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Lorenz",
@@ -1624,7 +1624,7 @@
         },
         {
           "name": "Leonie",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Flayn",
@@ -1686,7 +1686,7 @@
         },
         {
           "name": "Lorenz",
-          "ranks": ["C", "B", "B+", "A"]
+          "ranks": ["C", "B+", "A"]
         },
         {
           "name": "Raphael",
@@ -1718,7 +1718,7 @@
         },
         {
           "name": "Cyril",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         }
       ]
     },
@@ -1748,7 +1748,7 @@
         },
         {
           "name": "Ferdinand",
-          "ranks": ["C", "C+", "B", "A"]
+          "ranks": ["C+", "B", "A"]
         },
         {
           "name": "Linhardt",
@@ -1764,7 +1764,7 @@
         },
         {
           "name": "Lorenz",
-          "ranks": ["C", "C+", "B", "A"]
+          "ranks": ["C+", "B", "A"]
         },
         {
           "name": "Raphael",
@@ -1818,11 +1818,11 @@
         },
         {
           "name": "Ferdinand",
-          "ranks": ["C", "C+", "B", "A"]
+          "ranks": ["C+", "B", "A"]
         },
         {
           "name": "Caspar",
-          "ranks": ["C", "B", "B+", "A"]
+          "ranks": ["C", "B+", "A"]
         },
         {
           "name": "Sylvian",
@@ -1838,7 +1838,7 @@
         },
         {
           "name": "Lorenz",
-          "ranks": ["C", "C+", "B", "A"]
+          "ranks": ["C+", "B", "A"]
         },
         {
           "name": "Raphael",
@@ -1862,7 +1862,7 @@
         },
         {
           "name": "Seteth",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Cyril",
@@ -1908,7 +1908,7 @@
         },
         {
           "name": "Lorenz",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Raphael",
@@ -1916,7 +1916,7 @@
         },
         {
           "name": "Ignatz",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Lysithea",
@@ -1970,7 +1970,7 @@
         },
         {
           "name": "Bernadetta",
-          "ranks": ["C", "C+", "B", "A"]
+          "ranks": ["C+", "B", "A"]
         },
         {
           "name": "Felix",
@@ -1978,11 +1978,11 @@
         },
         {
           "name": "Ingrid",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Hilda",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Leonie",
@@ -1998,7 +1998,7 @@
         },
         {
           "name": "Manuela",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Catherine",
@@ -2032,11 +2032,11 @@
         },
         {
           "name": "Dimitri",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Claude",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Ferdinand",
@@ -2114,7 +2114,7 @@
         },
         {
           "name": "Annette",
-          "ranks": ["C", "B", "B+", "A"]
+          "ranks": ["C", "B+", "A"]
         },
         {
           "name": "Lysithea",
@@ -2184,7 +2184,7 @@
         },
         {
           "name": "Seteth",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Flayn",
@@ -2242,7 +2242,7 @@
         },
         {
           "name": "Annette",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Hanneman",
@@ -2284,7 +2284,7 @@
         },
         {
           "name": "Dimitri",
-          "ranks": ["C", "B", "B+"]
+          "ranks": ["C", "B+"]
         },
         {
           "name": "Bernadetta",
@@ -2346,15 +2346,15 @@
         },
         {
           "name": "Dimitri",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Linhardt",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Caspar",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Ashe",
@@ -2382,7 +2382,7 @@
         },
         {
           "name": "Shamir",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         }
       ]
     },
@@ -2408,7 +2408,7 @@
         },
         {
           "name": "Claude",
-          "ranks": ["C", "C+", "B", "A"]
+          "ranks": ["C+", "B", "A"]
         },
         {
           "name": "Hubert",
@@ -2416,7 +2416,7 @@
         },
         {
           "name": "Caspar",
-          "ranks": ["C", "B", "B+", "A"]
+          "ranks": ["C", "B+", "A"]
         },
         {
           "name": "Petra",
@@ -2428,7 +2428,7 @@
         },
         {
           "name": "Raphael",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Ignatz",
@@ -2444,7 +2444,7 @@
         },
         {
           "name": "Catherine",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Cyril",
@@ -2494,7 +2494,7 @@
         },
         {
           "name": "Lysithea",
-          "ranks": ["C", "B", "A", "A+"]
+          "ranks": ["C", "B", "A+"]
         },
         {
           "name": "Hilda",
