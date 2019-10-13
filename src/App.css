@@ -24,9 +24,13 @@
 }
 
 .support_icon {
+  font-size: 7px;
   width: 25%;
-  height:50%;
-  align-items:
+  vertical-align: top;
+}
+
+.support_rank_button {
+  width: 100%;
 }
 
 #Sb_Avatar_Row {

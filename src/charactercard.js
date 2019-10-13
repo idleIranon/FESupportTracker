@@ -1,8 +1,9 @@
 import React from 'react';
 
-import { Card, Button, Row, Icon } from 'antd';
+import { Card, Button, Row, Col, Icon } from 'antd';
 
 const { Meta } = Card;
+const ButtonGroup = Button.Group;
 
 class CharCard extends React.Component {
 
@@ -16,18 +17,24 @@ class CharCard extends React.Component {
     };
   }
 
-  renderButton(rank) {
+  renderButton(rank, length) {
+    var span_length = 24/length;
     if (rank.charAt(rank.length-1) === "+") {
       console.log("Thats a plus");
       return (
-        <Button>
-          {rank[0]}
-          <Icon type="right" className="support_icon"/>
-          <Icon type="right" className="support_icon"/></Button>
+        <Col span={span_length}>
+          <Button className="support_rank_button">
+            {rank[0]}
+            <Icon type="right" className="support_icon"/>
+            <Icon type="right" className="support_icon"/>
+          </Button>
+        </Col>
       )
     }
     return (
-      <Button> {rank} </Button>
+        <Col span={span_length}>
+          <Button className="support_rank_button"> {rank} </Button>
+        </Col>
     )
   }
 
@@ -35,12 +42,12 @@ class CharCard extends React.Component {
   renderButtons(ranks) {
     let buttons = [];
     for (var i = 0; i < ranks.length; i++) {
-      buttons.push(this.renderButton(ranks[i]));
+      buttons.push(this.renderButton(ranks[i], ranks.length));
     }
     return (
-      <div>
-        {buttons}
-      </div>
+        <div>
+          {buttons}
+        </div>
     )
   }
 
@@ -59,7 +66,7 @@ class CharCard extends React.Component {
         <Meta
           title={this.props.character.name}
         />
-        <Row>{this.renderButtons(this.props.character.ranks)}</Row>
+        <Row type="flex" width="100%" justify="center" align="center">{this.renderButtons(this.props.character.ranks)}</Row>
       </Card>
     );
   }
