@@ -28,7 +28,7 @@ class TeaTable extends React.Component {
         dataSource={favTea}
         columns={tableColumns}
         pagination={false}
-        scroll={{ y: 850 }}
+        scroll={{ y: "95vh" }}
         size='small'
       />
     );

@@ -108,7 +108,7 @@ class LostItemTable extends React.Component {
         dataSource={lostItems}
         columns={tableColumns}
         pagination={false}
-        scroll={{ y: 850 }}
+        scroll={{ y: "95vh" }}
         size='small'
       />
     );

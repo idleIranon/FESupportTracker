@@ -61,7 +61,7 @@ class RecruitmentTable extends React.Component {
        rowSelection={rowSelection}
        columns={tableColumns}
        pagination={false}
-       scroll={{ y: 850 }}
+       scroll={{ y: "95vh" }}
        size='small'
      />
     );
