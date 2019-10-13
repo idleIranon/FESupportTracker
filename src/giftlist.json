@@ -2,7 +2,7 @@
   "giftList": [
     {
       "character": "Dimitri",
-      "gifts": ["Whetstone, Training Weight"]
+      "gifts": ["Whetstone", "Training Weight"]
     },
     {
       "character": "Dedue",
@@ -10,15 +10,15 @@
     },
     {
       "character": "Felix",
-      "gifts": ["Ceremonial Sword, Hunting Dagger"]
+      "gifts": ["Ceremonial Sword", "Hunting Dagger"]
     },
     {
       "character": "Sylvain",
-      "gifts": ["Dapper Handkerchief, Board Game"]
+      "gifts": ["Dapper Handkerchief", "Board Game"]
     },
     {
       "character": "Ashe",
-      "gifts": ["Exotic Spices, Legends of Chivlary, Violet"]
+      "gifts": ["Exotic Spices", "Legends of Chivlary", "Violet"]
     },
     {
       "character": "Annette",
@@ -26,35 +26,35 @@
     },
     {
       "character": "Ingrid",
-      "gifts": ["Legends of Chivalry, Riding Boots"]
+      "gifts": ["Legends of Chivalry", "Riding Boots"]
     },
     {
       "character": "Mercedes",
-      "gifts": ["Armored Bear Stuffy, Goddess Statuette"]
+      "gifts": ["Armored Bear Stuffy", "Goddess Statuette"]
     },
     {
       "character": "Edelgard",
-      "gifts": ["Armored Bear Stuffy, Monarch Studies Book"]
+      "gifts": ["Armored Bear Stuffy", "Monarch Studies Book"]
     },
     {
       "character": "Hubert",
-      "gifts": ["Coffe Beans, Board Game"]
+      "gifts": ["Coffe Beans", "Board Game"]
     },
     {
       "character": "Caspar",
-      "gifts": ["Smoked Meat, Whetstone"]
+      "gifts": ["Smoked Meat", "Whetstone"]
     },
     {
       "character": "Ferdinand",
-      "gifts": ["Tea Leaves, Riding Boots"]
+      "gifts": ["Tea Leaves", "Riding Boots"]
     },
     {
       "character": "Linhardt",
-      "gifts": ["Fishing Float, Tasty Baked Treat"]
+      "gifts": ["Fishing Float", "Tasty Baked Treat"]
     },
     {
       "character": "Bernadetta",
-      "gifts": ["Armored Bear Stuffy, Pitcher Plant, Watering Can, Dapper Handkerchief, Landscape Painting"]
+      "gifts": ["Armored Bear Stuffy", "Pitcher Plant", "Watering Can", "Dapper Handkerchief", "Landscape Painting"]
     },
     {
       "character": "Dorothea",
@@ -62,7 +62,7 @@
     },
     {
       "character": "Petra",
-      "gifts": ["Smoked Meat, Hunting Dagger"]
+      "gifts": ["Smoked Meat", "Hunting Dagger"]
     },
     {
       "character": "Claude",
@@ -70,31 +70,31 @@
     },
     {
       "character": "Hilda",
-      "gifts": ["Anemone, Armored Bear Stuffy"]
+      "gifts": ["Anemone", "Armored Bear Stuffy"]
     },
     {
       "character": "Ignatz",
-      "gifts": ["Landscape Painting, Goddess Statuette, Ancient Coin, Forget-me-nots"]
+      "gifts": ["Landscape Painting", "Goddess Statuette", "Ancient Coin", "Forget-me-nots"]
     },
     {
       "character": "Lorenz",
-      "gifts": ["Rose, Floral Adornment"]
+      "gifts": ["Rose", "Floral Adornment"]
     },
     {
       "character": "Raphael",
-      "gifts": ["Smoked Meat, Tasty Baked Treat"]
+      "gifts": ["Smoked Meat", "Tasty Baked Treat"]
     },
     {
       "character": "Leonie",
-      "gifts": ["Fishing Float, Training Weight"]
+      "gifts": ["Fishing Float", "Training Weight"]
     },
     {
       "character": "Marianne",
-      "gifts": ["Armored Bear Stuffy, Floral Adornment"]
+      "gifts": ["Armored Bear Stuffy", "Floral Adornment"]
     },
     {
       "character": "Lysithea",
-      "gifts": ["Armored Bear Stuffy, Lily, Tasty Baked Treat"]
+      "gifts": ["Armored Bear Stuffy", "Lily, Tasty Baked Treat"]
     },
     {
       "character": "Hanneman",
@@ -110,27 +110,27 @@
     },
     {
       "character": "Shamir",
-      "gifts": ["Coffee Beans, Sunflower"]
+      "gifts": ["Coffee Beans", "Sunflower"]
     },
     {
       "character": "Catherine",
-      "gifts": ["Whetstone, Legends of Chivlary"]
+      "gifts": ["Whetstone", "Legends of Chivlary"]
     },
     {
       "character": "Cyril",
-      "gifts": ["Smoked Meat, Watering Can"]
+      "gifts": ["Smoked Meat", "Watering Can"]
     },
     {
       "character": "Alois",
-      "gifts": ["Floral Adornment, Fishing Float, Ancient Coin, Sunflower"]
+      "gifts": ["Floral Adornment", "Fishing Float", "Ancient Coin", "Sunflower"]
     },
     {
       "character": "Seteth",
-      "gifts": ["Fishing Float, Dapper Handkerchief"]
+      "gifts": ["Fishing Float", "Dapper Handkerchief"]
     },
     {
       "character": "Gilbert",
-      "gifts": ["Goddess Statuette, Ceremonial Sword"]
+      "gifts": ["Goddess Statuette", "Ceremonial Sword"]
     }
   ]
 }
