@@ -22,7 +22,6 @@ class Sidebar extends React.Component {
 
   changeHouses = houseLogo => e => {
     this.setState({ selectedHouseIcon: `./${houseLogo}logo.png`});
-    console.log(this.selectedHouseIcon);
   }
 
 
@@ -92,9 +91,9 @@ class Sidebar extends React.Component {
         <Menu  mode="vertical">
           <Menu.Item key="8">
             <ButtonGroup id="Sb_House_Buttons">
-              <Button key="be" onClick={this.changeHouses("be")}>BE</Button>
-              <Button key="bl" onClick={this.changeHouses("bl")}>BL</Button>
-              <Button key="gd" onClick={this.changeHouses("gd")}>GD</Button>
+              <Button className="white" style={{background: '#b02939'}} onClick={this.changeHouses("be")}>BE</Button>
+              <Button className="white" style={{background: '#434c97'}} onClick={this.changeHouses("bl")}>BL</Button>
+              <Button className="white" style={{background: '#c9a941'}} onClick={this.changeHouses("gd")}>GD</Button>
             </ButtonGroup>
           </Menu.Item>
         </Menu>

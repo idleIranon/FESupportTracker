@@ -9,6 +9,7 @@
   width: 200px;
   background-color: white;
   text-align: justify;
+  position: fixed;
 }
 
 .Sb_Top {
@@ -16,6 +17,10 @@
   flex-direction: column;
   height: 90%;
   justify-content: space-between;
+}
+
+.white {
+  color:white;
 }
 
 #Sb_Avatar_Row {
