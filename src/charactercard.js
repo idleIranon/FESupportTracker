@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Card, Button, Row } from 'antd';
+import { Card, Button, Row, Icon } from 'antd';
 
 const { Meta } = Card;
 
@@ -17,6 +17,12 @@ class CharCard extends React.Component {
   }
 
   renderButton(rank) {
+    if (rank.charAt(rank.length-1) === "+") {
+      console.log("Thats a plus");
+      return (
+        <Button> {rank[0]}<Icon type="right" /></Button>
+      )
+    }
     return (
       <Button> {rank} </Button>
     )
@@ -25,13 +31,9 @@ class CharCard extends React.Component {
 
   renderButtons(ranks) {
     let buttons = [];
-    console.log({ranks});
     for (var i = 0; i < ranks.length; i++) {
-      console.log(ranks[i]);
-
       buttons.push(this.renderButton(ranks[i]));
     }
-    console.log({buttons});
     return (
       <div>
         {buttons}
