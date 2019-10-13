@@ -1,11 +1,31 @@
 import React from 'react';
 import teas from './teatime.json';
 
-import { Table } from 'antd';
+import { Table, Avatar } from 'antd';
 
 const favTea = teas.teaTime;
 
+for(var i = 0; i < favTea.length; i++) {
+  console.log(favTea[i].preferredTea);
+  if(favTea[i].preferredTea ===Array){
+    console.log("Its an array woo");
+  }
+}
+
 const tableColumns = [
+  {
+    dataIndex: 'character',
+    key: 'charactericon',
+    width: '5%',
+    render: (text, row, index) => {
+      var charIcon = `/character_images/feth-${text.toLowerCase()}-portrait.jpg`;
+      return (
+          <Avatar src={charIcon} shape="square" size="large">
+            {text}
+          </Avatar>
+      );
+    }
+  },
   {
     title: 'Character',
     dataIndex: 'character',
@@ -17,7 +37,19 @@ const tableColumns = [
     title: 'Favorite tea',
     dataIndex: 'preferredTea',
     key: 'preferredTea',
-    width: '80%'
+    width: '80%',
+    render: (text) => {
+      if(typeof text === 'object') {
+        for(var i = 0; i < text.length-1; i++) {
+          text[i] = text[i].concat(", ");
+        }
+      }
+      return (
+        <div>
+            {text}
+        </div>
+      );
+    }
   }
 ]
 
