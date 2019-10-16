@@ -5,6 +5,15 @@ import { Table } from 'antd';
 
 const giftList = gifts.giftList;
 
+for(var i = 0; i < giftList.length; i++) {
+  if(typeof giftList[i].gifts === 'object'){
+    var thisGift = giftList[i].gifts;
+    for(var j = 0; j < thisGift.length-1; j++) {
+      thisGift[j] = thisGift[j].concat(", ");
+    }
+  }
+}
+
 const tableColumns = [
   {
     title: 'Character',
