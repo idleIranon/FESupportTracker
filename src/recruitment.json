@@ -109,25 +109,32 @@
       "house": "be"
     },
     {
-      "character": "Alois"
+      "character": "Alois",
+      "house": ""
     },
     {
-      "character": "Catherine"
+      "character": "Catherine",
+      "house": ""
     },
     {
-      "character": "Cyril"
+      "character": "Cyril",
+      "house": ""
     },
     {
-      "character": "Hanneman"
+      "character": "Hanneman",
+      "house": ""
     },
     {
-      "character": "Manuela"
+      "character": "Manuela",
+      "house": ""
     },
     {
-      "character": "Seteth"
+      "character": "Seteth",
+      "house": ""
     },
     {
-      "character": "Shamir"
+      "character": "Shamir",
+      "house": ""
     }
   ]
 }

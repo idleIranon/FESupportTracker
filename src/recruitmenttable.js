@@ -44,6 +44,12 @@ const tableColumns = [
     dataIndex: 'house',
     key: 'house',
     width: '10%',
+    filters: [
+      {text: `Black Eagle`, value: "be"},
+      {text: `Blue Lion`, value: "bl"},
+      {text: `Golden Deer`, value: "gd"}
+    ],
+    onFilter: (value, record) => record.house.indexOf(value) === 0,
     render: (text, row, index) => {
       var houseIcon = `./${text}logo.png`;
       if (text != null)
@@ -52,7 +58,7 @@ const tableColumns = [
             {text}
           </Avatar>
         );
-      }
+      },
   }
 ]
 
