@@ -6,21 +6,23 @@ import chars from './characters.json';
 import { Row, Col } from 'antd';
 
 
-for (var i = 0; i < chars.characters.length; i++){
-  // look for the entry with a matching `code` value
-  if (chars.characters[i].name === "byleth-male"){
-    var charinjson = chars.characters[i];
-    console.log({charinjson});
-     // we found it
-  }
-}
+
 
 class CharGrid extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedChar: "byleth-female"
+      selectedChar: "byleth-female",
+      charName: "byleth"
     };
+  }
+
+  findSupports(selectedChar) {
+    for (var i = 0; i < chars.characters.length; i++) {
+      if (chars.characters[i].name === "byleth-male"){
+        return chars.characters[i];
+      }
+    }
   }
 
   renderCard(character) {
@@ -32,7 +34,7 @@ class CharGrid extends React.Component {
     );
   }
 
-  renderRows(numSupports) {
+  renderRows(numSupports, char) {
     //Fundtion to calc how many rows will be needed
     var cardsPerRow = 6;
     let numRows = Math.ceil(numSupports/cardsPerRow);
@@ -43,10 +45,9 @@ class CharGrid extends React.Component {
       //Generate the cards and add them to an array
       let cards = [];
       for (var j = 0; j < cardsPerRow; j++) {
-        if(typeof charinjson.support[charIndex] === 'undefined') {}
+        if(typeof char.support[charIndex] === 'undefined') {}
         else {
-          console.log(charinjson.support[charIndex]);
-          cards.push(this.renderCard(charinjson.support[charIndex]));
+          cards.push(this.renderCard(char.support[charIndex]));
         }
         charIndex++;
       }
@@ -62,16 +63,15 @@ class CharGrid extends React.Component {
   }
 
   render() {
-    var supportRows = charinjson.support.length;
-    console.log(supportRows);
+    var charinjson;
 
     return (
       <div className="grid">
         <div className="char_header">
-          <CharHeader />
+          <CharHeader  char={this.state.selectedChar} charname={this.state.charName} />
         </div>
         <div className="support_rows">
-          {this.renderRows(supportRows)}
+          {this.renderRows(this.findSupports(this.selectedChar).support.length, this.findSupports(this.selectedChar))}
         </div>
       </div>
     );

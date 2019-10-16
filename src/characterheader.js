@@ -6,15 +6,11 @@ import { Row, Col } from 'antd';
 class CharHeader extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      selectedChar: "byleth-female",
-      charName: "byleth"
-    };
   }
 
 
   render() {
-
+    console.log(this);
     return (
       <div className="char_header">
         <Row type="flex" align="center">
@@ -22,13 +18,13 @@ class CharHeader extends React.Component {
             <img
               alt="Test"
               height="100vh"
-              src={`/character_images/feth-${this.state.selectedChar.toLowerCase()}-portrait.jpg`}
+              src={`/character_images/feth-${this.props.char.toLowerCase()}-portrait.jpg`}
             />
           </Col>
         </Row>
         <Row type="flex" align="center">
           <Col span={24}  style={{'padding-right': '16%'}}>
-            {this.state.charName}
+            {this.props.charname}
           </Col>
         </Row>
       </div>
