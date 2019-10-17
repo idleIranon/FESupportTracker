@@ -4,7 +4,6 @@ import { Card, Button, Row, Col, Icon } from 'antd';
 const { Meta } = Card;
 
 class CharCard extends React.Component {
-
   constructor(props) {
     super(props);
     this.state = {
@@ -42,19 +41,14 @@ class CharCard extends React.Component {
     for (var i = 0; i < ranks.length; i++) {
       buttons.push(this.renderButton(ranks[i], ranks.length));
     }
-    return (
-        <div>
-          {buttons}
-        </div>
-    )
+    return ( <div> {buttons} </div>)
   }
 
 
   render() {
     return (
       <Card
-        cover=
-        {
+        cover= {
           <img
             alt={this.state.coverName}
             src={`/character_images/feth-${this.props.charName.toLowerCase()}-portrait.jpg`}

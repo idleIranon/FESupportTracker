@@ -1,7 +1,7 @@
 import React from 'react';
 import gifts from './giftlist.json';
 
-import { Table } from 'antd';
+import { Table, Avatar } from 'antd';
 
 const giftList = gifts.giftList;
 
@@ -15,6 +15,19 @@ for(var i = 0; i < giftList.length; i++) {
 }
 
 const tableColumns = [
+  {
+    dataIndex: 'character',
+    key: 'charactericon',
+    width: '5%',
+    render: (text, row, index) => {
+      var charIcon = `/character_images/feth-${text.toLowerCase()}-portrait.jpg`;
+      return (
+          <Avatar src={charIcon} shape="square" size="large">
+            {text}
+          </Avatar>
+      );
+    }
+  },
   {
     title: 'Character',
     dataIndex: 'character',

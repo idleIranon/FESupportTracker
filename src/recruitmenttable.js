@@ -45,8 +45,8 @@ const tableColumns = [
     key: 'house',
     width: '10%',
     filters: [
-      {text: `Black Eagle`, value: "be"},
-      {text: `Blue Lion`, value: "bl"},
+      {text: `Black Eagles`, value: "be"},
+      {text: `Blue Lions`, value: "bl"},
       {text: `Golden Deer`, value: "gd"}
     ],
     onFilter: (value, record) => record.house.indexOf(value) === 0,

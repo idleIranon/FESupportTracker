@@ -6,6 +6,7 @@
   background: #c9a941;
 }
 
+
 .Sidebar {
   height: 100vh;
   width: 200px;
@@ -19,6 +20,26 @@
   flex-direction: column;
   height: 90%;
   justify-content: space-between;
+}
+
+#Sb_Avatar_Row {
+  align-content: center;
+  height: auto;
+}
+
+#Sb_Avatar_Icon {
+  margin: 0 auto;
+  height: 50%;
+  width: 50%;
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+#Sb_House_Buttons {
+  width: 100%;
+  padding-right: 6%;
+  padding-left: 5%;
 }
 
 .char_header {
@@ -54,26 +75,6 @@
 
 .support_rank_button {
   width: 100%;
-}
-
-#Sb_Avatar_Row {
-  align-content: center;
-  height: auto;
-}
-
-#Sb_Avatar_Icon {
-  margin: 0 auto;
-  height: 50%;
-  width: 50%;
-  display: block;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-
-#Sb_House_Buttons {
-  width: 100%;
-  padding-right: 6%;
-  padding-left: 5%;
 }
 
 .Row {

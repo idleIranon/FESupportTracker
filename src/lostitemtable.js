@@ -7,14 +7,6 @@ const lostItems = items.items;
 
 const tableColumns = [
   {
-    title: 'Name',
-    dataIndex: 'name',
-    key: 'name',
-    align: 'left',
-    width: '30%',
-    sorter: (a, b) => { return a.name.localeCompare(b.name)}
-  },
-  {
     title: 'Character',
     dataIndex: 'character',
     key: 'character',
@@ -58,6 +50,14 @@ const tableColumns = [
       {text: "Sylvain", value: "Sylvain"}
     ],
     onFilter: (value, record) => record.character.indexOf(value) === 0,
+  },
+  {
+    title: 'Name',
+    dataIndex: 'name',
+    key: 'name',
+    align: 'left',
+    width: '30%',
+    sorter: (a, b) => { return a.name.localeCompare(b.name)}
   },
   {
     title: 'Chapter',
