@@ -63,8 +63,6 @@ class CharGrid extends React.Component {
   }
 
   render() {
-    var charinjson;
-
     return (
       <div className="grid">
         <div className="char_header">

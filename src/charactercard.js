@@ -1,9 +1,7 @@
 import React from 'react';
 
 import { Card, Button, Row, Col, Icon } from 'antd';
-
 const { Meta } = Card;
-const ButtonGroup = Button.Group;
 
 class CharCard extends React.Component {
 

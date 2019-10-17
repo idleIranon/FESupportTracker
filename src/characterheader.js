@@ -4,13 +4,8 @@ import { Row, Col } from 'antd';
 
 
 class CharHeader extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
 
   render() {
-    console.log(this);
     return (
       <div className="char_header">
         <Row type="flex" align="center">
