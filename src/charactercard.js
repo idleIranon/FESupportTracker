@@ -10,14 +10,14 @@ class CharCard extends React.Component {
       coverName: "Test",
       charName: "Byleth-Female",
       description: "Test",
-      supports: []
+      supports: [],
+      highestSupport: "C"
     };
   }
 
   renderButton(rank, length) {
     var span_length = 24/length;
     if (rank.charAt(rank.length-1) === "+") {
-      console.log("Thats a plus");
       return (
         <Col span={span_length}>
           <Button className="support_rank_button">
@@ -58,7 +58,7 @@ class CharCard extends React.Component {
         <Meta
           title={this.props.character.name}
         />
-        <Row type="flex" width="100%" justify="center" align="center">{this.renderButtons(this.props.character.ranks)}</Row>
+        <Row type="flex" width="100%" justify="center" align="middle">{this.renderButtons(this.props.character.ranks)}</Row>
       </Card>
     );
   }

@@ -64,23 +64,31 @@ const tableColumns = [
 
 const rowSelection = {
   onChange: (selectedRowKeys, selectedRows) => {
+    localStorage.setItem('recruitment', selectedRowKeys);
+    console.log(localStorage);
     console.log(`selectedRowKeys: ${selectedRowKeys}`, 'selectedRows: ', selectedRows);
   },
-  onSelect: (record, selected, selectedRows) => {
-    console.log(record, selected, selectedRows);
-  },
-  onSelectAll: (selected, selectedRows, changeRows) => {
-    console.log(selected, selectedRows, changeRows);
-  },
+  getCheckboxProps: record => ({
+    name: record.character,
+  }),
 };
 
+
+
+
 class RecruitmentTable extends React.Component {
+
+  componentDidMount() {
+    localStorage.getItem('recruitment');
+  }
+
   render() {
     return (
       <div className="item_table">
         <Table
          dataSource={recruitmentInfo}
          rowSelection={rowSelection}
+         rowKey="character"
          columns={tableColumns}
          pagination={false}
          scroll={{ y: "95vh" }}

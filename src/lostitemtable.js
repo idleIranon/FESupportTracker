@@ -107,6 +107,7 @@ class LostItemTable extends React.Component {
       <div className="item_table">
   	    <Table
           dataSource={lostItems}
+          rowKey="name"
           columns={tableColumns}
           pagination={false}
           scroll={{ y: "95vh" }}

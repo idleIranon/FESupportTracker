@@ -50,6 +50,7 @@ class TeaTable extends React.Component {
       <div className="item_table">
         <Table
           dataSource={favTea}
+          rowKey="character"
           columns={tableColumns}
           pagination={false}
           scroll={{ y: "95vh" }}

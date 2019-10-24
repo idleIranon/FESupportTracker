@@ -8,8 +8,8 @@ class CharHeader extends React.Component {
   render() {
     return (
       <div className="char_header">
-        <Row type="flex" align="center">
-          <Col span={24} style={{'padding-right': '16%'}}>
+        <Row type="flex" align="middle">
+          <Col span={24}>
             <img
               alt="Test"
               height="100vh"
@@ -17,8 +17,8 @@ class CharHeader extends React.Component {
             />
           </Col>
         </Row>
-        <Row type="flex" align="center">
-          <Col span={24}  style={{'padding-right': '16%'}}>
+        <Row type="flex" align="middle">
+          <Col span={24}>
             {this.props.charname}
           </Col>
         </Row>
