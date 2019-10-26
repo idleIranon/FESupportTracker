@@ -11,7 +11,7 @@
       "character": "Claude",
       "chapter": "3",
       "location": "Reception Hall",
-      "exclusive": "GD"
+      "exclusive": "gd"
     },
     {
       "name": "Sketch of a Sigil",
@@ -36,7 +36,7 @@
       "character": "Edelgard",
       "chapter": "3",
       "location": "Black Eagle Classroom",
-      "exclusive": "BE"
+      "exclusive": "be"
     },
     {
       "name": "Wooden Flask",
@@ -85,7 +85,7 @@
       "character": "Hubert",
       "chapter": "4",
       "location": "Training Grounds",
-      "exclusive": "BE"
+      "exclusive": "be"
     },
     {
       "name": "Thunderbrand Replica",
@@ -98,7 +98,7 @@
       "character": "Hilda",
       "chapter": "4",
       "location": "Marketplace",
-      "exclusive": "GD"
+      "exclusive": "gd"
     },
     {
       "name": "Wellness Herbs",
@@ -177,7 +177,7 @@
       "character": "Dimitri",
       "chapter": "6",
       "location": "Training Grounds",
-      "exclusive": "BL"
+      "exclusive": "bl"
     },
     {
       "name": "Bundle of Herbs",
@@ -226,7 +226,7 @@
       "character": "Hilda",
       "chapter": "6",
       "location": "Golden Deer Classroom",
-      "exclusive": "GD"
+      "exclusive": "gd"
     },
     {
       "name": "Black Iron Spur",
@@ -251,7 +251,7 @@
       "character": "Hubert",
       "chapter": "7",
       "location": "Outside Knights’ Hall",
-      "exclusive": "BE"
+      "exclusive": "be"
     },
     {
       "name": "Letter to Rhea",
@@ -276,7 +276,7 @@
       "character": "Edelgard",
       "chapter": "7",
       "location": "Black Eagle Classroom",
-      "exclusive": "BE"
+      "exclusive": "be"
     },
     {
       "name": "A Treatise on Etiquette",
@@ -319,7 +319,7 @@
       "character": "Claude",
       "chapter": "8",
       "location": "Golden Deer Classroom",
-      "exclusive": "GD"
+      "exclusive": "gd"
     },
     {
       "name": "Old Map of Enbarr",
@@ -404,7 +404,7 @@
       "character": "Hubert",
       "chapter": "9",
       "location": "Training Grounds",
-      "exclusive": "BE"
+      "exclusive": "be"
     },
     {
       "name": "Lens Cloth",
@@ -447,7 +447,7 @@
       "character": "Claude",
       "chapter": "10",
       "location": "Entrance Hall next to Lysithea",
-      "exclusive": "GD"
+      "exclusive": "gd"
     },
     {
       "name": "Dusty Book of Fables",
@@ -460,7 +460,7 @@
       "character": "Edelgard",
       "chapter": "10",
       "location": "Black Eagle Classroom",
-      "exclusive": "BE"
+      "exclusive": "be"
     },
     {
       "name": "Fur Scarf",
@@ -473,7 +473,7 @@
       "character": "Hilda",
       "chapter": "10",
       "location": "Golden Deer Classroom",
-      "exclusive": "GD"
+      "exclusive": "gd"
     },
     {
       "name": "Introduction to Magic",
@@ -486,7 +486,7 @@
       "character": "Dedue",
       "chapter": "10",
       "location": "Knight's Hall",
-      "exclusive": "BL"
+      "exclusive": "bl"
     },
     {
       "name": "Letter to the Goddess",
@@ -535,7 +535,7 @@
       "character": "Dimitri",
       "chapter": "10",
       "location": "Knight's Hall",
-      "exclusive": "BL"
+      "exclusive": "bl"
     },
     {
       "name": "Unfinished Score",
