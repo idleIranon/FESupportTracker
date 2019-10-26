@@ -51,7 +51,7 @@ const tableColumns = [
     ],
     onFilter: (value, record) => record.house.indexOf(value) === 0,
     render: (text, row, index) => {
-      var houseIcon = `./${text}logo.png`;
+      var houseIcon = `./house_images/${text}logo.png`;
       if (text != null)
       return (
           <Avatar src={houseIcon} shape="square" size="medium">

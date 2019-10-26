@@ -90,7 +90,7 @@ const tableColumns = [
     key: 'exclusive',
     width: '10%',
     render: (text, row, index) => {
-      var houseIcon = `./${text}logo.png`;
+      var houseIcon = `./house_images/${text}logo.png`;
       if (text != null)
       return (
           <Avatar src={houseIcon} shape="square" size="medium">

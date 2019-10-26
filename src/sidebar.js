@@ -12,7 +12,7 @@ class Sidebar extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedHouseIcon: "./gdlogo.png",
+      selectedHouseIcon: "./house_images/gdlogo.png",
     };
   }
 
@@ -21,7 +21,7 @@ class Sidebar extends React.Component {
   };
 
   changeHouses = houseLogo => e => {
-    this.setState({ selectedHouseIcon: `./${houseLogo}logo.png`});
+    this.setState({ selectedHouseIcon: `./house_images/${houseLogo}logo.png`});
   }
 
 
