@@ -3,7 +3,7 @@
   "name": "A website designed to track support conversations in Fire Emblem Three Houses",
   "icons": [
     {
-      "src": "gdlogo.png",
+      "src": "/house_images/gdlogo.png",
       "sizes": "192x192",
       "type": "image/png"
     }

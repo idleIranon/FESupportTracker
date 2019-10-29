@@ -31,7 +31,7 @@ class Sidebar extends React.Component {
         <div className="Sb_Top">
         <Menu
           onClick={this.handleClick}
-          defaultSelectedKeys={['1']}
+          defaultSelectedKeys={['/']}
           mode="inline">
             <Menu.Item id="Sb_Avatar_Row">
               <Avatar
@@ -40,37 +40,37 @@ class Sidebar extends React.Component {
               src={this.state.selectedHouseIcon}> </Avatar>
             </Menu.Item>
 
-          <Menu.Item key="1">
+          <Menu.Item key="/">
             <Link to="/">
               Support
             </Link>
           </Menu.Item>
 
-          <Menu.Item key="2">
+          <Menu.Item key="/recruitment">
             <Link to="/recruitment">
               Recruitment
             </Link>
           </Menu.Item>
 
-          <Menu.Item key="3">
+          <Menu.Item key="/lostitems">
             <Link to="/lostitems">
               Lost Items
             </Link>
           </Menu.Item>
 
-          <Menu.Item key="4">
+          <Menu.Item key="/tea">
             <Link to="/tea">
               Tea
             </Link>
           </Menu.Item>
 
-          <Menu.Item key="5">
+          <Menu.Item key="/gifts">
             <Link to="/gifts">
               Gifts
             </Link>
           </Menu.Item>
 
-          <Menu.Item key="6">
+          <Menu.Item key="/git">
             <a
               href="https://github.com/idleIranon/FESupportTracker"
               target="_blank"
@@ -79,7 +79,7 @@ class Sidebar extends React.Component {
             </a>
           </Menu.Item>
 
-          <Menu.Item key="7">
+          <Menu.Item key="/about">
             <Link to="/about">
               About
             </Link>
@@ -88,7 +88,7 @@ class Sidebar extends React.Component {
         </div>
 
         <Menu  mode="vertical">
-          <Menu.Item key="8">
+          <Menu.Item key="/house">
             <ButtonGroup id="Sb_House_Buttons">
               <Button className="white" style={{background: '#b02939'}} onClick={this.changeHouses("be")}>BE</Button>
               <Button className="white" style={{background: '#434c97'}} onClick={this.changeHouses("bl")}>BL</Button>

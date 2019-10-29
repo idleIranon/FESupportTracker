@@ -22,7 +22,10 @@ function App() {
   return (
     <div className="App">
       <Layout>
-        <Sider>
+        <Sider
+          breakpoint="sm"
+          collapsedWidth="0"
+          theme="light">
           <Sidebar selectedCharName= {currentchar}/>
         </Sider>
 

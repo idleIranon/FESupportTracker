@@ -15,21 +15,21 @@ class CharCard extends React.Component {
     };
   }
 
-  renderButton(rank, length) {
+  renderButton(rank, length, counter) {
     var span_length = 24/length;
     if (rank.charAt(rank.length-1) === "+") {
       return (
-        <Col span={span_length}>
-          <Button className="support_rank_button">
+        <Col key={this.state.charName + counter} span={span_length}>
+          <Button className="support_rank_button" key="support_buttons">
             {rank[0]}
-            <Icon type="right" className="support_icon"/>
-            <Icon type="right" className="support_icon"/>
+            <Icon type="right" className="support_icon" key="plus"/>
+            <Icon type="right" className="support_icon" key="plusplus"/>
           </Button>
         </Col>
       )
     }
     return (
-        <Col span={span_length}>
+        <Col key={this.state.charName + "basic" +  counter} span={span_length}>
           <Button className="support_rank_button"> {rank} </Button>
         </Col>
     )
@@ -39,7 +39,7 @@ class CharCard extends React.Component {
   renderButtons(ranks) {
     let buttons = [];
     for (var i = 0; i < ranks.length; i++) {
-      buttons.push(this.renderButton(ranks[i], ranks.length));
+      buttons.push(this.renderButton(ranks[i], ranks.length, i));
     }
     return ( <div> {buttons} </div>)
   }

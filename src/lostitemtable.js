@@ -56,14 +56,14 @@ const tableColumns = [
     dataIndex: 'name',
     key: 'name',
     align: 'left',
-    width: '30%',
+    width: '25%',
     sorter: (a, b) => { return a.name.localeCompare(b.name)}
   },
   {
     title: 'Chapter',
     dataIndex: 'chapter',
     key: 'chapter',
-    width: '10%',
+    width: '15%',
     sorter: (a, b) => a.chapter - b.chapter,
     filters: [
       {text: "3", value: "3"},

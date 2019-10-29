@@ -16,6 +16,7 @@ class CharGrid extends React.Component {
       height: window.innerHeight
     };
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
+
   }
 
 //3 functions to handle watching screen size to adjust # num of cards per row
@@ -42,6 +43,15 @@ class CharGrid extends React.Component {
     }
   }
 
+  renderCard(character, span, number) {
+    return (
+      <Col key={character+"col" + number} span={24/span}>
+        <CharCard key={character+"_card" + number} character={character} charName={character.name}>
+        </CharCard>
+      </Col>
+    );
+  }
+
   renderRows(numSupports, char) {
     //Fundtion to calc how many rows will be needed
     var minCardWidth = 265;
@@ -56,23 +66,14 @@ class CharGrid extends React.Component {
       for (var j = 0; j < cardsPerRow; j++) {
         if(typeof char.support[charIndex] === 'undefined') {}
         else {
-          cards.push(this.renderCard(char.support[charIndex], cardsPerRow));
+          cards.push(this.renderCard(char.support[charIndex], cardsPerRow, charIndex));
         }
         charIndex++;
       }
       //Add the cards array between the rows
-      rows.push(<Row type="flex" gutter={16} className="Row">{cards}</Row>)
+      rows.push(<Row key={charIndex} type="flex" gutter={16} className="Row">{cards}</Row>)
     }
     return ( <div> {rows} </div> );
-  }
-
-  renderCard(character, span) {
-    return (
-      <Col span={24/span}>
-        <CharCard character={character} charName={character.name}>
-        </CharCard>
-      </Col>
-    );
   }
 
   render() {
