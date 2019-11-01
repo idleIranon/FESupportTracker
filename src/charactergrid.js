@@ -64,7 +64,12 @@ class CharGrid extends React.Component {
     //Fundtion to calc how many rows will be needed
     var minCardWidth = 265;
     var sidebar_width = 200;
-    var cardsPerRow = Math.round((this.state.width-sidebar_width)/minCardWidth);
+    var cardsPerRow;
+    if(this.state.width > 330) {
+      cardsPerRow = Math.round((this.state.width-sidebar_width)/minCardWidth);
+    } else {
+      cardsPerRow = 1;
+    }
     let numRows = Math.ceil(numSupports/cardsPerRow);
     var charIndex = 0;
     let rows = [];

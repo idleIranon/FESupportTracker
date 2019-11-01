@@ -27,7 +27,6 @@ class Sidebar extends React.Component {
   onCollapse = collapsed => {
     console.log(collapsed);
     this.setState({ collapsed });
-    this.style={display: 'none',}
   };
 
 
