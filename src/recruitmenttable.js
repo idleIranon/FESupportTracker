@@ -10,7 +10,7 @@ const tableColumns = [
   {
     dataIndex: 'character',
     key: 'charactericon',
-    width: '5%',
+    width: '10%',
     render: (text, row, index) => {
       var charIcon = `/character_images/feth-${text.toLowerCase()}-portrait.jpg`;
       return (
@@ -24,26 +24,26 @@ const tableColumns = [
     title: 'Character',
     dataIndex: 'character',
     key: 'character',
-    width: '15%',
+    width: '20%',
     sorter: (a, b) => { return a.character.localeCompare(b.character)}
   },
   {
     title: 'Skill',
     dataIndex: 'skill',
     key: 'skill',
-    width: '35%'
+    width: '25%'
   },
   {
     title: 'Stat',
     dataIndex: 'stat',
     key: 'stat',
-    width: '35%'
+    width: '25%'
   },
   {
     title: 'House',
     dataIndex: 'house',
     key: 'house',
-    width: '10%',
+    width: '20%',
     filters: [
       {text: `Black Eagles`, value: "be"},
       {text: `Blue Lions`, value: "bl"},

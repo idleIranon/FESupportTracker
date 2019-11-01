@@ -18,7 +18,7 @@ const tableColumns = [
   {
     dataIndex: 'character',
     key: 'charactericon',
-    width: '5%',
+    width: '10%',
     render: (text, row, index) => {
       var charIcon = `/character_images/feth-${text.toLowerCase()}-portrait.jpg`;
       return (
@@ -39,7 +39,7 @@ const tableColumns = [
     title: 'Favorite tea',
     dataIndex: 'preferredTea',
     key: 'preferredTea',
-    width: '80%',
+    width: '70%',
   }
 ]
 
