@@ -24,7 +24,7 @@ function App() {
       <Layout>
         <Sider
           breakpoint="sm"
-          collapsedWidth="0"
+          collapsedWidth="1"
           theme="light">
           <Sidebar selectedCharName= {currentchar}/>
         </Sider>

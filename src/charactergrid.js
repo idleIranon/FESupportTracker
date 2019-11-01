@@ -10,8 +10,8 @@ class CharGrid extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedChar: "byleth-female",
-      charName: "byleth",
+      selectedChar: "linhardt",
+      charName: "linhardt",
       width: window.innerWidth,
       height: window.innerHeight
     };
@@ -37,15 +37,25 @@ class CharGrid extends React.Component {
 //3 Functions to find char json info, create rows, and create cards per row
   findSupports(selectedChar) {
     for (var i = 0; i < chars.characters.length; i++) {
-      if (chars.characters[i].name === "byleth-male"){
+      if (chars.characters[i].name === "linhardt"){
         return chars.characters[i];
       }
     }
   }
 
   renderCard(character, span, number) {
+    console.log("Span " + span);
+    var span_length;
+    var span_temp = span;
+    if (24 % span_temp === 0)
+    {
+      span_length = 24/span;
+    } else {
+      console.log("Modulo worked" + span);
+      span_length = Math.floor(24/span);
+    }
     return (
-      <Col key={character+"col" + number} span={24/span}>
+      <Col key={character+"col" + number} span={span_length}>
         <CharCard key={character+"_card" + number} character={character} charName={character.name}>
         </CharCard>
       </Col>
@@ -71,7 +81,8 @@ class CharGrid extends React.Component {
         charIndex++;
       }
       //Add the cards array between the rows
-      rows.push(<Row key={charIndex} type="flex" gutter={16} className="Row">{cards}</Row>)
+      rows.push(<Row key={charIndex} type="flex" justify="space-around" gutter={16} className="Row">{cards}</Row>)
+
     }
     return ( <div> {rows} </div> );
   }
