@@ -12,6 +12,13 @@
   width: 200px;
   text-align: justify;
   position: fixed;
+  background: #FFF;
+}
+
+@media only screen and (max-width: 576px) {
+    .Sidebar {
+        display: none;
+    }
 }
 
 .Sb_Top {
@@ -28,8 +35,8 @@
 
 #Sb_Avatar_Icon {
   margin: 0 auto;
-  height: 50%;
-  width: 50%;
+  height: 30%;
+  width: 30%;
   display: block;
   padding-bottom: 10px;
   padding-top: 10px;

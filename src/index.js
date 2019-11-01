@@ -11,24 +11,15 @@ import LostItemTable from './lostitemtable.js';
 import './App.css';
 
 import { Route, BrowserRouter } from 'react-router-dom';
-
 import { Layout } from 'antd';
 
-var currentchar = "byleth";
 
 function App() {
-
-  const { Content, Sider } = Layout;
+  const { Content } = Layout;
   return (
     <div className="App">
       <Layout>
-        <Sider
-          breakpoint="sm"
-          collapsedWidth="1"
-          theme="light">
-          <Sidebar selectedCharName= {currentchar}/>
-        </Sider>
-
+        <Sidebar />
         <Layout>
           <Content>
             <Route
