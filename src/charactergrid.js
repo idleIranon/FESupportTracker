@@ -44,14 +44,12 @@ class CharGrid extends React.Component {
   }
 
   renderCard(character, span, number) {
-    console.log("Span " + span);
     var span_length;
     var span_temp = span;
     if (24 % span_temp === 0)
     {
       span_length = 24/span;
     } else {
-      console.log("Modulo worked" + span);
       span_length = Math.floor(24/span);
     }
     return (
