@@ -54,6 +54,14 @@
 
 .item_table {
   padding-left: 50px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+
+}
+
+.recruitment_table table {
+  width: auto;
+  min-width: 500px;
 }
 
 .support_rows {

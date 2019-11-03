@@ -53,7 +53,7 @@ class TeaTable extends React.Component {
           rowKey="character"
           columns={tableColumns}
           pagination={false}
-          scroll={{ y: "95vh" }}
+          scroll={{ y: "95vh"}}
           size='small'
         />
       </div>
