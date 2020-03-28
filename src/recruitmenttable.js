@@ -75,9 +75,7 @@ const rowSelection = {
 
 
 
-
 class RecruitmentTable extends React.Component {
-
   componentDidMount() {
     localStorage.getItem('recruitment');
   }

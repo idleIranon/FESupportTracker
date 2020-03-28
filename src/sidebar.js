@@ -82,15 +82,6 @@ class Sidebar extends React.Component {
               </Link>
             </Menu.Item>
 
-            <Menu.Item key="/git">
-              <a
-                href="https://github.com/idleIranon/FESupportTracker"
-                target="_blank"
-                rel="noopener noreferrer">
-                Source Code
-              </a>
-            </Menu.Item>
-
             <Menu.Item key="/about">
               <Link to="/about">
                 About

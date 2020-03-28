@@ -96,6 +96,14 @@
 
 }
 
+
+/**About us page**/
+.about_us_paragraph {
+  background: #fff;
+  padding: 24px;
+  min-height: 280px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
