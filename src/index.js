@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import Sidebar from './Sidebar.js';
 import LayoutContainer from './LayoutContainer.js';
-import { Provider } from 'react-redux'
+//import { Provider } from 'react-redux'
 //import { createStore } from 'redux'
 //import store from './redux/store.js'
 import './App.css';
