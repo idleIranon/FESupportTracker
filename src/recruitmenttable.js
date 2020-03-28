@@ -1,5 +1,5 @@
 import React from 'react';
-import recruitment from './recruitment.json';
+import recruitment from './json/recruitment.json';
 
 import { Table, Avatar } from 'antd';
 

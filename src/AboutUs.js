@@ -1,13 +1,13 @@
 import React from 'react';
 
-class AboutSection extends React.Component {
+class AboutUs extends React.Component {
   render() {
     return (
-      <div className="item_table">
+      <div className="about_us_paragraph">
         <p>Website developed 2019 by Renee McMillan-Tolley & Simon Rezazadeh</p>
       </div>
     );
   }
 }
 
-export default AboutSection;
+export default AboutUs;

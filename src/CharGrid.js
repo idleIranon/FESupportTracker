@@ -1,7 +1,7 @@
 import React from 'react';
-import CharCard from './charactercard.js';
-import CharHeader from './characterheader.js';
-import chars from './characters.json';
+import CharCard from './CharCard.js';
+import CharHeader from './CharHeader.js';
+import chars from './json/characters.json';
 
 import { Row, Col } from 'antd';
 
@@ -16,7 +16,6 @@ class CharGrid extends React.Component {
       height: window.innerHeight
     };
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
-
   }
 
 //3 functions to handle watching screen size to adjust # num of cards per row
@@ -32,7 +31,6 @@ class CharGrid extends React.Component {
   updateWindowDimensions() {
     this.setState({ width: window.innerWidth, height: window.innerHeight });
   }
-
 
 //3 Functions to find char json info, create rows, and create cards per row
   findSupports(selectedChar) {
@@ -84,7 +82,7 @@ class CharGrid extends React.Component {
         charIndex++;
       }
       //Add the cards array between the rows
-      rows.push(<Row key={charIndex} type="flex" justify="space-around" gutter={16} className="Row">{cards}</Row>)
+      rows.push(<Row key={charIndex} type="flex" justify="left" gutter={16} className="Row">{cards}</Row>)
 
     }
     return ( <div> {rows} </div> );

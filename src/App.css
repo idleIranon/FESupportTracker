@@ -44,6 +44,7 @@
 
 
 
+/**Character header on main page CharHeader component **/
 .char_header {
   height: 16vh;
   background-color: white;
@@ -52,10 +53,12 @@
   top: 0;
 }
 
+/**For each item table, this could mean we have the item table component be one
+  item and a component for each page to pass in data **/
 .item_table {
   padding-left: 50px;
-  padding-bottom: 0px;
-  padding-right: 0px;
+  padding-bottom: 0;
+  padding-right: 0;
 
 }
 
@@ -83,13 +86,14 @@
 }
 
 .support_rank_button {
-
   width: 100%;
 }
 
 .Row {
   padding-left: 30px;
   padding-right: 30px;
+  padding-bottom: 20px;
+
 }
 
 .App-header {

@@ -1,5 +1,5 @@
 import React from 'react';
-import teas from './teatime.json';
+import teas from './json/teatime.json';
 
 import { Table, Avatar } from 'antd';
 
