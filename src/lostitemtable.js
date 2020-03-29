@@ -1,5 +1,5 @@
 import React from 'react';
-import items from './lostitems.json';
+import items from './json/lostitems.json';
 
 import { Table, Avatar } from 'antd';
 

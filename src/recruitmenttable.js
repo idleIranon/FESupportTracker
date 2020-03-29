@@ -1,5 +1,5 @@
 import React from 'react';
-import recruitment from './recruitment.json';
+import recruitment from './json/recruitment.json';
 
 import { Table, Avatar } from 'antd';
 
@@ -24,14 +24,14 @@ const tableColumns = [
     title: 'Character',
     dataIndex: 'character',
     key: 'character',
-    width: '20%',
+    width: '25%',
     sorter: (a, b) => { return a.character.localeCompare(b.character)}
   },
   {
     title: 'Skill',
     dataIndex: 'skill',
     key: 'skill',
-    width: '25%'
+    width: '20%'
   },
   {
     title: 'Stat',
@@ -75,9 +75,7 @@ const rowSelection = {
 
 
 
-
 class RecruitmentTable extends React.Component {
-
   componentDidMount() {
     localStorage.getItem('recruitment');
   }
@@ -86,12 +84,13 @@ class RecruitmentTable extends React.Component {
     return (
       <div className="item_table">
         <Table
+         className="recruitment_table"
          dataSource={recruitmentInfo}
          rowSelection={rowSelection}
          rowKey="character"
          columns={tableColumns}
          pagination={false}
-         scroll={{ y: "95vh" }}
+         scroll={{ y: "95vh", x:"110vw" }}
          size='small'
        />
       </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import gifts from './giftlist.json';
+import gifts from './json/giftlist.json';
 
 import { Table, Avatar } from 'antd';
 
