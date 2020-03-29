@@ -19,7 +19,6 @@ const StyledCharHeader = styled.div`
 
 /**Character header on main page CharHeader component **/
 class CharHeader extends React.Component {
-
   render() {
     return (
       <StyledCharHeader>
@@ -41,7 +40,7 @@ class CharHeader extends React.Component {
         </Row>
         <Row type="flex" align="middle">
           <Col span={24}>
-            {this.props.charname}
+            {this.props.charname.charAt(0).toUpperCase() + this.props.charname.slice(1)}
           </Col>
         </Row>
         </StyledCharHeader>

@@ -1,11 +1,5 @@
 @import '~antd/dist/antd.css';
 
-/**Sidebar code********************************/
-
-.ant-layout-sider-collapsed .Sidebar{
-    display: none;
-}
-
 /**For each item table, this could mean we have the item table component be one
   item and a component for each page to pass in data **/
 .item_table {
@@ -27,11 +21,6 @@
 .white {
   color:white;
 }
-
-.black {
-  color:black;
-}
-
 
 
 .Row {

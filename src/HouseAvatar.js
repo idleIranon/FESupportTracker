@@ -9,7 +9,7 @@ const StyledHouseAvatar = styled(Avatar).attrs(props =>
     id: "Sb_Avatar_Icon",
     shape: "square",
   }))`
-  
+
   &&& {
     margin: 0 auto;
     height: 50%;
@@ -22,10 +22,6 @@ const StyledHouseAvatar = styled(Avatar).attrs(props =>
 
 
 class HouseAvatar extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
         <StyledHouseAvatar src={this.props.src} />
