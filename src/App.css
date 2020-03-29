@@ -2,26 +2,8 @@
 
 /**Sidebar code********************************/
 
-
-#Sb_House_Buttons {
-  width: 100%;
-  padding-right: 6%;
-  padding-left: 5%;
-}
-
 .ant-layout-sider-collapsed .Sidebar{
     display: none;
-}
-
-
-
-/**Character header on main page CharHeader component **/
-.char_header {
-  height: 16vh;
-  background-color: white;
-  width: 100%;
-  position: sticky;
-  top: 0;
 }
 
 /**For each item table, this could mean we have the item table component be one

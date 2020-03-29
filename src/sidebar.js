@@ -27,11 +27,12 @@ const StyledSidebarContainer = styled(Sider).attrs(props => ({
 `;
 
 
-const StyledTopMenu = styled(Menu).attrs(props => ({
+const StyledTopMenu = styled(Menu).attrs(props =>
+  ({
+    defaultSelectedKeys: "{['/']}",
+    mode: "inline",
+  }))`
 
-
-
-}))`
   height: 90%;
 `;
 
@@ -44,6 +45,12 @@ const StyledSidebarHouseAvatarBox = styled(Menu.Item)`
 
 const StyledBottomMenu = styled(Menu)`
 
+`;
+
+const StyledHouseButtonGroup = styled(ButtonGroup)`
+  width: 100%;
+  padding-right: 6%;
+  padding-left: 5%;
 `;
 
 
@@ -74,9 +81,7 @@ class Sidebar extends React.Component {
     return (
       <StyledSidebarContainer>
           <StyledTopMenu
-            onClick={this.handleClick}
-            defaultSelectedKeys={['/']}
-            mode="inline">
+            onClick={this.handleClick}>
               <StyledSidebarHouseAvatarBox id="Sb_Avatar_Row">
                 <HouseAvatar src={this.state.selectedHouseIcon} />
               </StyledSidebarHouseAvatarBox>
@@ -120,11 +125,11 @@ class Sidebar extends React.Component {
 
           <Menu  mode="vertical">
             <Menu.Item key="/house">
-              <ButtonGroup id="Sb_House_Buttons">
+              <StyledHouseButtonGroup>
                 <Button className="white" style={{background: '#b02939'}} onClick={this.changeHouses("be")}>BE</Button>
                 <Button className="white" style={{background: '#434c97'}} onClick={this.changeHouses("bl")}>BL</Button>
                 <Button className="white" style={{background: '#c9a941'}} onClick={this.changeHouses("gd")}>GD</Button>
-              </ButtonGroup>
+              </StyledHouseButtonGroup>
             </Menu.Item>
           </Menu>
       </StyledSidebarContainer>

@@ -4,12 +4,12 @@ import styled from 'styled-components';
 import { Avatar } from 'antd';
 
 
-const StyledHouseAvatar = styled(Avatar).attrs(props => ({
-  id: "Sb_Avatar_Icon",
-  shape: "square",
-  src : props.src,
-}))`
-
+const StyledHouseAvatar = styled(Avatar).attrs(props =>
+  ({
+    id: "Sb_Avatar_Icon",
+    shape: "square",
+  }))`
+  
   &&& {
     margin: 0 auto;
     height: 50%;
