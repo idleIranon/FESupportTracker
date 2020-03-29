@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import styled from 'styled-components';
 
 import Sidebar from './Sidebar.js';
 import LayoutContainer from './LayoutContainer.js';
@@ -13,14 +14,19 @@ import { Layout } from 'antd';
 
 //const thisStore = createStore()
 
+const StyledLayout = styled(Layout)`
+  text-align: center;
+  height: 100%;
+  background: #c9a941;
+`;
+
+
 function App() {
   return (
-    <div className="App">
-      <Layout>
-        <Sidebar />
-        <LayoutContainer />
-      </Layout>
-    </div>
+    <StyledLayout>
+      <Sidebar />
+      <LayoutContainer />
+    </StyledLayout>
   );
 }
 

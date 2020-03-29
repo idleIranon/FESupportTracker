@@ -1,11 +1,48 @@
 import React from 'react';
-
+import { HouseAvatar } from './HouseAvatar.js';
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 import { Menu, Avatar, Button, Layout } from 'antd';
 
-import { Link } from 'react-router-dom';
+
+
 
 const ButtonGroup = Button.Group;
 const {Sider}  = Layout;
+
+
+const StyledSidebarContainer = styled(Sider).attrs(props => ({
+  breakpoint:"sm",
+  collapsedWidth:"0",
+  collapsible:"true",
+  theme:"light",
+  //collapsed={this.state.collapsed},
+  //onCollapse={this.onCollapse}
+  }))`
+
+  &&& {
+    height: 100vh;
+    width: 200px;
+    text-align: justify;
+    background: #FFF;
+  }
+`;
+
+
+const StyledTopMenu = styled(Menu)`
+  height: 90%;
+`;
+
+
+const StyledSidebarHouseAvatarBox = styled(Menu.Item)`
+    height: auto;
+
+`;
+
+const StyledBottomMenu = styled(Menu)`
+
+`;
+
 
 class Sidebar extends React.Component {
   constructor(props) {
@@ -32,25 +69,14 @@ class Sidebar extends React.Component {
 
   render() {
     return (
-      <Sider
-        breakpoint="sm"
-        collapsedWidth="0"
-        collapsible="true"
-        theme="light"
-        collapsed={this.state.collapsed}
-        onCollapse={this.onCollapse}>
-        <div className="Sidebar">
-          <div className="Sb_Top">
-          <Menu
+      <StyledSidebarContainer>
+          <StyledTopMenu
             onClick={this.handleClick}
             defaultSelectedKeys={['/']}
             mode="inline">
-              <Menu.Item id="Sb_Avatar_Row">
-                <Avatar
-                id="Sb_Avatar_Icon"
-                shape="square"
-                src={this.state.selectedHouseIcon}> </Avatar>
-              </Menu.Item>
+              <StyledSidebarHouseAvatarBox id="Sb_Avatar_Row">
+                <HouseAvatar  />
+              </StyledSidebarHouseAvatarBox>
 
             <Menu.Item key="/">
               <Link to="/">
@@ -87,8 +113,7 @@ class Sidebar extends React.Component {
                 About
               </Link>
             </Menu.Item>
-          </Menu>
-          </div>
+          </StyledTopMenu>
 
           <Menu  mode="vertical">
             <Menu.Item key="/house">
@@ -99,8 +124,7 @@ class Sidebar extends React.Component {
               </ButtonGroup>
             </Menu.Item>
           </Menu>
-        </div>
-      </Sider>
+      </StyledSidebarContainer>
     );
   }
 }
