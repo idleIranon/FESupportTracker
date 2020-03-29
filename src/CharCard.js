@@ -1,7 +1,20 @@
 import React from 'react';
+import styled from 'styled-components';
 
 import { Card, Button, Row, Col, Icon } from 'antd';
 const { Meta } = Card;
+
+const StyledCharCard = styled(Card)`
+    .support_icon {
+      font-size: 7px;
+      width: 25%;
+      vertical-align: top;
+    }
+`;
+
+const StyledCardButton = styled(Button)`
+  width: 100%;
+`;
 
 class CharCard extends React.Component {
   constructor(props) {
@@ -20,17 +33,17 @@ class CharCard extends React.Component {
     if (rank.charAt(rank.length-1) === "+") {
       return (
         <Col key={this.state.charName + counter} span={span_length}>
-          <Button className="support_rank_button" key="support_buttons">
+          <StyledCardButton className="support_rank_button" key="support_buttons">
             {rank[0]}
             <Icon type="right" className="support_icon" key="plus"/>
             <Icon type="right" className="support_icon" key="plusplus"/>
-          </Button>
+          </StyledCardButton>
         </Col>
       )
     }
     return (
         <Col key={this.state.charName + "basic" +  counter} span={span_length}>
-          <Button className="support_rank_button"> {rank} </Button>
+          <StyledCardButton className="support_rank_button"> {rank} </StyledCardButton>
         </Col>
     )
   }
@@ -47,7 +60,7 @@ class CharCard extends React.Component {
 
   render() {
     return (
-      <Card
+      <StyledCharCard
         cover= {
           <img
             alt={this.state.coverName}
@@ -59,7 +72,7 @@ class CharCard extends React.Component {
           title={this.props.character.name}
         />
         <Row type="flex" width="100%" justify="center" align="middle">{this.renderButtons(this.props.character.ranks)}</Row>
-      </Card>
+      </StyledCharCard>
     );
   }
 }

@@ -82,7 +82,7 @@ class CharGrid extends React.Component {
         charIndex++;
       }
       //Add the cards array between the rows
-      rows.push(<Row key={charIndex} type="flex" justify="left" gutter={16} className="Row">{cards}</Row>)
+      rows.push(<Row key={charIndex} type="flex" justify="start" gutter={16} className="Row">{cards}</Row>)
 
     }
     return ( <div> {rows} </div> );
