@@ -1,10 +1,8 @@
 import React from 'react';
-import { HouseAvatar } from './HouseAvatar.js';
+import HouseAvatar from './HouseAvatar.js';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import { Menu, Avatar, Button, Layout } from 'antd';
-
-
+import { Menu, Button, Layout } from 'antd';
 
 
 const ButtonGroup = Button.Group;
@@ -29,14 +27,19 @@ const StyledSidebarContainer = styled(Sider).attrs(props => ({
 `;
 
 
-const StyledTopMenu = styled(Menu)`
+const StyledTopMenu = styled(Menu).attrs(props => ({
+
+
+
+}))`
   height: 90%;
 `;
 
 
 const StyledSidebarHouseAvatarBox = styled(Menu.Item)`
+  &&& {
     height: auto;
-
+  }
 `;
 
 const StyledBottomMenu = styled(Menu)`
@@ -75,7 +78,7 @@ class Sidebar extends React.Component {
             defaultSelectedKeys={['/']}
             mode="inline">
               <StyledSidebarHouseAvatarBox id="Sb_Avatar_Row">
-                <HouseAvatar  />
+                <HouseAvatar src={this.state.selectedHouseIcon} />
               </StyledSidebarHouseAvatarBox>
 
             <Menu.Item key="/">
