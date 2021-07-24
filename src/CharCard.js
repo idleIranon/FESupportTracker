@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { Card, Button, Row, Col, Icon } from 'antd';
+import { Card, Button, Row, Col } from 'antd';
+import { PlusOutlined } from '@ant-design/icons';
 const { Meta } = Card;
 
 const StyledCharCard = styled(Card)`
@@ -35,8 +36,8 @@ class CharCard extends React.Component {
         <Col key={this.state.charName + counter} span={span_length}>
           <StyledCardButton className="support_rank_button" key="support_buttons">
             {rank[0]}
-            <Icon type="right" className="support_icon" key="plus"/>
-            <Icon type="right" className="support_icon" key="plusplus"/>
+            <PlusOutlined type="right" className="support_icon" key="plus"/>
+            <PlusOutlined type="right" className="support_icon" key="plusplus"/>
           </StyledCardButton>
         </Col>
       )
