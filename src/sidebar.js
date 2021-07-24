@@ -98,15 +98,9 @@ class Sidebar extends React.Component {
               </Link>
             </Menu.Item>
 
-            <Menu.Item key="/tea">
-              <Link to="/tea">
-                Tea
-              </Link>
-            </Menu.Item>
-
-            <Menu.Item key="/gifts">
-              <Link to="/gifts">
-                Gifts
+            <Menu.Item key="/favitems">
+              <Link to="/favitems">
+                Liked Items
               </Link>
             </Menu.Item>
 

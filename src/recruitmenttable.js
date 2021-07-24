@@ -85,12 +85,13 @@ class RecruitmentTable extends React.Component {
       <div className="item_table">
         <Table
          className="recruitment_table"
+         showSizeChanger="false"
          dataSource={recruitmentInfo}
          rowSelection={rowSelection}
          rowKey="character"
          columns={tableColumns}
          pagination={false}
-         scroll={{ y: "95vh", x:"110vw" }}
+   //      scroll={{ y: "95vh", x:"110vw" }}
          size='small'
        />
       </div>

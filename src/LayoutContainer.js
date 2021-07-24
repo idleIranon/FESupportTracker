@@ -5,12 +5,10 @@ import { Layout } from 'antd';
 
 import CharGrid from './CharGrid.js';
 import RecruitmentTable from './RecruitmentTable.js';
-import TeaTable from './TeaTable.js';
-import GiftTable from './GiftTable.js';
-import About from './About.js';
+import LikedItemTable from './LikedItemsTable.js';
 import LostItemTable from './LostItemTable.js';
+import About from './About.js';
 import './App.css';
-
 
 
 const { Content } = Layout;
@@ -62,13 +60,8 @@ class LayoutContainer extends React.Component {
               exact
             />
             <Route
-              path="/tea"
-              component={TeaTable}
-              exact
-            />
-            <Route
-              path="/gifts"
-              component={GiftTable}
+              path="/favitems"
+              component={LikedItemTable}
               exact
             />
             <Route

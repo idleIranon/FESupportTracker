@@ -1,14 +1,14 @@
 import React from 'react';
-import gifts from './json/giftlist.json';
+import likedItems from './json/likeditems.json';
 
 import { Table, Avatar } from 'antd';
 
 
-const giftList = gifts.giftList;
+const likedItemList = likedItems.likedItemList;
 
-for(var i = 0; i < giftList.length; i++) {
-  if(typeof giftList[i].gifts === 'object'){
-    var thisGift = giftList[i].gifts;
+for(var i = 0; i < likedItemList.length; i++) {
+  if(typeof likedItemList[i].gifts === 'object'){
+    var thisGift = likedItemList[i].gifts;
     for(var j = 0; j < thisGift.length-1; j++) {
       thisGift[j] = thisGift[j].concat(", ");
     }
@@ -41,16 +41,22 @@ const tableColumns = [
     title: 'Gifts',
     dataIndex: 'gifts',
     key: 'gifts',
-    width: '70%'
+    width: '35%'
+  },
+  {
+    title: 'Favorite tea',
+    dataIndex: 'preferredTea',
+    key: 'preferredTea',
+    width: '35%',
   }
 ]
 
-class GiftTable extends React.Component {
+class LikedItemsTable extends React.Component {
   render() {
     return (
       <div className="item_table">
         <Table
-         dataSource={giftList}
+         dataSource={likedItemList}
          columns={tableColumns}
          rowKey="character"
          pagination={false}
@@ -62,4 +68,4 @@ class GiftTable extends React.Component {
   }
 }
 
-export default GiftTable;
+export default LikedItemsTable;

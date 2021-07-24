@@ -113,7 +113,6 @@ class LostItemTable extends React.Component {
           rowKey="name"
           columns={tableColumns}
           pagination={false}
-          scroll={{ y: "95vh" }}
           size='small'
         />
       </div>
