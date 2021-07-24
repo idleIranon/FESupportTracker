@@ -1,11 +1,58 @@
 import React from 'react';
-
-import { Menu, Avatar, Button, Layout } from 'antd';
-
+import HouseAvatar from './HouseAvatar.js';
+import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import { Menu, Button, Layout } from 'antd';
+
 
 const ButtonGroup = Button.Group;
 const {Sider}  = Layout;
+
+
+const StyledSidebarContainer = styled(Sider).attrs(props => ({
+  breakpoint:"sm",
+  collapsedWidth:"0",
+  collapsible:"true",
+  theme:"light",
+  //collapsed={this.state.collapsed},
+  //onCollapse={this.onCollapse}
+  }))`
+
+  &&& {
+    height: 100vh;
+    width: 200px;
+    text-align: justify;
+    background: #FFF;
+  }
+`;
+
+
+const StyledTopMenu = styled(Menu).attrs(props =>
+  ({
+    defaultSelectedKeys: "{['/']}",
+    mode: "inline",
+  }))`
+
+  height: 90%;
+`;
+
+
+const StyledSidebarHouseAvatarBox = styled(Menu.Item)`
+  &&& {
+    height: auto;
+  }
+`;
+
+const StyledBottomMenu = styled(Menu)`
+
+`;
+
+const StyledHouseButtonGroup = styled(ButtonGroup)`
+  width: 100%;
+  padding-right: 6%;
+  padding-left: 5%;
+`;
+
 
 class Sidebar extends React.Component {
   constructor(props) {
@@ -32,25 +79,12 @@ class Sidebar extends React.Component {
 
   render() {
     return (
-      <Sider
-        breakpoint="sm"
-        collapsedWidth="0"
-        collapsible="true"
-        theme="light"
-        collapsed={this.state.collapsed}
-        onCollapse={this.onCollapse}>
-        <div className="Sidebar">
-          <div className="Sb_Top">
-          <Menu
-            onClick={this.handleClick}
-            defaultSelectedKeys={['/']}
-            mode="inline">
-              <Menu.Item id="Sb_Avatar_Row">
-                <Avatar
-                id="Sb_Avatar_Icon"
-                shape="square"
-                src={this.state.selectedHouseIcon}> </Avatar>
-              </Menu.Item>
+      <StyledSidebarContainer>
+          <StyledTopMenu
+            onClick={this.handleClick}>
+              <StyledSidebarHouseAvatarBox id="Sb_Avatar_Row">
+                <HouseAvatar src={this.state.selectedHouseIcon} />
+              </StyledSidebarHouseAvatarBox>
 
             <Menu.Item key="/">
               <Link to="/">
@@ -87,20 +121,18 @@ class Sidebar extends React.Component {
                 About
               </Link>
             </Menu.Item>
-          </Menu>
-          </div>
+          </StyledTopMenu>
 
           <Menu  mode="vertical">
             <Menu.Item key="/house">
-              <ButtonGroup id="Sb_House_Buttons">
+              <StyledHouseButtonGroup>
                 <Button className="white" style={{background: '#b02939'}} onClick={this.changeHouses("be")}>BE</Button>
                 <Button className="white" style={{background: '#434c97'}} onClick={this.changeHouses("bl")}>BL</Button>
                 <Button className="white" style={{background: '#c9a941'}} onClick={this.changeHouses("gd")}>GD</Button>
-              </ButtonGroup>
+              </StyledHouseButtonGroup>
             </Menu.Item>
           </Menu>
-        </div>
-      </Sider>
+      </StyledSidebarContainer>
     );
   }
 }
