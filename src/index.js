@@ -2,15 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import styled from 'styled-components';
 
-import Sidebar from './sidebar.js';
-import LayoutContainer from './layoutContainer.js';
+import { BrowserRouter } from 'react-router-dom';
+import { Layout } from 'antd';
+
+import Sidebar from './Sidebar.js';
+import LayoutContainer from './LayoutContainer.js';
 //import { Provider } from 'react-redux'
 //import { createStore } from 'redux'
 //import store from './redux/store.js'
 import './App.css';
 
-import { BrowserRouter } from 'react-router-dom';
-import { Layout } from 'antd';
 
 //const thisStore = createStore()
 
@@ -29,7 +30,6 @@ function App() {
     </StyledLayout>
   );
 }
-
 
 ReactDOM.render(
   //<Provider store={thisStore}>

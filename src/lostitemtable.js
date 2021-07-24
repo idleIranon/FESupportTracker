@@ -1,7 +1,9 @@
 import React from 'react';
-import items from './json/lostitems.json';
 
 import { Table, Avatar } from 'antd';
+
+import items from './json/lostitems.json';
+
 
 const lostItems = items.items;
 
@@ -100,6 +102,7 @@ const tableColumns = [
       }
   }
 ]
+
 
 class LostItemTable extends React.Component {
   render() {

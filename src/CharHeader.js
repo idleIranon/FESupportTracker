@@ -3,9 +3,8 @@ import styled from 'styled-components';
 
 import { Row, Col, Typography } from 'antd';
 
+
 const { Title } = Typography;
-
-
 
 const StyledCharHeader = styled.div`
   &&& {
@@ -16,6 +15,7 @@ const StyledCharHeader = styled.div`
     top: 0;
   }
 `;
+
 
 /**Character header on main page CharHeader component **/
 class CharHeader extends React.Component {

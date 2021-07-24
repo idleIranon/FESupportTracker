@@ -3,6 +3,7 @@ import gifts from './json/giftlist.json';
 
 import { Table, Avatar } from 'antd';
 
+
 const giftList = gifts.giftList;
 
 for(var i = 0; i < giftList.length; i++) {
@@ -13,6 +14,7 @@ for(var i = 0; i < giftList.length; i++) {
     }
   }
 }
+
 
 const tableColumns = [
   {

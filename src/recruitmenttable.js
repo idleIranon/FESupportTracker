@@ -1,10 +1,11 @@
 import React from 'react';
-import recruitment from './json/recruitment.json';
 
 import { Table, Avatar } from 'antd';
 
-const recruitmentInfo = recruitment.recruitment;
+import recruitment from './json/recruitment.json';
 
+
+const recruitmentInfo = recruitment.recruitment;
 
 const tableColumns = [
   {
@@ -72,7 +73,6 @@ const rowSelection = {
     name: record.character,
   }),
 };
-
 
 
 class RecruitmentTable extends React.Component {

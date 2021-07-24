@@ -1,13 +1,13 @@
 import React from 'react';
-import HouseAvatar from './houseAvatar.js';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { Menu, Button, Layout } from 'antd';
 
+import HouseAvatar from './HouseAvatar.js';
+
 
 const ButtonGroup = Button.Group;
 const {Sider}  = Layout;
-
 
 const StyledSidebarContainer = styled(Sider).attrs(props => ({
   breakpoint:"sm",
@@ -26,7 +26,6 @@ const StyledSidebarContainer = styled(Sider).attrs(props => ({
   }
 `;
 
-
 const StyledTopMenu = styled(Menu).attrs(props =>
   ({
     defaultSelectedKeys: "{['/']}",
@@ -36,15 +35,10 @@ const StyledTopMenu = styled(Menu).attrs(props =>
   height: 90%;
 `;
 
-
 const StyledSidebarHouseAvatarBox = styled(Menu.Item)`
   &&& {
     height: auto;
   }
-`;
-
-const StyledBottomMenu = styled(Menu)`
-
 `;
 
 const StyledHouseButtonGroup = styled(ButtonGroup)`

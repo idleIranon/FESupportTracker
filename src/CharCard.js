@@ -3,6 +3,8 @@ import styled from 'styled-components';
 
 import { Card, Button, Row, Col } from 'antd';
 import { PlusOutlined } from '@ant-design/icons';
+
+
 const { Meta } = Card;
 
 const StyledCharCard = styled(Card)`
@@ -16,6 +18,7 @@ const StyledCharCard = styled(Card)`
 const StyledCardButton = styled(Button)`
   width: 100%;
 `;
+
 
 class CharCard extends React.Component {
   constructor(props) {
@@ -49,7 +52,6 @@ class CharCard extends React.Component {
     )
   }
 
-
   renderButtons(ranks) {
     let buttons = [];
     for (var i = 0; i < ranks.length; i++) {
@@ -57,7 +59,6 @@ class CharCard extends React.Component {
     }
     return ( <div> {buttons} </div>)
   }
-
 
   render() {
     return (

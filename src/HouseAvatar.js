@@ -20,7 +20,6 @@ const StyledHouseAvatar = styled(Avatar).attrs(props =>
   }
 `;
 
-
 class HouseAvatar extends React.Component {
   render() {
     return (
