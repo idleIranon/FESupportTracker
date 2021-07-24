@@ -1,5 +1,5 @@
 import React from 'react';
-import HouseAvatar from './HouseAvatar.js';
+import HouseAvatar from './houseAvatar.js';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { Menu, Button, Layout } from 'antd';

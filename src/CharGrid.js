@@ -1,6 +1,6 @@
 import React from 'react';
-import CharCard from './CharCard.js';
-import CharHeader from './CharHeader.js';
+import CharCard from './charCard.js';
+import CharHeader from './charHeader.js';
 import chars from './json/characters.json';
 
 import { Row, Col } from 'antd';

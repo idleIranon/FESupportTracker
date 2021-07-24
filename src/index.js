@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import styled from 'styled-components';
 
-import Sidebar from './Sidebar.js';
-import LayoutContainer from './LayoutContainer.js';
+import Sidebar from './sidebar.js';
+import LayoutContainer from './layoutContainer.js';
 //import { Provider } from 'react-redux'
 //import { createStore } from 'redux'
 //import store from './redux/store.js'

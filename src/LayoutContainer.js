@@ -1,11 +1,11 @@
 import React from 'react';
 
-import CharGrid from './CharGrid.js';
-import RecruitmentTable from './RecruitmentTable.js';
-import TeaTable from './TeaTable.js';
-import GiftTable from './GiftTable.js';
-import AboutUs from './AboutUs.js';
-import LostItemTable from './LostItemTable.js';
+import CharGrid from './charGrid.js';
+import RecruitmentTable from './recruitmentTable.js';
+import TeaTable from './teaTable.js';
+import GiftTable from './giftTable.js';
+import AboutUs from './about.js';
+import LostItemTable from './lostItemTable.js';
 import './App.css';
 
 import { Route } from 'react-router-dom';
