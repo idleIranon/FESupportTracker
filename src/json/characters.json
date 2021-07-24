@@ -2268,7 +2268,7 @@
       "age": "??",
       "icons": [
         {
-          "src": "character_images/feth-alois-portrait.jpg",
+          "src": "character_images/feth-alois-portrait.svg",
           "type": "image/jpg",
           "sizes": "200x200"
         }

@@ -3,10 +3,10 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 import { Layout } from 'antd';
 
-import CharGrid from './CharGrid.js';
-import RecruitmentTable from './RecruitmentTable.js';
-import LikedItemTable from './LikedItemsTable.js';
-import LostItemTable from './LostItemTable.js';
+import CharGrid from './recruitment/CharGrid.js';
+import RecruitmentTable from './tables/RecruitmentTable.js';
+import LikedItemTable from './tables/LikedItemsTable.js';
+import LostItemTable from './tables/LostItemTable.js';
 import About from './About.js';
 import './App.css';
 

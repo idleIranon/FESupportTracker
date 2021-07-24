@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import { BrowserRouter } from 'react-router-dom';
 import { Layout } from 'antd';
 
-import Sidebar from './Sidebar.js';
+import Sidebar from './global/Sidebar.js';
 import LayoutContainer from './LayoutContainer.js';
 //import { Provider } from 'react-redux'
 //import { createStore } from 'redux'

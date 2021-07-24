@@ -1,9 +1,19 @@
 import React from 'react';
+import { ReactDOM } from 'react';
+import mountNode from 'react';
 
-import { Table, Avatar } from 'antd';
+import { Table, Avatar, Image } from 'antd';
+import Icon from '@ant-design/icons';
 
-import items from './json/lostitems.json';
+import items from '../json/lostitems.json';
+import { ReactComponent as be } from '../house_images/belogo.svg'
+import bl from '../house_images/bllogo.svg'
+import gd from '../house_images/gdlogo.svg'
+import ch from '../house_images/chlogo.svg'
 
+const houseIcons = {
+
+}
 
 const lostItems = items.items;
 
@@ -92,12 +102,11 @@ const tableColumns = [
     key: 'exclusive',
     width: '10%',
     render: (text, row, index) => {
-      var houseIcon = `./house_images/${text}logo.png`;
+      console.log(text)
+      var houseIcon = `./house_images/${text}logo.svg`;
       if (text != null)
       return (
-          <Avatar src={houseIcon} shape="square" size="medium">
-            {text}
-          </Avatar>
+        <Icon component={text} />
         );
       }
   }

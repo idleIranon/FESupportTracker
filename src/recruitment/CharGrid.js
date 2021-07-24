@@ -4,7 +4,7 @@ import { Row, Col } from 'antd';
 
 import CharCard from './CharCard.js';
 import CharHeader from './CharHeader.js';
-import chars from './json/characters.json';
+import chars from '../json/characters.json';
 
 
 class CharGrid extends React.Component {

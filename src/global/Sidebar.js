@@ -62,7 +62,7 @@ class Sidebar extends React.Component {
   };
 
   changeHouses = houseLogo => e => {
-    this.setState({ selectedHouseIcon: `./house_images/${houseLogo}logo.png`});
+    this.setState({ selectedHouseIcon: `./house_images/${houseLogo}logo.svg`});
   }
 
   onCollapse = collapsed => {

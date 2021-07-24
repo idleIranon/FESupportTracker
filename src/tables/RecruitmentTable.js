@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Table, Avatar } from 'antd';
 
-import recruitment from './json/recruitment.json';
+import recruitment from '../json/recruitment.json';
 
 
 const recruitmentInfo = recruitment.recruitment;

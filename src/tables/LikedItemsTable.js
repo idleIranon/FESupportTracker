@@ -1,18 +1,20 @@
 import React from 'react';
-import teas from './json/teatime.json';
+import likedItems from '../json/likeditems.json';
 
 import { Table, Avatar } from 'antd';
 
-const favTea = teas.teaTime;
 
-for(var i = 0; i < favTea.length; i++) {
-  if(typeof favTea[i].preferredTea === 'object'){
-    var thisTea = favTea[i].preferredTea;
-    for(var j = 0; j < thisTea.length-1; j++) {
-      thisTea[j] = thisTea[j].concat(", ");
+const likedItemList = likedItems.likedItemList;
+
+for(var i = 0; i < likedItemList.length; i++) {
+  if(typeof likedItemList[i].gifts === 'object'){
+    var thisGift = likedItemList[i].gifts;
+    for(var j = 0; j < thisGift.length-1; j++) {
+      thisGift[j] = thisGift[j].concat(", ");
     }
   }
 }
+
 
 const tableColumns = [
   {
@@ -36,29 +38,34 @@ const tableColumns = [
     sorter: (a, b) => { return a.character.localeCompare(b.character)}
   },
   {
+    title: 'Gifts',
+    dataIndex: 'gifts',
+    key: 'gifts',
+    width: '35%'
+  },
+  {
     title: 'Favorite tea',
     dataIndex: 'preferredTea',
     key: 'preferredTea',
-    width: '70%',
+    width: '35%',
   }
 ]
 
-
-class TeaTable extends React.Component {
+class LikedItemsTable extends React.Component {
   render() {
     return (
       <div className="item_table">
         <Table
-          dataSource={favTea}
-          rowKey="character"
-          columns={tableColumns}
-          pagination={false}
-          scroll={{ y: "95vh"}}
-          size='small'
-        />
-      </div>
+         dataSource={likedItemList}
+         columns={tableColumns}
+         rowKey="character"
+         pagination={false}
+         scroll={{ y: "95vh" }}
+         size='small'
+       />
+     </div>
     );
   }
 }
 
-export default TeaTable;
+export default LikedItemsTable;

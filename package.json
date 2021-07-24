@@ -1,23 +1,24 @@
 {
   "name": "fire-emblem-support-tracker",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
+    "@svgr/webpack": "^5.5.0",
     "antd": "^4.16.8",
     "chokidar": "^3.5.2",
     "core-js": "^3.15.2",
-    "eslint": "^6.8.0",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-flexbox-grid": "^2.1.2",
     "react-redux": "^7.2.4",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^1.1.5",
+    "react-scripts": "^4.0.3",
     "redux": "^4.1.0",
     "sane": "^5.0.1",
     "styled-components": "^5.3.0",
-    "uuid": "^8.3.2"
+    "uuid": "^8.3.2",
+    "webpack": "^4.44.2"
   },
   "scripts": {
     "start": "react-scripts start",
