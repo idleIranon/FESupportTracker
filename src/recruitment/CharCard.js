@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import { Card, Button, Row, Col } from 'antd';
-import { PlusOutlined } from '@ant-design/icons';
+import { DoubleRightOutlined } from '@ant-design/icons';
 
 
 const { Meta } = Card;
@@ -24,6 +24,7 @@ class CharCard extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
+      bordered: "true",
       coverName: "Test",
       charName: "Byleth-Female",
       description: "Test",
@@ -39,8 +40,7 @@ class CharCard extends React.Component {
         <Col key={this.state.charName + counter} span={span_length}>
           <StyledCardButton className="support_rank_button" key="support_buttons">
             {rank[0]}
-            <PlusOutlined type="right" className="support_icon" key="plus"/>
-            <PlusOutlined type="right" className="support_icon" key="plusplus"/>
+            <DoubleRightOutlined type="right" className="support_icon" key="plus"/>
           </StyledCardButton>
         </Col>
       )
@@ -57,7 +57,8 @@ class CharCard extends React.Component {
     for (var i = 0; i < ranks.length; i++) {
       buttons.push(this.renderButton(ranks[i], ranks.length, i));
     }
-    return ( <div> {buttons} </div>)
+    console.log(buttons)
+    return ( buttons )
   }
 
   render() {
@@ -69,11 +70,9 @@ class CharCard extends React.Component {
             src={`/character_images/feth-${this.props.charName.toLowerCase()}-portrait.jpg`}
           />
         }
+        title={this.props.character.name}
       >
-        <Meta
-          title={this.props.character.name}
-        />
-        <Row type="flex" width="100%" justify="center" align="middle">{this.renderButtons(this.props.character.ranks)}</Row>
+        <Row type="flex" width="100%" justify="center" align="middle" span="24">{this.renderButtons(this.props.character.ranks)}</Row>
       </StyledCharCard>
     );
   }
