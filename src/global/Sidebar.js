@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { Menu, Button, Layout } from 'antd';
@@ -48,36 +48,30 @@ const StyledHouseButtonGroup = styled(ButtonGroup)`
 `;
 
 
-class Sidebar extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      selectedHouseIcon: "./house_images/gdlogo.png",
-      collapsed: false,
-    };
+function Sidebar() {
+  const [selectedHouse, setSelectedHouse] = useState('./house_images/gdlogo.png');
+  const [collapsed, setCollapsed] = useState('false');
+
+  function changeHouses(houseLogo) {
+    setSelectedHouse(`./house_images/${houseLogo}logo.svg`)
+    localStorage.setItem('SelectedHouse', {selectedHouse})
   }
 
-  handleClick = e => {
-    console.log('click ', e);
-  };
+  useEffect(() => {
+    changeHouses()
+  })
 
-  changeHouses = houseLogo => e => {
-    this.setState({ selectedHouseIcon: `./house_images/${houseLogo}logo.svg`});
-  }
-
-  onCollapse = collapsed => {
+  function onCollapse(collapsed) {
     console.log(collapsed);
     this.setState({ collapsed });
   };
 
-
-  render() {
-    return (
+    return ( 
       <StyledSidebarContainer>
           <StyledTopMenu
-            onClick={this.handleClick}>
+            onClick={() => (setCollapsed)}>
               <StyledSidebarHouseAvatarBox id="Sb_Avatar_Row">
-                <HouseAvatar src={this.state.selectedHouseIcon} />
+                <HouseAvatar src={localStorage.getItem('SelectedHouse')} />
               </StyledSidebarHouseAvatarBox>
 
             <Menu.Item key="/">
@@ -114,15 +108,15 @@ class Sidebar extends React.Component {
           <Menu  mode="vertical">
             <Menu.Item key="/house">
               <StyledHouseButtonGroup>
-                <Button className="white" style={{background: '#b02939'}} onClick={this.changeHouses("be")}>BE</Button>
-                <Button className="white" style={{background: '#434c97'}} onClick={this.changeHouses("bl")}>BL</Button>
-                <Button className="white" style={{background: '#c9a941'}} onClick={this.changeHouses("gd")}>GD</Button>
+                <Button className="white" style={{background: '#b02939'}} onClick={() => changeHouses("be")}>BE</Button>
+                <Button className="white" style={{background: '#434c97'}} onClick={() => changeHouses("bl")}>BL</Button>
+                <Button className="white" style={{background: '#c9a941'}} onClick={() => changeHouses("gd")}>GD</Button>
               </StyledHouseButtonGroup>
             </Menu.Item>
           </Menu>
       </StyledSidebarContainer>
     );
-  }
+  
 }
 
 export default Sidebar;

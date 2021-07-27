@@ -3,37 +3,37 @@
     {
       "character": "Dimitri",
       "gifts": ["Whetstone", "Training Weight"],
-      "preferredTea": "Chamomile"
+      "preferredTea": ["Chamomile"]
     },
     {
       "character": "Dedue",
       "gifts": "Watering Can",
-      "preferredTea": "Ginger Tea"
+      "preferredTea": ["Ginger Tea"]
     },
     {
       "character": "Felix",
       "gifts": ["Ceremonial Sword", "Hunting Dagger"],
-      "preferredTea": "Almyran Pine Needles"
+      "preferredTea": ["Almyran Pine Needles"]
     },
     {
       "character": "Sylvain",
       "gifts": ["Dapper Handkerchief", "Board Game"],
-      "preferredTea": "Bergamot"
+      "preferredTea": ["Bergamot"]
     },
     {
       "character": "Ashe",
       "gifts": ["Exotic Spices", "Legends of Chivlary", "Violet"],
-      "preferredTea": "Mint Tea"
+      "preferredTea": ["Mint Tea"]
     },
     {
       "character": "Annette",
       "gifts": "Stylish Hair Clip",
-      "preferredTea": "Sweet-Apple Blend"
+      "preferredTea": ["Sweet-Apple Blend"]
     },
     {
       "character": "Ingrid",
       "gifts": ["Legends of Chivalry", "Riding Boots"],
-      "preferredTea": "Mint Tea"
+      "preferredTea": ["Mint Tea"]
     },
     {
       "character": "Mercedes",
@@ -53,32 +53,32 @@
     {
       "character": "Caspar",
       "gifts": ["Smoked Meat", "Whetstone"],
-      "preferredTea": "Ginger Tea"
+      "preferredTea": ["Ginger Tea"]
     },
     {
       "character": "Ferdinand",
       "gifts": ["Tea Leaves", "Riding Boots"],
-      "preferredTea": "Southern Tea Blend"
+      "preferredTea": ["Southern Tea Blend"]
     },
     {
       "character": "Linhardt",
       "gifts": ["Fishing Float", "Tasty Baked Treat"],
-      "preferredTea": "Angelica Tea"
+      "preferredTea": ["Angelica Tea"]
     },
     {
       "character": "Bernadetta",
       "gifts": ["Armored Bear Stuffy", "Pitcher Plant", "Watering Can", "Dapper Handkerchief", "Landscape Painting"],
-      "preferredTea": "Albinean berry Blend"
+      "preferredTea": ["Albinean berry Blend"]
     },
     {
       "character": "Dorothea",
       "gifts": ["Stylish Hair Clip"],
-      "preferredTea": "Sweet-Apple Blend"
+      "preferredTea": ["Sweet-Apple Blend"]
     },
     {
       "character": "Petra",
       "gifts": ["Smoked Meat", "Hunting Dagger"],
-      "preferredTea": "Four-Spice Tea"
+      "preferredTea": ["Four-Spice Tea"]
     },
     {
       "character": "Claude",
@@ -93,32 +93,32 @@
     {
       "character": "Ignatz",
       "gifts": ["Landscape Painting", "Goddess Statuette", "Ancient Coin", "Forget-me-nots"],
-      "preferredTea": "Lavender Blend"
+      "preferredTea": ["Lavender Blend"]
     },
     {
       "character": "Lorenz",
       "gifts": ["Rose", "Floral Adornment"],
-      "preferredTea": "Bergamot"
+      "preferredTea": ["Bergamot"]
     },
     {
       "character": "Raphael",
       "gifts": ["Smoked Meat", "Tasty Baked Treat"],
-      "preferredTea": "Almond Blend"
+      "preferredTea": ["Almond Blend"]
     },
     {
       "character": "Leonie",
       "gifts": ["Fishing Float", "Training Weight"],
-      "preferredTea": "Four-Spice Blend"
+      "preferredTea": ["Four-Spice Blend"]
     },
     {
       "character": "Marianne",
       "gifts": ["Armored Bear Stuffy", "Floral Adornment"],
-      "preferredTea": "Lavender Blend"
+      "preferredTea": ["Lavender Blend"]
     },
     {
       "character": "Lysithea",
       "gifts": ["Armored Bear Stuffy", "Lily, Tasty Baked Treat"],
-      "preferredTea": "Sweet-Apple Blend"
+      "preferredTea": ["Sweet-Apple Blend"]
     },
     {
       "character": "Hanneman",
@@ -127,43 +127,43 @@
     },
     {
       "character": "Manuela",
-      "gifts": "Goddess Statuette",
-      "preferredTea": "Mint Tea"
+      "gifts": ["Goddess Statuette"],
+      "preferredTea": ["Mint Tea"]
     },
     {
       "character": "Flayn",
-      "gifts": "Forget-me-nots",
-      "preferredTea": "Sweet-Apple Blend"
+      "gifts": ["Forget-me-nots"],
+      "preferredTea": ["Sweet-Apple Blend"]
     },
     {
       "character": "Shamir",
       "gifts": ["Coffee Beans", "Sunflower"],
-      "preferredTea": "Crescent-Moon Tea"
+      "preferredTea": ["Crescent-Moon Tea"]
     },
     {
       "character": "Catherine",
       "gifts": ["Whetstone", "Legends of Chivlary"],
-      "preferredTea": "Leicester Cortania"
+      "preferredTea": ["Leicester Cortania"]
     },
     {
       "character": "Cyril",
       "gifts": ["Smoked Meat", "Watering Can"],
-      "preferredTea": "Almyran Pine Needles"
+      "preferredTea": ["Almyran Pine Needles"]
     },
     {
       "character": "Alois",
       "gifts": ["Floral Adornment", "Fishing Float", "Ancient Coin", "Sunflower"],
-      "preferredTea": "Crescent-Moon Tea"
+      "preferredTea": ["Crescent-Moon Tea"]
     },
     {
       "character": "Seteth",
       "gifts": ["Fishing Float", "Dapper Handkerchief"],
-      "preferredTea": "Four-Spice Blend"
+      "preferredTea": ["Four-Spice Blend"]
     },
     {
       "character": "Gilbert",
       "gifts": ["Goddess Statuette", "Ceremonial Sword"],
-      "preferredTea": "Almond Blend"
+      "preferredTea": ["Almond Blend"]
     }
   ]
 }
