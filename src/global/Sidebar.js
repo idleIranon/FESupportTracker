@@ -49,17 +49,20 @@ const StyledHouseButtonGroup = styled(ButtonGroup)`
 
 
 function Sidebar() {
-  const [selectedHouse, setSelectedHouse] = useState('./house_images/gdlogo.png');
-  const [collapsed, setCollapsed] = useState('false');
-
-  function changeHouses(houseLogo) {
-    setSelectedHouse(`./house_images/${houseLogo}logo.svg`)
-    localStorage.setItem('SelectedHouse', {selectedHouse})
-  }
+  const [selectedHouse, setSelectedHouse] = useState(
+    './house_images/gdlogo.png',
+    localStorage.setItem('selectedHouseIcon', './house_images/gdlogo.png')
+    );
 
   useEffect(() => {
-    changeHouses()
+    localStorage.setItem('selectedHouseIcon', './house_images/' + selectedHouse + 'logo.png' )
+    console.log('effect reached')
+    console.log('Selected house: ' + selectedHouse)
+    /**setSelectedHouse(`./house_images/gdlogo.png`)**/
+    HouseAvatar.src = localStorage.getItem('selectedHouseIcon')
   })
+
+  const [collapsed, setCollapsed] = useState('false');
 
   function onCollapse(collapsed) {
     console.log(collapsed);
@@ -71,7 +74,7 @@ function Sidebar() {
           <StyledTopMenu
             onClick={() => (setCollapsed)}>
               <StyledSidebarHouseAvatarBox id="Sb_Avatar_Row">
-                <HouseAvatar src={localStorage.getItem('SelectedHouse')} />
+                <HouseAvatar src={localStorage.getItem('selectedHouseIcon')} />
               </StyledSidebarHouseAvatarBox>
 
             <Menu.Item key="/">
@@ -108,9 +111,9 @@ function Sidebar() {
           <Menu  mode="vertical">
             <Menu.Item key="/house">
               <StyledHouseButtonGroup>
-                <Button className="white" style={{background: '#b02939'}} onClick={() => changeHouses("be")}>BE</Button>
-                <Button className="white" style={{background: '#434c97'}} onClick={() => changeHouses("bl")}>BL</Button>
-                <Button className="white" style={{background: '#c9a941'}} onClick={() => changeHouses("gd")}>GD</Button>
+                <Button className="white" style={{background: '#b02939'}} onClick={() => setSelectedHouse("be")}>BE</Button>
+                <Button className="white" style={{background: '#434c97'}} onClick={() => setSelectedHouse("bl")}>BL</Button>
+                <Button className="white" style={{background: '#c9a941'}} onClick={() => setSelectedHouse("gd")}>GD</Button>
               </StyledHouseButtonGroup>
             </Menu.Item>
           </Menu>
