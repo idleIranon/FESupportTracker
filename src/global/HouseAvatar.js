@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState }  from 'react';
 import styled from 'styled-components';
 
 import { Avatar } from 'antd';
@@ -20,12 +20,16 @@ const StyledHouseAvatar = styled(Avatar).attrs(props =>
   }
 `;
 
-class HouseAvatar extends React.Component {
-  render() {
+function HouseAvatar () {
+  const [houseIcon, setHouseIcon] = useState(localStorage.getItem('selectedHouseIcon'))
+
+  useEffect(() => {
+
+  }, [])
+
     return (
-        <StyledHouseAvatar src={this.props.src} />
+        <StyledHouseAvatar src={localStorage.getItem('selectedHouseIcon')} />
     );
-  }
 }
 
 export default HouseAvatar;

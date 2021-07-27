@@ -60,7 +60,7 @@ function Sidebar() {
     console.log('Selected house: ' + selectedHouse)
     /**setSelectedHouse(`./house_images/gdlogo.png`)**/
     HouseAvatar.src = localStorage.getItem('selectedHouseIcon')
-  })
+  }, [selectedHouse])
 
   const [collapsed, setCollapsed] = useState('false');
 
@@ -74,7 +74,7 @@ function Sidebar() {
           <StyledTopMenu
             onClick={() => (setCollapsed)}>
               <StyledSidebarHouseAvatarBox id="Sb_Avatar_Row">
-                <HouseAvatar src={localStorage.getItem('selectedHouseIcon')} />
+                <HouseAvatar/>
               </StyledSidebarHouseAvatarBox>
 
             <Menu.Item key="/">
