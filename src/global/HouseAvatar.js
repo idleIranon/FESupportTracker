@@ -24,11 +24,11 @@ function HouseAvatar () {
   const [houseIcon, setHouseIcon] = useState(localStorage.getItem('selectedHouseIcon'))
 
   useEffect(() => {
-
-  }, [])
+   setHouseIcon(localStorage.getItem('selectedHouseIcon'))
+  })
 
     return (
-        <StyledHouseAvatar src={localStorage.getItem('selectedHouseIcon')} />
+        <StyledHouseAvatar src={houseIcon} />
     );
 }
 

@@ -50,16 +50,12 @@ const StyledHouseButtonGroup = styled(ButtonGroup)`
 
 function Sidebar() {
   const [selectedHouse, setSelectedHouse] = useState(
-    './house_images/gdlogo.png',
-    localStorage.setItem('selectedHouseIcon', './house_images/gdlogo.png')
+    (localStorage.getItem('selectedHouse') ?? 'gd')
     );
 
   useEffect(() => {
+    localStorage.setItem('selectedHouse', selectedHouse)
     localStorage.setItem('selectedHouseIcon', './house_images/' + selectedHouse + 'logo.png' )
-    console.log('effect reached')
-    console.log('Selected house: ' + selectedHouse)
-    /**setSelectedHouse(`./house_images/gdlogo.png`)**/
-    HouseAvatar.src = localStorage.getItem('selectedHouseIcon')
   }, [selectedHouse])
 
   const [collapsed, setCollapsed] = useState('false');
@@ -74,7 +70,7 @@ function Sidebar() {
           <StyledTopMenu
             onClick={() => (setCollapsed)}>
               <StyledSidebarHouseAvatarBox id="Sb_Avatar_Row">
-                <HouseAvatar/>
+                {HouseAvatar()}
               </StyledSidebarHouseAvatarBox>
 
             <Menu.Item key="/">
