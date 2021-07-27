@@ -51,7 +51,7 @@ const StyledHouseButtonGroup = styled(ButtonGroup)`
 function Sidebar() {
   const [selectedHouse, setSelectedHouse] = useState(
     (localStorage.getItem('selectedHouse') ?? 'gd')
-    );
+  );
 
   useEffect(() => {
     localStorage.setItem('selectedHouse', selectedHouse)

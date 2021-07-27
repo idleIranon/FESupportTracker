@@ -1,7 +1,8 @@
 import React from 'react';
-import likedItems from '../json/likeditems.json';
 
 import { Table, Avatar } from 'antd';
+
+import likedItems from '../json/likeditems.json';
 
 
 const likedItemList = likedItems.likedItemList;

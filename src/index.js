@@ -17,14 +17,15 @@ import './App.css';
 
 const StyledLayout = styled(Layout)`
   text-align: center;
-  height: 100%;
+  height: 100vh;
+  width: 100vw;
   background: #c9a941;
 `;
 
 
 function App() {
   return (
-    <StyledLayout>
+    <StyledLayout style={{height: '100vh'}}>
       <Sidebar />
       <LayoutContainer />
     </StyledLayout>
