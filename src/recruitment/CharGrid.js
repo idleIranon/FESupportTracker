@@ -3,10 +3,10 @@ import React from 'react';
 import { Row, Col } from 'antd';
 
 import CharCard from './CharCard.js';
-import CharHeader from './CharHeader.js';
 import chars from '../json/characters.json';
 
 
+//TODO - Change to function / hook format, move logic into redux logic store, remove hardcoded logic
 class CharGrid extends React.Component {
   constructor(props) {
     super(props);
@@ -14,13 +14,14 @@ class CharGrid extends React.Component {
       selectedChar: "linhardt",
       charName: "linhardt",
       width: window.innerWidth,
-      height: window.innerHeight
+      height: window.innerHeight,
     };
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
   }
 
 //3 functions to handle watching screen size to adjust # num of cards per row
   componentDidMount() {
+    localStorage.setItem('selectedSupportChar', 'lindhardt');
     this.updateWindowDimensions();
     window.addEventListener('resize', this.updateWindowDimensions);
   }
@@ -92,9 +93,6 @@ class CharGrid extends React.Component {
   render() {
     return (
       <div className="grid">
-        <div className="char_header">
-          <CharHeader  char={this.state.selectedChar} charname={this.state.charName} />
-        </div>
         <div className="support_rows">
           {this.renderRows(
             this.findSupports(this.selectedChar).support.length,

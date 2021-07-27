@@ -5,8 +5,6 @@ import { Card, Button, Row, Col } from 'antd';
 import { DoubleRightOutlined } from '@ant-design/icons';
 
 
-const { Meta } = Card;
-
 const StyledCharCard = styled(Card)`
     .support_icon {
       font-size: 7px;
@@ -70,6 +68,7 @@ class CharCard extends React.Component {
           />
         }
         title={this.props.character.name}
+        hoverable="true"
       >
         <Row type="flex" width="100%" justify="center" align="middle" span="24">{this.renderButtons(this.props.character.ranks)}</Row>
       </StyledCharCard>

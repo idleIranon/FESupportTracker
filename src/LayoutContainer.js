@@ -3,7 +3,7 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 import { Layout } from 'antd';
 
-import CharGrid from './recruitment/CharGrid.js';
+import CharContainer from './recruitment/CharContainer.js';
 import RecruitmentTable from './tables/RecruitmentTable.js';
 import LikedItemTable from './tables/LikedItemsTable.js';
 import LostItemTable from './tables/LostItemTable.js';
@@ -46,7 +46,7 @@ class LayoutContainer extends React.Component {
           <Content>
             <Route
               path="/"
-              component={CharGrid}
+              component={CharContainer}
               exact
             />
             <Route

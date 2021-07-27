@@ -25,7 +25,7 @@ function HouseAvatar () {
 
   useEffect(() => {
    setHouseIcon(localStorage.getItem('selectedHouseIcon'))
-  })
+  },[])
 
     return (
         <StyledHouseAvatar src={houseIcon} />
