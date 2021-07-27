@@ -1,9 +1,14 @@
 import React from 'react';
+import styled from 'styled-components';
 
 import { Row, Col } from 'antd';
 
 import CharCard from './CharCard.js';
 import chars from '../json/characters.json';
+
+const StyledRow = styled(Row)`
+  padding-top: 20px;
+`;
 
 
 //TODO - Change to function / hook format, move logic into redux logic store, remove hardcoded logic
@@ -84,7 +89,7 @@ class CharGrid extends React.Component {
         charIndex++;
       }
       //Add the cards array between the rows
-      rows.push(<Row key={charIndex} type="flex" justify="start" gutter={16} className="Row">{cards}</Row>)
+      rows.push(<StyledRow key={charIndex} type="flex" justify="start" gutter={16} className="Row">{cards}</StyledRow>)
 
     }
     return ( <div> {rows} </div> );
