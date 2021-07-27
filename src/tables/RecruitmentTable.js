@@ -66,8 +66,6 @@ const tableColumns = [
 const rowSelection = {
   onChange: (selectedRowKeys, selectedRows) => {
     localStorage.setItem('recruitment', selectedRowKeys);
-    console.log(localStorage);
-    console.log(`selectedRowKeys: ${selectedRowKeys}`, 'selectedRows: ', selectedRows);
   },
   getCheckboxProps: record => ({
     name: record.character,
@@ -82,9 +80,8 @@ class RecruitmentTable extends React.Component {
 
   render() {
     return (
-      <div className="item_table">
         <Table
-         className="recruitment_table"
+         className="item_table"
          dataSource={recruitmentInfo}
          rowSelection={rowSelection}
          rowKey="character"
@@ -93,7 +90,6 @@ class RecruitmentTable extends React.Component {
         scroll={{ y: "95vh"}}
          size='small'
        />
-      </div>
     );
   }
 }

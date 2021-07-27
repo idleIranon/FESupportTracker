@@ -1,56 +1,22 @@
 @import '~antd/dist/antd.css';
 
-/**For each item table, this could mean we have the item table component be one
-  item and a component for each page to pass in data **/
 .item_table {
   padding-left: 50px;
   padding-bottom: 0;
   padding-right: 0;
-
-}
-
-.recruitment_table table {
   width: auto;
   min-width: 500px;
+
 }
 
 .support_rows {
   padding-top: 20px;
 }
 
-.white {
-  color:white;
-}
-
-
 .Row {
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 20px;
-
-}
-
-
-/**About us page**/
-.about_us_paragraph {
-  background: #fff;
-  padding: 24px;
-  min-height: 280px;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 body {
@@ -60,7 +26,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  height: 100%;
+  height: 100vh;
 }
 
 code {
@@ -69,5 +35,5 @@ code {
 }
 
 .ant-layout, #root {
-  height: 100%;
+  height: 100vh;
 }

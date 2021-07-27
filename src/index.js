@@ -25,7 +25,7 @@ const StyledLayout = styled(Layout)`
 
 function App() {
   return (
-    <StyledLayout style={{height: '100vh'}}>
+    <StyledLayout>
       <Sidebar />
       <LayoutContainer />
     </StyledLayout>

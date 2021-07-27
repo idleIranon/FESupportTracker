@@ -61,7 +61,6 @@ function Sidebar() {
   const [collapsed, setCollapsed] = useState('false');
 
   function onCollapse(collapsed) {
-    console.log(collapsed);
     this.setState({ collapsed });
   };
 
@@ -107,9 +106,9 @@ function Sidebar() {
           <Menu  mode="vertical">
             <Menu.Item key="/house">
               <StyledHouseButtonGroup>
-                <Button className="white" style={{background: '#b02939'}} onClick={() => setSelectedHouse("be")}>BE</Button>
-                <Button className="white" style={{background: '#434c97'}} onClick={() => setSelectedHouse("bl")}>BL</Button>
-                <Button className="white" style={{background: '#c9a941'}} onClick={() => setSelectedHouse("gd")}>GD</Button>
+                <Button style={{color: '#fff', background: '#b02939'}} onClick={() => setSelectedHouse("be")}>BE</Button>
+                <Button style={{color: '#fff', background: '#434c97'}} onClick={() => setSelectedHouse("bl")}>BL</Button>
+                <Button style={{color: '#fff', background: '#c9a941'}} onClick={() => setSelectedHouse("gd")}>GD</Button>
               </StyledHouseButtonGroup>
             </Menu.Item>
           </Menu>

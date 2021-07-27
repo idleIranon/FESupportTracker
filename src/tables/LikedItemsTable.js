@@ -22,7 +22,7 @@ const tableColumns = [
     dataIndex: 'character',
     key: 'charactericon',
     width: '10%',
-    render: (text, row, index) => {
+    render: (text) => {
       var charIcon = `/character_images/feth-${text.toLowerCase()}-portrait.jpg`;
       return (
           <Avatar src={charIcon} shape="square" size="large">
@@ -52,11 +52,12 @@ const tableColumns = [
   }
 ]
 
+
 class LikedItemsTable extends React.Component {
   render() {
     return (
-      <div className="item_table">
         <Table
+         className="item_table"
          dataSource={likedItemList}
          columns={tableColumns}
          rowKey="character"
@@ -64,7 +65,6 @@ class LikedItemsTable extends React.Component {
          scroll={{ y: "95vh" }}
          size='small'
        />
-     </div>
     );
   }
 }

@@ -102,7 +102,6 @@ const tableColumns = [
     key: 'exclusive',
     width: '10%',
     render: (text, row, index) => {
-      console.log(text)
       var houseIcon = `./house_images/${text}logo.svg`;
       if (text != null)
       return (
@@ -116,8 +115,8 @@ const tableColumns = [
 class LostItemTable extends React.Component {
   render() {
     return (
-      <div className="item_table">
   	    <Table
+          className="item_table"
           dataSource={lostItems}
           rowKey="name"
           columns={tableColumns}
@@ -125,7 +124,6 @@ class LostItemTable extends React.Component {
           scroll={{ y: "95vh" }}
           size='small'
         />
-      </div>
     );
   }
 }

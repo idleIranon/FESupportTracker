@@ -57,7 +57,6 @@ class CharCard extends React.Component {
     for (var i = 0; i < ranks.length; i++) {
       buttons.push(this.renderButton(ranks[i], ranks.length, i));
     }
-    console.log(buttons)
     return ( buttons )
   }
 
