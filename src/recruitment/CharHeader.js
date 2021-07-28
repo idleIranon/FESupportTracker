@@ -31,7 +31,7 @@ function CharHeader() {
 
   return(
     characters.map((character) => {
-      if(character.name == localStorage.getItem('selectedSupportChar')){
+      if(character.name === localStorage.getItem('selectedSupportChar')){
         return (
           <StyledCharHeader>
             <Row>

@@ -32,7 +32,7 @@ class CharCard extends React.Component {
   }
 
   renderButton(rank, length, counter) {
-    var span_length = 24/length;
+    var span_length = 6;
     if (rank.charAt(rank.length-1) === "+") {
       return (
         <Col key={this.state.charName + counter} span={span_length}>

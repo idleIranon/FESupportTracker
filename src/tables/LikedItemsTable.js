@@ -53,20 +53,18 @@ const tableColumns = [
 ]
 
 
-class LikedItemsTable extends React.Component {
-  render() {
-    return (
-        <Table
-         className="item_table"
-         dataSource={likedItemList}
-         columns={tableColumns}
-         rowKey="character"
-         pagination={false}
-         scroll={{ y: "95vh" }}
-         size='small'
-       />
-    );
-  }
+function LikedItemsTable() {
+  return (
+      <Table
+        className="item_table"
+        dataSource={likedItemList}
+        columns={tableColumns}
+        rowKey="character"
+        pagination={false}
+        scroll={{ y: "95vh" }}
+        size='small'
+      />
+  );
 }
 
 export default LikedItemsTable;

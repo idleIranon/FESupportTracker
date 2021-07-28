@@ -42,7 +42,7 @@ class CharGrid extends React.Component {
 //3 Functions to find char json info, create rows, and create cards per row
   findSupports(selectedChar) {
     for (var i = 0; i < chars.characters.length; i++) {
-      if (chars.characters[i].name === "linhardt"){
+      if (chars.characters[i].name === localStorage.getItem('selectedSupportChar')){
         return chars.characters[i];
       }
     }
@@ -59,8 +59,7 @@ class CharGrid extends React.Component {
     }
     return (
       <Col key={character+"col" + number} span={span_length}>
-        <CharCard key={character+"_card" + number} character={character} charName={character.name}>
-        </CharCard>
+        <CharCard key={character+"_card" + number} character={character} charName={character.name} />
       </Col>
     );
   }
