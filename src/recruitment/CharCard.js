@@ -17,7 +17,7 @@ const StyledCardButton = styled(Button)`
   width: 100%;
 `;
 
-
+//TODO - Convert to function, add onclick to card to make it change the selected character
 class CharCard extends React.Component {
   constructor(props) {
     super(props);

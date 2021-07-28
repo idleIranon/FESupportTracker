@@ -3,12 +3,12 @@ import React from 'react';
 import { Route } from 'react-router-dom';
 import { Layout } from 'antd';
 
-import CharContainer from './recruitment/CharContainer.js';
-import RecruitmentTable from './tables/RecruitmentTable.js';
-import LikedItemTable from './tables/LikedItemsTable.js';
-import LostItemTable from './tables/LostItemTable.js';
-import About from './About.js';
-import './App.css';
+import CharContainer from '../recruitment/CharContainer.js';
+import RecruitmentTable from '../tables/RecruitmentTable.js';
+import LikedItemTable from '../tables/LikedItemsTable.js';
+import LostItemTable from '../tables/LostItemTable.js';
+import About from '../About.js';
+import '../App.css';
 
 
 const { Content } = Layout;

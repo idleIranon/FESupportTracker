@@ -26,7 +26,7 @@ class CharGrid extends React.Component {
 
 //3 functions to handle watching screen size to adjust # num of cards per row
   componentDidMount() {
-    localStorage.setItem('selectedSupportChar', 'lindhardt');
+    localStorage.setItem('selectedSupportChar', 'linhardt');
     this.updateWindowDimensions();
     window.addEventListener('resize', this.updateWindowDimensions);
   }

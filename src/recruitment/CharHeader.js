@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import { Row, Col, Typography } from 'antd';
 
+import chars from '../json/characters.json';
 
 const { Title } = Typography;
 
@@ -17,39 +18,53 @@ const StyledCharHeader = styled.div`
   }
 `;
 
+const characters = chars.characters;
+
 
 /**Character header on main page CharHeader component **/
 function CharHeader() {
+
+  console.log(characters[0])
 
   useEffect(() => {
     localStorage.getItem('selectedSupportChar')
     localStorage.getItem('selectedSupportCharIcon' )
   }, [])
 
-  return (
-    <StyledCharHeader>
-      <Row>
-        <Col span={24}>
-          <Title level={4}>
-            Current Character
-          </Title>
-        </Col>
-      </Row>
-      <Row type="flex" align="middle">
-        <Col span={24}>
-          <img
-            alt="Test"
-            height="100vh"
-            src={localStorage.getItem('selectedSupportCharIcon')}
-          />
-        </Col>
-      </Row>
-      <Row type="flex" align="middle">
-        <Col span={24}>
-          {(localStorage.getItem('selectedSupportChar')).charAt(0).toUpperCase() + (localStorage.getItem('selectedSupportChar')).slice(1)}
-        </Col>
-      </Row>
-      </StyledCharHeader>
+  return(
+  characters.map((character) => {
+    console.log(character)
+    console.log("character name: " + character.name)
+    console.log(localStorage.getItem('selectedSupportChar'))
+    if(character.name == localStorage.getItem('selectedSupportChar')){
+      console.log("success")
+      return (
+        <StyledCharHeader>
+          <Row>
+            <Col span={24}>
+              <Title level={4}>
+                Current Character
+              </Title>
+            </Col>
+          </Row>
+          <Row type="flex" align="middle">
+            <Col span={24}>
+              <img
+                alt="Test"
+                height="150vh"
+                src={character.icons[0].src}
+              />
+            </Col>
+          </Row>
+          <Row type="flex" align="middle">
+            <Col span={24}>
+                  {character.fullname}
+            </Col>
+          </Row>
+        </StyledCharHeader>
+      );
+    }
+  })
   );
 }
 

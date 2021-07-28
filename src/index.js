@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { Layout } from 'antd';
 
 import Sidebar from './global/Sidebar.js';
-import LayoutContainer from './LayoutContainer.js';
+import LayoutContainer from './global/LayoutContainer.js';
 //import { Provider } from 'react-redux'
 //import { createStore } from 'redux'
 //import store from './redux/store.js'

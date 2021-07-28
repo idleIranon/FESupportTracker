@@ -2,7 +2,7 @@
   "characters": [
     {
       "name": "byleth-female",
-      "full name": "Byleth-Male",
+      "fullname": "Byleth-Male",
       "age": "??",
       "icons": [
         {
@@ -24,7 +24,7 @@
     },
     {
       "name": "byleth-male",
-      "full name": "Byleth-Male",
+      "fullname": "Byleth-Male",
       "age": "??",
       "icons": [
         {
@@ -178,7 +178,7 @@
     },
     {
       "name": "edelgard",
-      "full name": "Edelgard",
+      "fullname": "Edelgard",
       "age": "??",
       "icons": [
         {
@@ -240,7 +240,7 @@
     },
     {
       "name": "dimitri",
-      "full name": "Dimitri",
+      "fullname": "Dimitri",
       "age": "??",
       "icons": [
         {
@@ -314,7 +314,7 @@
     },
     {
       "name": "claude",
-      "full name": "Claude",
+      "fullname": "Claude",
       "age": "??",
       "icons": [
         {
@@ -388,7 +388,7 @@
     },
     {
       "name": "hubert",
-      "full name": "Hubert",
+      "fullname": "Hubert",
       "age": "??",
       "icons": [
         {
@@ -446,7 +446,7 @@
     },
     {
       "name": "ferdinand",
-      "full name": "Ferdinand",
+      "fullname": "Ferdinand",
       "age": "??",
       "icons": [
         {
@@ -520,11 +520,11 @@
     },
     {
       "name": "linhardt",
-      "full name": "Linhardt",
+      "fullname": "Linhardt",
       "age": "??",
       "icons": [
         {
-          "src": "character_images/feth-linhardt-portrait.jpg",
+          "src": "/character_images/feth-linhardt-portrait.jpg",
           "type": "image/jpg",
           "sizes": "200x200"
         }
@@ -594,7 +594,7 @@
     },
     {
       "name": "caspar",
-      "full name": "Caspar",
+      "fullname": "Caspar",
       "age": "??",
       "icons": [
         {
@@ -668,7 +668,7 @@
     },
     {
       "name": "bernadetta",
-      "full name": "Bernadetta",
+      "fullname": "Bernadetta",
       "age": "??",
       "icons": [
         {
@@ -746,7 +746,7 @@
     },
     {
       "name": "dorothea",
-      "full name": "Dorothea",
+      "fullname": "Dorothea",
       "age": "??",
       "icons": [
         {
@@ -820,7 +820,7 @@
     },
     {
       "name": "petra",
-      "full name": "Petra",
+      "fullname": "Petra",
       "age": "??",
       "icons": [
         {
@@ -894,7 +894,7 @@
     },
     {
       "name": "dedue",
-      "full name": "Dedue",
+      "fullname": "Dedue",
       "age": "??",
       "icons": [
         {
@@ -956,7 +956,7 @@
     },
     {
       "name": "felix",
-      "full name": "Felix",
+      "fullname": "Felix",
       "age": "??",
       "icons": [
         {
@@ -1030,7 +1030,7 @@
     },
     {
       "name": "ashe",
-      "full name": "Ashe",
+      "fullname": "Ashe",
       "age": "??",
       "icons": [
         {
@@ -1104,7 +1104,7 @@
     },
     {
       "name": "sylvain",
-      "full name": "Sylvain",
+      "fullname": "Sylvain",
       "age": "??",
       "icons": [
         {
@@ -1190,7 +1190,7 @@
     },
     {
       "name": "mercedes",
-      "full name": "Mercedes",
+      "fullname": "Mercedes",
       "age": "??",
       "icons": [
         {
@@ -1264,7 +1264,7 @@
     },
     {
       "name": "annette",
-      "full name": "Annette",
+      "fullname": "Annette",
       "age": "??",
       "icons": [
         {
@@ -1342,7 +1342,7 @@
     },
     {
       "name": "ingrid",
-      "full name": "Ingrid",
+      "fullname": "Ingrid",
       "age": "??",
       "icons": [
         {
@@ -1420,7 +1420,7 @@
     },
     {
       "name": "lorenz",
-      "full name": "Lorenz",
+      "fullname": "Lorenz",
       "age": "??",
       "icons": [
         {
@@ -1494,7 +1494,7 @@
     },
     {
       "name": "raphael",
-      "full name": "Raphael",
+      "fullname": "Raphael",
       "age": "??",
       "icons": [
         {
@@ -1568,7 +1568,7 @@
     },
     {
       "name": "ignatz",
-      "full name": "Ignatz",
+      "fullname": "Ignatz",
       "age": "??",
       "icons": [
         {
@@ -1642,7 +1642,7 @@
     },
     {
       "name": "lysithea",
-      "full name": "Lysithea",
+      "fullname": "Lysithea",
       "age": "??",
       "icons": [
         {
@@ -1724,7 +1724,7 @@
     },
     {
       "name": "marianne",
-      "full name": "Marieanne",
+      "fullname": "Marieanne",
       "age": "??",
       "icons": [
         {
@@ -1794,7 +1794,7 @@
     },
     {
       "name": "hilda",
-      "full name": "Hilda",
+      "fullname": "Hilda",
       "age": "??",
       "icons": [
         {
@@ -1872,7 +1872,7 @@
     },
     {
       "name": "leonie",
-      "full name": "Leonie",
+      "fullname": "Leonie",
       "age": "??",
       "icons": [
         {
@@ -1950,7 +1950,7 @@
     },
     {
       "name": "seteth",
-      "full name": "Seteth",
+      "fullname": "Seteth",
       "age": "??",
       "icons": [
         {
@@ -2012,7 +2012,7 @@
     },
     {
       "name": "flayn",
-      "full name": "Flayn",
+      "fullname": "Flayn",
       "age": "??",
       "icons": [
         {
@@ -2078,7 +2078,7 @@
     },
     {
       "name": "hanneman",
-      "full name": "Hanneman",
+      "fullname": "Hanneman",
       "age": "??",
       "icons": [
         {
@@ -2144,7 +2144,7 @@
     },
     {
       "name": "manuela",
-      "full name": "Manuela",
+      "fullname": "Manuela",
       "age": "??",
       "icons": [
         {
@@ -2210,7 +2210,7 @@
     },
     {
       "name": "gilbert",
-      "full name": "Gilbert",
+      "fullname": "Gilbert",
       "age": "??",
       "icons": [
         {
@@ -2264,7 +2264,7 @@
     },
     {
       "name": "alois",
-      "full name": "Alois",
+      "fullname": "Alois",
       "age": "??",
       "icons": [
         {
@@ -2326,7 +2326,7 @@
     },
     {
       "name": "catherine",
-      "full name": "Catherine",
+      "fullname": "Catherine",
       "age": "??",
       "icons": [
         {
@@ -2388,7 +2388,7 @@
     },
     {
       "name": "shamir",
-      "full name": "Shamir",
+      "fullname": "Shamir",
       "age": "??",
       "icons": [
         {
@@ -2454,7 +2454,7 @@
     },
     {
       "name": "cyril",
-      "full name": "Cyril",
+      "fullname": "Cyril",
       "age": "??",
       "icons": [
         {
