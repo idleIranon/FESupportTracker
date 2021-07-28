@@ -24,47 +24,41 @@ const characters = chars.characters;
 /**Character header on main page CharHeader component **/
 function CharHeader() {
 
-  console.log(characters[0])
-
   useEffect(() => {
     localStorage.getItem('selectedSupportChar')
     localStorage.getItem('selectedSupportCharIcon' )
   }, [])
 
   return(
-  characters.map((character) => {
-    console.log(character)
-    console.log("character name: " + character.name)
-    console.log(localStorage.getItem('selectedSupportChar'))
-    if(character.name == localStorage.getItem('selectedSupportChar')){
-      console.log("success")
-      return (
-        <StyledCharHeader>
-          <Row>
-            <Col span={24}>
-              <Title level={4}>
-                Current Character
-              </Title>
-            </Col>
-          </Row>
-          <Row type="flex" align="middle">
-            <Col span={24}>
-              <img
-                alt="Test"
-                height="150vh"
-                src={character.icons[0].src}
-              />
-            </Col>
-          </Row>
-          <Row type="flex" align="middle">
-            <Col span={24}>
-                  {character.fullname}
-            </Col>
-          </Row>
-        </StyledCharHeader>
-      );
-    }
-  })
+    characters.map((character) => {
+      if(character.name == localStorage.getItem('selectedSupportChar')){
+        return (
+          <StyledCharHeader>
+            <Row>
+              <Col span={24}>
+                <Title level={4}>
+                  Current Character
+                </Title>
+              </Col>
+            </Row>
+            <Row type="flex" align="middle">
+              <Col span={24}>
+                <img
+                  alt="Test"
+                  height="150vh"
+                  src={character.icons[0].src}
+                />
+              </Col>
+            </Row>
+            <Row type="flex" align="middle">
+              <Col span={24}>
+                    {character.fullname}
+              </Col>
+            </Row>
+          </StyledCharHeader>
+        );
+      }
+    })
   );
 }
 

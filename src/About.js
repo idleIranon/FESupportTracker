@@ -10,7 +10,7 @@ const AboutContent = styled(Content)`
   padding: 24px; 
   padding-left: 40px; 
   background: #fff; 
-  min-height: 200px;
+  min-height: 10em;
 `;
 
 
