@@ -51,12 +51,9 @@ class CharGrid extends React.Component {
   renderCard(character, span, number) {
     var span_length;
     var span_temp = span;
-    if (24 % span_temp === 0)
-    {
-      span_length = 24/span;
-    } else {
-      span_length = Math.floor(24/span);
-    }
+    if (24 % span_temp === 0){ span_length = 24/span; } 
+    else {  span_length = Math.floor(24/span);  }
+
     return (
       <Col key={character+"col" + number} span={span_length}>
         <CharCard key={character+"_card" + number} character={character} charName={character.name} />
