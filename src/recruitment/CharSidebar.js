@@ -2,7 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 import { Menu, Layout, Row } from 'antd';
 
+import chars from '../json/characters.json';
+
 const {Sider}  = Layout;
+
+const characters = chars.characters
 
 const StyledSidebarContainer = styled(Sider).attrs(props => ({
   breakpoint:"sm",
@@ -29,34 +33,22 @@ const StyledTopMenu = styled(Menu).attrs(props =>
   `;
 
 
+function renderMenuItems() {
+    const menuItems = characters.map((character) => (
+        <Menu.Item key={character.name}>{character.fullname}</Menu.Item>
+    ))
+    console.log(menuItems)
+    return ( <StyledTopMenu>{menuItems} </StyledTopMenu>)
+}
+
+
 function CharSidebar() {
 
     return ( 
       <StyledSidebarContainer>
-        <StyledTopMenu>
-            <Menu.Item key="Char1">
-                Char1
-            </Menu.Item>
-
-            <Menu.Item key="Char2">
-                Char2
-            </Menu.Item>
-
-            <Menu.Item key="Char3">
-                Char3
-            </Menu.Item>
-
-            <Menu.Item key="Char4">
-                Char4
-            </Menu.Item>
-
-            <Menu.Item key="Char5">
-                Char5
-            </Menu.Item>
-        </StyledTopMenu>
+            {renderMenuItems()}
       </StyledSidebarContainer>
     );
-  
 }
 
 export default CharSidebar;
