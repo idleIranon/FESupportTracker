@@ -7,7 +7,7 @@ import CharCard from './CharCard.js';
 import chars from '../json/characters.json';
 
 const StyledRow = styled(Row)`
-  padding-top: 20px;
+ padding-top: 20px;
 `;
 
 
@@ -64,7 +64,7 @@ class CharGrid extends React.Component {
   renderRows(numSupports, char) {
     //Fundtion to calc how many rows will be needed
     var minCardWidth = 265;
-    var sidebar_width = 200;
+    var sidebar_width = 400;
     var cardsPerRow;
     if(this.state.width > 340) {
       cardsPerRow = Math.round((this.state.width-sidebar_width)/minCardWidth);

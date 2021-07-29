@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from 'react';
 
-import { Row, Col } from 'antd';
+import { Row, Col, Layout } from 'antd';
 
 import CharGrid from './CharGrid.js';
 import CharHeader from './CharHeader.js';
 import CharSidebar from './CharSidebar.js'
+
+const { Content } = Layout;
 
 
 //TODO - Add logic to track selected support char here 
@@ -19,17 +21,24 @@ function CharContainer() {
       }, [selectedSupportChar])
 
   return (
-    <div className="char_header">
-        <CharHeader />
+      <Layout style={{height: "100vh"}}>
         <Row type="flex" justify="start">
           <Col span="3">
             <CharSidebar />
           </Col>
-          <Col span="20">
-            <CharGrid />
+
+        </Row>
+        <Row type="flex" justify="start">
+          <Col span="24">
+            <CharHeader />
+          </Col>
+          <Col span="24">
+            <Content>
+              <CharGrid />
+            </Content>
           </Col>
         </Row>
-    </div>
+      </Layout>
     );
 }
 

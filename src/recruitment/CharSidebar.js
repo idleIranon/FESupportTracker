@@ -11,13 +11,14 @@ const characters = chars.characters
 const StyledSidebarContainer = styled(Sider).attrs(props => ({
   breakpoint:"sm",
   collapsedWidth:"0",
-  collapsible:"false",
-  theme:"light",
+  height: "100vh"
   }))`
 
   &&& {
+    overflow: auto;
     height: 100vh;
     width: 200px;
+    collapsible:"false";
     text-align: justify;
     background: #FFF;
   }
@@ -29,7 +30,7 @@ const StyledTopMenu = styled(Menu).attrs(props =>
       mode: "inline",
     }))`
   
-    height: 90%;
+    height: 100vh;
   `;
 
 
@@ -37,13 +38,11 @@ function renderMenuItems() {
     const menuItems = characters.map((character) => (
         <Menu.Item key={character.name}>{character.fullname}</Menu.Item>
     ))
-    console.log(menuItems)
     return ( <StyledTopMenu>{menuItems} </StyledTopMenu>)
 }
 
 
 function CharSidebar() {
-
     return ( 
       <StyledSidebarContainer>
             {renderMenuItems()}
