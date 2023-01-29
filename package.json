@@ -19,7 +19,7 @@
     "sane": "^5.0.1",
     "styled-components": "^5.3.0",
     "uuid": "^8.3.2",
-    "webpack": "^4.44.2"
+    "webpack": "^5.75.0"
   },
   "scripts": {
     "start": "react-scripts start",
