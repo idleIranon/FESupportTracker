@@ -5,7 +5,7 @@
   "dependencies": {
     "@svgr/webpack": "^5.5.0",
     "antd": "^4.16.8",
-    "chokidar": "^3.5.2",
+    "chokidar": "^3.5.3",
     "core-js": "^3.15.2",
     "npm": "^8.11.0",
     "react": "^16.14.0",
@@ -19,7 +19,7 @@
     "sane": "^5.0.1",
     "styled-components": "^5.3.0",
     "uuid": "^8.3.2",
-    "webpack": "^4.44.2"
+    "webpack": "^5.75.0"
   },
   "scripts": {
     "start": "react-scripts start",
