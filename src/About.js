@@ -17,7 +17,8 @@ const AboutContent = styled(Content)`
 function About() {
   return (
     <AboutContent>
-      <p> Website developed 2021 by Renee McMillan-Tolley </p>
+      <p>2023</p>
+      <p>Renee McMillan</p>
       <p> Want to find out more about how this was done? Check out the source code
         <a
           href="https://github.com/idleIranon/FESupportTracker"
