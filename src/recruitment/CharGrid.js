@@ -41,8 +41,15 @@ class CharGrid extends React.Component {
 
 //3 Functions to find char json info, create rows, and create cards per row
   findSupports(selectedChar) {
+    console.log("Finding supports");
+    console.log("Localstorage cgar is:" + localStorage.getItem('selectedSupportChar'));
+    if(localStorage.getItem('selectedSupportChar') == null){
+      localStorage.setItem('selectedSupportChar', 'linhardt');
+    }
     for (var i = 0; i < chars.characters.length; i++) {
+      console.log("Found first char" + chars.characters[i].name);
       if (chars.characters[i].name === localStorage.getItem('selectedSupportChar')){
+        console.log("Found char");
         return chars.characters[i];
       }
     }
@@ -96,7 +103,7 @@ class CharGrid extends React.Component {
       <div className="grid">
         <div className="support_rows">
           {this.renderRows(
-            this.findSupports(this.selectedChar).support.length,
+            (this.findSupports(this.selectedChar)).support.length,
             this.findSupports(this.selectedChar))
           }
         </div>
