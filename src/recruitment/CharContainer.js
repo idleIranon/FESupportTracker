@@ -11,28 +11,28 @@ const { Content } = Layout;
 
 //TODO - Add logic to track selected support char here 
 function CharContainer() {
-    const [selectedSupportChar, setSelectedSupportChar] = useState(
-        (localStorage.getItem('selectedSupportChar') ?? 'linhardt')
-      );
+    // const [selectedSupportChar, setSelectedSupportChar] = useState(
+    //     (localStorage.getItem('selectedSupportChar') ?? 'linhardt')
+    //   );
 
-      useEffect(() => {
-        localStorage.setItem('selectedSupportChar', selectedSupportChar)
-        localStorage.setItem('selectedSupportCharIcon', `/character_images/feth-` + selectedSupportChar + `-portrait.jpg`  )
-      }, [selectedSupportChar])
+    //   useEffect(() => {
+    //     localStorage.setItem('selectedSupportChar', selectedSupportChar)
+    //     localStorage.setItem('selectedSupportCharIcon', `/character_images/feth-` + selectedSupportChar + `-portrait.jpg`  )
+    //   }, [selectedSupportChar])
 
   return (
       <Layout style={{height: "100vh"}}>
         <Row type="flex" justify="start">
-          <Col span="3">
+          <Col span="6">
             <CharSidebar />
           </Col>
 
         </Row>
         <Row type="flex" justify="start">
-          <Col span="24">
+          <Col span="22">
             <CharHeader />
           </Col>
-          <Col span="24">
+          <Col span="22">
             <Content>
               <CharGrid />
             </Content>

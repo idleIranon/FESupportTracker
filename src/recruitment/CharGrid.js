@@ -47,9 +47,7 @@ class CharGrid extends React.Component {
       localStorage.setItem('selectedSupportChar', 'linhardt');
     }
     for (var i = 0; i < chars.characters.length; i++) {
-      console.log("Found first char" + chars.characters[i].name);
       if (chars.characters[i].name === localStorage.getItem('selectedSupportChar')){
-        console.log("Found char");
         return chars.characters[i];
       }
     }

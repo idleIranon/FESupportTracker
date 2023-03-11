@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Route } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import { Layout } from 'antd';
 
 import CharContainer from '../recruitment/CharContainer.js';
@@ -44,31 +44,33 @@ class LayoutContainer extends React.Component {
     return (
         <Layout>
           <Content>
+            <Routes>
             <Route
               path="/"
-              component={CharContainer}
+              element={<CharContainer/>}
               exact
             />
             <Route
               path="/recruitment"
-              component={RecruitmentTable}
+              element={<RecruitmentTable/>}
               exact
             />
             <Route
               path="/lostitems"
-              component={LostItemTable}
+              element={<LostItemTable/>}
               exact
             />
             <Route
               path="/favitems"
-              component={LikedItemTable}
+              element={<LikedItemTable/>}
               exact
             />
             <Route
               path="/about"
-              component={About}
+              element={<About/>}
               exact
             />
+            </Routes>
           </Content>
         </Layout>
     );

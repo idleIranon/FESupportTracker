@@ -29,13 +29,18 @@ const StyledSidebarContainer = styled(Sider).attrs(props => ({
 const StyledTopMenu = styled(Menu).attrs(props =>
   ({
     defaultSelectedKeys: "{['/']}",
+    key: "Styled_Top_Menu",
     mode: "inline",
   }))`
 
   height: 90%;
 `;
 
-const StyledSidebarHouseAvatarBox = styled(Menu.Item)`
+const StyledSidebarHouseAvatarBox = styled(Menu.Item).attrs(props =>
+  ({
+    key: "Sb_Avatar_Row"
+  }
+  ))`
   &&& {
     height: auto;
   }
@@ -58,17 +63,18 @@ function Sidebar() {
     localStorage.setItem('selectedHouseIcon', './house_images/' + selectedHouse + 'logo.png' )
   }, [selectedHouse])
 
-  const [collapsed, setCollapsed] = useState('false');
+  // const [collapsed, setCollapsed] = useState('false');
 
-  function onCollapse(collapsed) {
-    this.setState({ collapsed });
-  };
+  // function onCollapse(collapsed) {
+  //   this.setState({ collapsed });
+  // };
 
     return ( 
       <StyledSidebarContainer>
           <StyledTopMenu
-            onClick={() => (setCollapsed)}>
-              <StyledSidebarHouseAvatarBox id="Sb_Avatar_Row">
+            //onClick={() => (setCollapsed)}
+            >
+              <StyledSidebarHouseAvatarBox id="Sb_Avatar_Row" >
                 {HouseAvatar()}
               </StyledSidebarHouseAvatarBox>
 
