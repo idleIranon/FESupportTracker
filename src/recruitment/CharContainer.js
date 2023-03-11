@@ -21,21 +21,15 @@ function CharContainer() {
     //   }, [selectedSupportChar])
 
   return (
-      <Layout style={{height: "100vh"}}>
+      <Layout>
         <Row type="flex" justify="start">
-          <Col span="6">
+          <Col span="4">
             <CharSidebar />
           </Col>
-        </Row>
-        
-        <Row type="flex" justify="start">
-          <Col span="22">
+
+          <Col span="20">
             <CharHeader />
-          </Col>
-          <Col span="22">
-            <Content>
-              <CharGrid />
-            </Content>
+            <CharGrid />
           </Col>
         </Row>
       </Layout>

@@ -41,8 +41,6 @@ class CharGrid extends React.Component {
 
 //3 Functions to find char json info, create rows, and create cards per row
   findSupports(selectedChar) {
-    console.log("Finding supports");
-    console.log("Localstorage cgar is:" + localStorage.getItem('selectedSupportChar'));
     if(localStorage.getItem('selectedSupportChar') == null){
       localStorage.setItem('selectedSupportChar', 'linhardt');
     }
