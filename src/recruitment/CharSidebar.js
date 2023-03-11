@@ -44,7 +44,7 @@ function renderMenuItems() {
 
 function CharSidebar() {
     return ( 
-      <StyledSidebarContainer>
+      <StyledSidebarContainer key="CharSidebar">
             {renderMenuItems()}
       </StyledSidebarContainer>
     );

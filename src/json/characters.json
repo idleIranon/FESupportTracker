@@ -1,6 +1,7 @@
 {
   "characters": [
     {
+      "key": "byleth-female",
       "name": "byleth-female",
       "fullname": "Byleth-Male",
       "age": "??",
@@ -23,6 +24,7 @@
       ]
     },
     {
+      "key": "byleth-male",
       "name": "byleth-male",
       "fullname": "Byleth-Male",
       "age": "??",
@@ -177,6 +179,7 @@
       ]
     },
     {
+      "key": "edelgard",
       "name": "edelgard",
       "fullname": "Edelgard",
       "age": "??",
@@ -239,6 +242,7 @@
       ]
     },
     {
+      "key": "dimitri",
       "name": "dimitri",
       "fullname": "Dimitri",
       "age": "??",
@@ -313,6 +317,7 @@
       ]
     },
     {
+      "key": "claude",
       "name": "claude",
       "fullname": "Claude",
       "age": "??",
@@ -387,6 +392,7 @@
       ]
     },
     {
+      "key": "hubert",
       "name": "hubert",
       "fullname": "Hubert",
       "age": "??",
@@ -445,6 +451,7 @@
       ]
     },
     {
+      "key": "ferdinand",
       "name": "ferdinand",
       "fullname": "Ferdinand",
       "age": "??",
@@ -519,6 +526,7 @@
       ]
     },
     {
+      "key": "linhardt",
       "name": "linhardt",
       "fullname": "Linhardt",
       "age": "??",

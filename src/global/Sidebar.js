@@ -70,8 +70,8 @@ function Sidebar() {
   // };
 
     return ( 
-      <StyledSidebarContainer>
-          <StyledTopMenu
+      <StyledSidebarContainer key="RouteSidebar">
+          <StyledTopMenu key="SidebarAvatarIcon"
             //onClick={() => (setCollapsed)}
             >
               <StyledSidebarHouseAvatarBox id="Sb_Avatar_Row" >
@@ -109,7 +109,7 @@ function Sidebar() {
             </Menu.Item>
           </StyledTopMenu>
 
-          <Menu  mode="vertical">
+          <Menu mode="vertical" key="SidebarHouseButtonGroup">
             <Menu.Item key="/house">
               <StyledHouseButtonGroup>
                 <Button style={{color: '#fff', background: '#b02939'}} onClick={() => setSelectedHouse("be")}>BE</Button>

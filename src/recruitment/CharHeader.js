@@ -33,16 +33,16 @@ function CharHeader() {
     characters.map((character) => {
       if(character.name === localStorage.getItem('selectedSupportChar')){
         return (
-          <StyledCharHeader>
-            <Row>
-              <Col span={24}>
-                <Title level={4}>
+          <StyledCharHeader key="StyledCharHeader">
+            <Row key="currCharHeaderRow">
+              <Col span={24} key="currCharHeaderCol">
+                <Title level={4} key="currCharHeaderTitle">
                   Current Character
                 </Title>
               </Col>
             </Row>
-            <Row type="flex" align="middle">
-              <Col span={24}>
+            <Row type="flex" align="middle" key="currCharImgRow">
+              <Col span={24} key="currCharImgCol">
                 <img
                   alt="Test"
                   height="150vh"
@@ -50,8 +50,8 @@ function CharHeader() {
                 />
               </Col>
             </Row>
-            <Row type="flex" align="middle">
-              <Col span={24}>
+            <Row type="flex" align="middle" key="currCharFullNameRow">
+              <Col span={24} key="currCharFullNameCol">
                     {character.fullname}
               </Col>
             </Row>

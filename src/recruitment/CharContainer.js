@@ -26,8 +26,8 @@ function CharContainer() {
           <Col span="6">
             <CharSidebar />
           </Col>
-
         </Row>
+        
         <Row type="flex" justify="start">
           <Col span="22">
             <CharHeader />
