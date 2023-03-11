@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Menu, Layout, Row } from 'antd';
+import { Menu, Layout } from 'antd';
 
 import chars from '../json/characters.json';
 

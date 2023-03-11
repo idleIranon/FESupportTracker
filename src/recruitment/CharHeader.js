@@ -58,6 +58,7 @@ function CharHeader() {
           </StyledCharHeader>
         );
       }
+      return null;
     })
   );
 }
