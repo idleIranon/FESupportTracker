@@ -1,13 +1,13 @@
 {
   "characters": [
     {
-      "key": "byleth-female",
-      "name": "byleth-female",
-      "fullname": "Byleth-Male",
+      "key": "byleth(F)",
+      "name": "byleth(F)",
+      "fullname": "Byleth(F)",
       "age": "??",
       "icons": [
         {
-          "src": "character_images/feth-byleth-female-portrait.jpg",
+          "src": "character_images/feth-byleth(f)-portrait.jpg",
           "type": "image/jpg",
           "sizes": "200x200"
         }
@@ -24,13 +24,13 @@
       ]
     },
     {
-      "key": "byleth-male",
-      "name": "byleth-male",
-      "fullname": "Byleth-Male",
+      "key": "byleth(M)",
+      "name": "byleth(M)",
+      "fullname": "Byleth(M)",
       "age": "??",
       "icons": [
         {
-          "src": "character_images/feth-byleth-male-portrait.jpg",
+          "src": "character_images/feth-byleth(m)-portrait.jpg",
           "type": "image/jpg",
           "sizes": "200x200"
         }
@@ -192,11 +192,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C+", "B", "A", "S"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C+", "B", "A", "S"]
         },
         {
@@ -255,11 +255,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
@@ -330,11 +330,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B+", "A"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B+", "A", "S"]
         },
         {
@@ -405,11 +405,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
@@ -464,11 +464,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
@@ -539,11 +539,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
@@ -613,11 +613,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
@@ -687,11 +687,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A"]
         },
         {
@@ -765,11 +765,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
@@ -839,11 +839,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A"]
         },
         {
@@ -913,11 +913,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
@@ -975,11 +975,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
@@ -1049,11 +1049,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
@@ -1123,11 +1123,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
@@ -1209,11 +1209,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
@@ -1283,11 +1283,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A"]
         },
         {
@@ -1361,11 +1361,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A"]
         },
         {
@@ -1439,11 +1439,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
@@ -1513,11 +1513,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
@@ -1587,11 +1587,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
@@ -1661,11 +1661,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A"]
         },
         {
@@ -1743,11 +1743,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A"]
         },
         {
@@ -1813,11 +1813,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A"]
         },
         {
@@ -1891,11 +1891,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A"]
         },
         {
@@ -1969,11 +1969,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
@@ -2031,11 +2031,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A"]
         },
         {
@@ -2097,11 +2097,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
@@ -2163,11 +2163,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A"]
         },
         {
@@ -2229,11 +2229,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
@@ -2283,11 +2283,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
@@ -2345,11 +2345,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A"]
         },
         {
@@ -2407,11 +2407,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A", "S"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A"]
         },
         {
@@ -2473,11 +2473,11 @@
       ],
       "support": [
         {
-          "name": "Byleth-Male",
+          "name": "Byleth(M)",
           "ranks": ["C", "B", "A"]
         },
         {
-          "name": "Byleth-Female",
+          "name": "Byleth(F)",
           "ranks": ["C", "B", "A", "S"]
         },
         {

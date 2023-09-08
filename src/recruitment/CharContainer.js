@@ -6,8 +6,6 @@ import CharGrid from './CharGrid.js';
 import CharHeader from './CharHeader.js';
 import CharSidebar from './CharSidebar.js'
 
-const { Content } = Layout;
-
 
 //TODO - Add logic to track selected support char here 
 function CharContainer() {
@@ -23,11 +21,11 @@ function CharContainer() {
   return (
       <Layout>
         <Row type="flex" justify="start">
-          <Col span="4">
+          <Col flex="1vw">
             <CharSidebar />
           </Col>
 
-          <Col span="20">
+          <Col flex="80vw">
             <CharHeader />
             <CharGrid />
           </Col>

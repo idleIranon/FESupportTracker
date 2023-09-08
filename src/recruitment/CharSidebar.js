@@ -10,15 +10,11 @@ const characters = chars.characters
 
 const StyledSidebarContainer = styled(Sider).attrs(props => ({
   breakpoint:"sm",
-  collapsedWidth:"0",
-  height: "100vh"
+  width: "7vw"
   }))`
 
   &&& {
     overflow: auto;
-    height: 100vh;
-
-    collapsible:"false";
     text-align: justify;
     background: #FFF;
   }
@@ -29,7 +25,6 @@ const StyledTopMenu = styled(Menu).attrs(props =>
       defaultSelectedKeys: "{['Char1']}",
       mode: "inline",
     }))`
-  
     height: 100vh;
   `;
 

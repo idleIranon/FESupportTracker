@@ -45,31 +45,31 @@ class LayoutContainer extends React.Component {
         <Layout>
           <Content>
             <Routes>
-            <Route
-              path="/"
-              element={<CharContainer/>}
-              exact
-            />
-            <Route
-              path="/recruitment"
-              element={<RecruitmentTable/>}
-              exact
-            />
-            <Route
-              path="/lostitems"
-              element={<LostItemTable/>}
-              exact
-            />
-            <Route
-              path="/favitems"
-              element={<LikedItemTable/>}
-              exact
-            />
-            <Route
-              path="/about"
-              element={<About/>}
-              exact
-            />
+              <Route
+                path="/"
+                element={<CharContainer/>}
+                exact
+              />
+              <Route
+                path="/recruitment"
+                element={<RecruitmentTable/>}
+                exact
+              />
+              <Route
+                path="/lostitems"
+                element={<LostItemTable/>}
+                exact
+              />
+              <Route
+                path="/favitems"
+                element={<LikedItemTable/>}
+                exact
+              />
+              <Route
+                path="/about"
+                element={<About/>}
+                exact
+              />
             </Routes>
           </Content>
         </Layout>

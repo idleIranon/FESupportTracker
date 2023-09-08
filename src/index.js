@@ -17,8 +17,8 @@ import './App.css';
 
 const StyledLayout = styled(Layout)`
   text-align: center;
-  height: 100vh;
-  width: 100vw;
+  height: 99%;
+  width: 99%;
   background: #c9a941;
 `;
 

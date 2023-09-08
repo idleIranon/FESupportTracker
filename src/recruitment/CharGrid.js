@@ -58,7 +58,7 @@ class CharGrid extends React.Component {
     else {  span_length = Math.floor(24/span);  }
 
     return (
-      <Col key={character+"col" + number} span={span_length}>
+      <Col key={character + "col" + number} span={span_length}>
         <CharCard key={character+"_card" + number} character={character} charName={character.name} />
       </Col>
     );

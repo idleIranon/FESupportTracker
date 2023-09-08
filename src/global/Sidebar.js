@@ -5,22 +5,19 @@ import { Menu, Button, Layout } from 'antd';
 
 import HouseAvatar from './HouseAvatar.js';
 
-
 const ButtonGroup = Button.Group;
 const {Sider}  = Layout;
 
+
 const StyledSidebarContainer = styled(Sider).attrs(props => ({
   breakpoint:"sm",
-  collapsedWidth:"0",
-  collapsible:"true",
   theme:"light",
-  //collapsed={this.state.collapsed},
-  //onCollapse={this.onCollapse}
+  align:"bottom"
   }))`
 
   &&& {
     height: 100vh;
-    width: 200px;
+    width: 20vw;
     text-align: justify;
     background: #FFF;
   }
@@ -31,9 +28,10 @@ const StyledTopMenu = styled(Menu).attrs(props =>
     defaultSelectedKeys: "{['/']}",
     key: "Styled_Top_Menu",
     mode: "inline",
+    align:"bottom"
   }))`
 
-  height: 90%;
+  height: 96vh;
 `;
 
 const StyledSidebarHouseAvatarBox = styled(Menu.Item).attrs(props =>
@@ -48,7 +46,7 @@ const StyledSidebarHouseAvatarBox = styled(Menu.Item).attrs(props =>
 
 const StyledHouseButtonGroup = styled(ButtonGroup)`
   width: 100%;
-  padding-right: 6%;
+  padding-right: 5%;
   padding-left: 5%;
 `;
 
@@ -63,20 +61,22 @@ function Sidebar() {
     localStorage.setItem('selectedHouseIcon', './house_images/' + selectedHouse + 'logo.png' )
   }, [selectedHouse])
 
-  // const [collapsed, setCollapsed] = useState('false');
-
-  // function onCollapse(collapsed) {
-  //   this.setState({ collapsed });
-  // };
 
     return ( 
       <StyledSidebarContainer key="RouteSidebar">
-          <StyledTopMenu key="SidebarAvatarIcon"
-            //onClick={() => (setCollapsed)}
-            >
-              <StyledSidebarHouseAvatarBox id="Sb_Avatar_Row" >
-                {HouseAvatar()}
-              </StyledSidebarHouseAvatarBox>
+          <Menu mode="vertical" key="SidebarHouseButtonGroup">
+            <Menu.Item key="/house">
+              <StyledHouseButtonGroup>
+                <Button style={{color: '#fff', background: '#b02939'}} onClick={() => setSelectedHouse("be")}>BE</Button>
+                <Button style={{color: '#fff', background: '#434c97'}} onClick={() => setSelectedHouse("bl")}>BL</Button>
+                <Button style={{color: '#fff', background: '#c9a941'}} onClick={() => setSelectedHouse("gd")}>GD</Button>
+              </StyledHouseButtonGroup>
+            </Menu.Item>
+          </Menu>
+          <StyledTopMenu key="SidebarAvatarIcon" >
+            <StyledSidebarHouseAvatarBox id="Sb_Avatar_Row" >
+              {HouseAvatar()}
+            </StyledSidebarHouseAvatarBox>
 
             <Menu.Item key="/">
               <Link to="/">
@@ -108,16 +108,6 @@ function Sidebar() {
               </Link>
             </Menu.Item>
           </StyledTopMenu>
-
-          <Menu mode="vertical" key="SidebarHouseButtonGroup">
-            <Menu.Item key="/house">
-              <StyledHouseButtonGroup>
-                <Button style={{color: '#fff', background: '#b02939'}} onClick={() => setSelectedHouse("be")}>BE</Button>
-                <Button style={{color: '#fff', background: '#434c97'}} onClick={() => setSelectedHouse("bl")}>BL</Button>
-                <Button style={{color: '#fff', background: '#c9a941'}} onClick={() => setSelectedHouse("gd")}>GD</Button>
-              </StyledHouseButtonGroup>
-            </Menu.Item>
-          </Menu>
       </StyledSidebarContainer>
     );
   
