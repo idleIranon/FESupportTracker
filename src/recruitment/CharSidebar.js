@@ -17,7 +17,7 @@ const StyledSidebarContainer = styled(Sider).attrs(props => ({
   &&& {
     overflow: auto;
     height: 100vh;
-    width: 200px;
+
     collapsible:"false";
     text-align: justify;
     background: #FFF;
